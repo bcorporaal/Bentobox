@@ -3,28 +3,28 @@
 //  original by Jonathan Simcoe
 //  https://github.com/jdsimcoe/blessed-light-syntax
 //
-$syntax-uno:    195;
-$syntax-duo:    310;
-
-// Uno hue
-$uno-1: hsl($syntax-uno, 76%, 10%);
-$uno-2: hsl($syntax-uno, 58%, 34%);
-$uno-3: hsl($syntax-uno, 34%, 54%);
-$uno-4: hsl($syntax-uno, 16%, 66%);
-
-// Duo hue
-$duo-1: hsl($syntax-duo, 92%, 28%);
-$duo-2: hsl($syntax-duo, 46%, 62%);
-$duo-3: hsl($syntax-duo,  6%, 70%);
-
-$syntax-bg:     hsl($syntax-uno, 33%, 97%);
-
-$background-color: $syntax-bg;
-$link-color: $uno-3;
-$link-hover-color: $duo-2;
-$heading-color: $uno-2;
-$top-label-color: $link-hover-color;
-$highlighted-color: $link-hover-color;
+// $syntax-uno:    195;
+// $syntax-duo:    310;
+//
+// // Uno hue
+// $uno-1: hsl($syntax-uno, 76%, 10%);
+// $uno-2: hsl($syntax-uno, 58%, 34%);
+// $uno-3: hsl($syntax-uno, 34%, 54%);
+// $uno-4: hsl($syntax-uno, 16%, 66%);
+//
+// // Duo hue
+// $duo-1: hsl($syntax-duo, 92%, 28%);
+// $duo-2: hsl($syntax-duo, 46%, 62%);
+// $duo-3: hsl($syntax-duo,  6%, 70%);
+//
+// $syntax-bg:     hsl($syntax-uno, 33%, 97%);
+//
+// $background-color: $syntax-bg;
+// $link-color: $uno-3;
+// $link-hover-color: $duo-2;
+// $heading-color: $uno-2;
+// $top-label-color: $link-hover-color;
+// $highlighted-color: $link-hover-color;
 //
 //---------------------------------------------------------------------
 //
@@ -61,26 +61,26 @@ $highlighted-color: $link-hover-color;
 //  original by Simurai
 //  http://simurai.com/projects/2016/01/01/duotone-themes
 //
-// $syntax-uno: 240;
-// $syntax-duo: 20;
-//
-// $duo-1: hsl($syntax-duo, 99%, 66%);
-// $duo-2: hsl($syntax-duo, 72%, 52%);
-// $duo-3: hsl($syntax-duo, 16%, 36%);
-//
-// $uno-1: hsl($syntax-uno, 99%, 96%);
-// $uno-2: hsl($syntax-uno, 28%, 70%);
-// $uno-3: hsl($syntax-uno, 12%, 52%);
-// $uno-4: hsl($syntax-uno,  8%, 38%);
-//
-// $syntax-bg: hsl($syntax-uno, 12%, 16%);
-//
-// $background-color: $syntax-bg;
-// $link-color: $uno-3;
-// $link-hover-color: $duo-2;
-// $heading-color: $uno-2;
-// $top-label-color: $link-hover-color;
-// $highlighted-color: $link-hover-color;
+$syntax-uno: 240;
+$syntax-duo: 20;
+
+$duo-1: hsl($syntax-duo, 99%, 66%);
+$duo-2: hsl($syntax-duo, 72%, 52%);
+$duo-3: hsl($syntax-duo, 16%, 36%);
+
+$uno-1: hsl($syntax-uno, 99%, 96%);
+$uno-2: hsl($syntax-uno, 28%, 70%);
+$uno-3: hsl($syntax-uno, 12%, 52%);
+$uno-4: hsl($syntax-uno,  8%, 38%);
+
+$syntax-bg: hsl($syntax-uno, 12%, 16%);
+
+$background-color: $syntax-bg;
+$link-color: $uno-3;
+$link-hover-color: $duo-2;
+$heading-color: $uno-2;
+$top-label-color: $link-hover-color;
+$highlighted-color: $link-hover-color;
 //
 //---------------------------------------------------------------------
 //
