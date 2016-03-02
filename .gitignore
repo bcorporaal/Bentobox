@@ -2,3 +2,14 @@
 assets/scss/.sass-cache/
 *.codekit
 assets/avatars/
+index.php
+kirby/
+panel/
+site/accounts/
+site/cache/
+site/config/
+site/plugins/
+
+license.md
+
+.htaccess
