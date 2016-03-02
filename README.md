@@ -19,9 +19,13 @@ More instructions to follow.
 - Enable cache to make it a little bit faster
 
 ## Customise
-- Tweak the color scheme in assets/scss/_color-scheme.scss
+- Tweak the color scheme in assets/scss/\_color-scheme.scss
 
-
+## To do
+- Add modules for other content like feeds - instagram, feedly, etc.
+- Way to add notes
+- Connect to todays to do list
+- Multiple pages of links
 
 ## License
 Bentobox is licensed under a MIT License.
