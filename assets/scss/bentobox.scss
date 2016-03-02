@@ -14,7 +14,7 @@
 }
 
 //
-//  settings
+//  basic settings
 //
 $font-family-sans-serif: "roboto_condensedregular", "Helvetica Neue", sans-serif;
 $breakpoints: (small: 320px, medium: 768px, large: 1024px, xlarge:1200px);
@@ -31,8 +31,7 @@ html {
 
 body {
   background-color: $background-color;
-  //@include baseline-grid;
-  //visibility: hidden;
+  //@include baseline-grid; // uncomment this to see the baseline grid
 }
 
 body {
@@ -113,7 +112,6 @@ a:hover {
       margin:0 -1*$hover-shift 0 $hover-shift;
     }
   }
-
   width:100%;
 }
 
@@ -167,7 +165,6 @@ a:hover {
   ul>li>a:hover {
     padding-left: $hover-shift;
   }
-
 }
 
 .edit-link {
