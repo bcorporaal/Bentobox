@@ -26,6 +26,7 @@ More instructions to follow.
 - Way to add notes
 - Connect to todays to do list
 - Multiple pages of links
+- Improve rendering  
 
 ## License
 Bentobox is licensed under a MIT License.
