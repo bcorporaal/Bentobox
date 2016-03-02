@@ -3,7 +3,7 @@ $body-width: 960px;
 @mixin baseline-grid {
 	$columns: 16;
 	$column-color: rgba(200,0,0,.0);
-	$baseline-color: rgba(56,255,255,.4);
+	$baseline-color: rgba(255,255,255,.2);
 
 	// These are all automatically calculated
 	$gutter-width: 20px;  // Change if you like
