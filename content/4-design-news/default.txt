@@ -1,0 +1,22 @@
+Title: Design news
+
+----
+
+Highlighted: true
+
+----
+
+Links: 
+
+- 
+  linklabel: DesignerNews
+  linkurl: http://designernews.co
+  visible: 'true'
+- 
+  linklabel: Design milk
+  linkurl: http://design-milk.com/
+  visible: 'true'
+- 
+  linklabel: Awwwards
+  linkurl: http://www.awwwards.com/
+  visible: 'true'

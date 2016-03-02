@@ -1,0 +1,30 @@
+Title: Tech news
+
+----
+
+Links: 
+
+- 
+  linklabel: hckr news
+  linkurl: http://hckrnews.com/
+  visible: 'true'
+- 
+  linklabel: The Verge
+  linkurl: http://www.theverge.com/
+  visible: 'true'
+- 
+  linklabel: Macro
+  linkurl: http://macro.ycombinator.com/
+  visible: 'true'
+- 
+  linklabel: Product Hunt
+  linkurl: http://www.producthunt.com/
+  visible: 'true'
+- 
+  linklabel: Ars Technica
+  linkurl: http://arstechnica.com/
+  visible: 'true'
+
+----
+
+Highlighted: true

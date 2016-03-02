@@ -1,0 +1,38 @@
+Title: Sounds while working
+
+----
+
+Links: 
+
+- 
+  linklabel: myNoise
+  linkurl: http://mynoise.net/noiseMachines.php
+  visible: 'true'
+- 
+  linklabel: Raining.fm
+  linkurl: http://raining.fm/
+  visible: 'true'
+- 
+  linklabel: SoundDrown
+  linkurl: http://soundrown.com/
+  visible: 'true'
+- 
+  linklabel: Noisli
+  linkurl: http://www.noisli.com/
+  visible: 'true'
+- 
+  linklabel: A Soft Murmur
+  linkurl: http://asoftmurmur.com/
+  visible: 'true'
+- 
+  linklabel: Mindscapes
+  linkurl: http://www.mindscapes.co/
+  visible: 'true'
+- 
+  linklabel: Coffitivity
+  linkurl: https://coffitivity.com/
+  visible: 'true'
+
+----
+
+Highlighted: false

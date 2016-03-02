@@ -1,0 +1,22 @@
+Title: Game news
+
+----
+
+Highlighted: true
+
+----
+
+Links: 
+
+- 
+  linklabel: Polygon
+  linkurl: http://polygon.com
+  visible: 'true'
+- 
+  linklabel: IGN
+  linkurl: http://ign.com
+  visible: 'true'
+- 
+  linklabel: Gametrailers
+  linkurl: http://gametrailers.com
+  visible: 'true'
