@@ -1,12 +1,12 @@
 <p align="center">
-![Bentobox logo](/blob/master/assets/readme/logo.png)
+![Bentobox logo](assets/readme/logo.png)
 </p>
 # Bentobox
 A simple theme to create a new tab link page using the Kirby CMS
 
 ## About
 <p align="center">
-![Example installation](blob/master/assets/readme/example.png?raw=true)
+![Example installation](assets/readme/example.png?raw=true)
 </p>
 Bentobox is a very simple theme for [Kirby](http://getkirby.com). I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
 
