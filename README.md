@@ -6,10 +6,15 @@ More instructions to follow.
 ## About
 - Show example image / link to example installation
 
-## How to install
+## Installation
 - Install Kirby
 - Install Panel
 - Add these files
+
+## Usage
+
+TODO: Write usage instructions
+
 
 ## Advanced setup
 - Use MAMP or similar to host locally
@@ -21,12 +26,46 @@ More instructions to follow.
 ## Customise
 - Tweak the color scheme in assets/scss/\_color-scheme.scss
 
+## History
+
+0.1.0 - Initial release
+
+
 ## To do
-- Add modules for other content like feeds - instagram, feedly, etc.
-- Way to add notes
-- Connect to todays to do list
+- Improve rendering on Chrome
 - Multiple pages of links
-- Improve rendering  
+
+And perhaps
+- Add modules for other content through rss feeds
+- Way to add notes
+- Way to add or connect to todays to do list
+
+
+## Contributing
+
+Contributions, feedback and pull requests are welcome. Best ways to contribute
+* Star it on GitHub - if you use it and like it please star it
+* Open [issues/tickets](https://github.com/bcorporaal/Bentobox/issues)
+* Submit fixes and/or improvements with [Pull Requests](https://github.com/bcorporaal/Bentobox/pulls)
+* Follow/contact me on [Twitter](http://twitter.com/bcorporaal)
+
+
+## Credits
+
+Bentobox includes the following:
+
+**Roboto Condensed web fonts**<br>
+Copyright 2011 Google Inc. All Rights Reserved.<br>Licensed under Apache v2.0 license.
+https://www.google.com/fonts/specimen/Roboto+Condensed
+
+**Include Media Sass library**<br>
+Licensed under the terms of the MIT license.<br>
+Authors: Eduardo Boucas (@eduardoboucas) and Hugo Giraudel (@hugogiraudel)
+http://include-media.com
+
 
 ## License
-Bentobox is licensed under a MIT License.
+
+
+Copyright (c) 2016 Bob Corporaal<br>
+Licensed under the MIT license.
