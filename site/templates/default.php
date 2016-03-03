@@ -1,1 +1,1 @@
-Hello world!
+<?php go(url()) //redirect to home ?>
