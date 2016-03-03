@@ -7,7 +7,9 @@ A simple theme to create a new tab link page using the Kirby CMS
 ## About
 
 <p align="center"><img src="/assets/readme/example.png" alt="Bentobox example"></p>
-Bentobox is a very simple theme for [Kirby](http://getkirby.com). I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
+Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all your favourite links on one page.
+
+I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
 
 For optimal speed I host this page on a local server running on my computer. Using Dropbox I sync the contents between computers.
 
@@ -73,6 +75,7 @@ Feedback and pull requests are welcome. Best ways to contribute:
 * Submit fixes and/or improvements with [Pull Requests](https://github.com/bcorporaal/Bentobox/pulls)
 
 ## Contact
+
 If you have any questions or comments you contact me via [email](mailto:dev@reefscape.net) or [Twitter](http://twitter.com/bcorporaal).
 
 
@@ -81,12 +84,12 @@ If you have any questions or comments you contact me via [email](mailto:dev@reef
 Bentobox includes the following:
 
 **Roboto Condensed web fonts**<br>
-Copyright 2011 Google Inc. All Rights Reserved.<br>Licensed under Apache v2.0 license.
+Copyright 2011 Google Inc. All Rights Reserved.<br>Licensed under Apache v2.0 license.<br>
 https://www.google.com/fonts/specimen/Roboto+Condensed
 
 **Include Media Sass library**<br>
 Licensed under the terms of the MIT license.<br>
-Authors: Eduardo Boucas (@eduardoboucas) and Hugo Giraudel (@hugogiraudel)
+Authors: Eduardo Boucas (@eduardoboucas) and Hugo Giraudel (@hugogiraudel)<br>
 http://include-media.com
 
 **Simurai Duotone themes**<br>
@@ -95,7 +98,6 @@ The included color schemes are based on the [Atom Duotone themes](http://simurai
 
 
 ## License
-
 
 Copyright (c) 2016 Bob Corporaal<br>
 Licensed under the MIT license.
