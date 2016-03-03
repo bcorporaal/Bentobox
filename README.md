@@ -33,13 +33,15 @@ TODO: Write usage instructions
 
 ## To do
 - Improve rendering on Chrome
-- Multiple pages of links
+- Proper 404 page
 
-And perhaps
+And perhaps in the future
 - Add modules for other content through rss feeds
-- Way to add notes
+- Add daily schedule based on calendar
+- Way to add notes or actions for the day
 - Way to add or connect to todays to do list
-
+- Option to require login to view page
+- Multiple pages of links
 
 ## Contributing
 
