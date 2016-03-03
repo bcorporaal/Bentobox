@@ -2,21 +2,20 @@ Title: Top
 
 ----
 
-Links:
+Links: 
 
--
-  linklabel: 'reefscape.net'
-  linkurl: http://reefscape.net
-  visible: 'true'
--
+- 
   linklabel: Kirby
   linkurl: http://getkirby.com
   visible: 'true'
--
-  linklabel: Github
-  linkurl: http://github.com
+- 
+  linklabel: Bentobox on Github
+  linkurl: https://github.com/bcorporaal/Bentobox
   visible: 'true'
-
+- 
+  linklabel: reefscape.net
+  linkurl: http://reefscape.net
+  visible: 'true'
 
 ----
 

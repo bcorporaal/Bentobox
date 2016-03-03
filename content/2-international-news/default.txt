@@ -1,0 +1,26 @@
+Title: International news
+
+----
+
+Highlighted: true
+
+----
+
+Links: 
+
+- 
+  linklabel: BBC News
+  linkurl: http://www.bbc.com/news
+  visible: 'true'
+- 
+  linklabel: New York Times
+  linkurl: http://www.nytimes.com/
+  visible: 'true'
+- 
+  linklabel: The Guardian
+  linkurl: http://www.theguardian.com/
+  visible: 'true'
+- 
+  linklabel: CNN
+  linkurl: http://cnn.com
+  visible: 'true'

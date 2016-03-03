@@ -1,0 +1,34 @@
+Title: Startup news
+
+----
+
+Highlighted: false
+
+----
+
+Links: 
+
+- 
+  linklabel: Hacker news
+  linkurl: https://news.ycombinator.com/
+  visible: 'true'
+- 
+  linklabel: Macro
+  linkurl: http://macro.ycombinator.com/
+  visible: 'true'
+- 
+  linklabel: TechCrunch
+  linkurl: http://techcrunch.com/
+  visible: 'true'
+- 
+  linklabel: Lobsters
+  linkurl: https://lobste.rs/
+  visible: 'true'
+- 
+  linklabel: Product hunt
+  linkurl: https://www.producthunt.com/
+  visible: 'true'
+- 
+  linklabel: Growth hackers
+  linkurl: http://growthhackers.com/
+  visible: 'true'

@@ -2,7 +2,7 @@ Title: Design news
 
 ----
 
-Highlighted: true
+Highlighted: false
 
 ----
 
@@ -19,4 +19,12 @@ Links:
 - 
   linklabel: Awwwards
   linkurl: http://www.awwwards.com/
+  visible: 'true'
+- 
+  linklabel: Dezeen
+  linkurl: http://www.dezeen.com/
+  visible: 'true'
+- 
+  linklabel: Designboom
+  linkurl: http://www.designboom.com/
   visible: 'true'

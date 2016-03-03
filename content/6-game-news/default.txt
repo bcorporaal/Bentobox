@@ -2,7 +2,7 @@ Title: Game news
 
 ----
 
-Highlighted: true
+Highlighted: false
 
 ----
 
@@ -19,4 +19,8 @@ Links:
 - 
   linklabel: Gametrailers
   linkurl: http://gametrailers.com
+  visible: 'true'
+- 
+  linklabel: Kotaku
+  linkurl: http://kotaku.com/
   visible: 'true'
