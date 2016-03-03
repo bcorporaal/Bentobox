@@ -1,4 +1,5 @@
 ![Bentobox logo](/assets/readme/logo.png)
+<p align="center"><img src="/assets/readme/logo.png"></p>
 
 # Bentobox
 A simple theme to create a new tab link page using the Kirby CMS
