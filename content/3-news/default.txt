@@ -5,20 +5,16 @@ Title: Tech news
 Links: 
 
 - 
-  linklabel: hckr news
-  linkurl: http://hckrnews.com/
-  visible: 'true'
-- 
   linklabel: The Verge
   linkurl: http://www.theverge.com/
   visible: 'true'
 - 
-  linklabel: Macro
-  linkurl: http://macro.ycombinator.com/
+  linklabel: The Next Web
+  linkurl: http://thenextweb.com/
   visible: 'true'
 - 
-  linklabel: Product Hunt
-  linkurl: http://www.producthunt.com/
+  linklabel: Wired
+  linkurl: http://wired.com
   visible: 'true'
 - 
   linklabel: Ars Technica

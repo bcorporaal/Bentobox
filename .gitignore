@@ -7,9 +7,8 @@ kirby/
 panel/
 site/accounts/
 site/cache/
-site/config/
 site/plugins/
-
+site/snippets/
 license.md
-
 .htaccess
+site/config/config.php
