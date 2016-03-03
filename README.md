@@ -1,5 +1,5 @@
 <p align="center">
-![Bentobox logo](https://github.com/bcorporaal/Bentobox/blob/master/assets/readme/logo.png?raw=true)
+![Bentobox logo](https://github.com/bcorporaal/Bentobox/blob/master/assets/readme/logo.png)
 </p>
 # Bentobox
 A simple theme to create a new tab link page using the Kirby CMS
