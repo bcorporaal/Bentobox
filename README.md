@@ -11,7 +11,7 @@ Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all
 
 I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
 
-For optimal speed I host this page on a local server running on my computer. Using Dropbox I sync the contents between computers.
+For optimal speed I host this page on a local server running on my computer. I sync the contents between computers using Dropbox.
 
 
 ## What is Kirby?
@@ -28,10 +28,10 @@ The installation is the same as with any other Kirby theme.
 View your site in a browser and you should now see a page with demo content. Clicking on the logo brings you to the login and the CMS.
 
 ## How to use
-Using Bentobox is simple. You can either add or edit links by editing the text files in the `/content` folder or through the Panel (click on the logo). The first time you enter the Panel you will be asked to create an account.
+Using Bentobox is simple. You can either add or edit links by editing the text files in the `/content` folder or through the Panel (click on the logo or the dots next to the title of a list). The first time you enter the Panel you will be asked to create an account.
 
 ### Editing or adding links
-In the `/content` folder each folder corresponds to a block of links. The sort order determines the order on the page. When using the Panel is page is a block of links. See the [Kirby docs](https://getkirby.com/docs) for more instructions.
+In the `/content` folder each folder corresponds to a block of links. The sort order determines the order of the blocks on the page. When using the Panel a page corresponds to a block. See the [Kirby docs](https://getkirby.com/docs) for more instructions on editing content.
 
 The first set of links is always displayed horizontally.
 
