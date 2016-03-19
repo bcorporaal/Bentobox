@@ -7,9 +7,11 @@ A simple theme to create a new tab link page using the Kirby CMS
 ## About
 
 <p align="center"><img src="/assets/readme/example.png" alt="Bentobox example"></p>
-Bentobox is a very simple theme for [Kirby](http://getkirby.com). I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
+Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all your favourite links on one page.
 
-For optimal speed I host this page on a local server running on my computer. Using Dropbox I sync the contents between computers.
+I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
+
+For optimal speed I host this page on a local server running on my computer. I sync the contents between computers using Dropbox.
 
 
 ## What is Kirby?
@@ -26,10 +28,10 @@ The installation is the same as with any other Kirby theme.
 View your site in a browser and you should now see a page with demo content. Clicking on the logo brings you to the login and the CMS.
 
 ## How to use
-Using Bentobox is simple. You can either add or edit links by editing the text files in the `/content` folder or through the Panel (click on the logo). The first time you enter the Panel you will be asked to create an account.
+Using Bentobox is simple. You can either add or edit links by editing the text files in the `/content` folder or through the Panel (click on the logo or the dots next to the title of a list). The first time you enter the Panel you will be asked to create an account.
 
 ### Editing or adding links
-In the `/content` folder each folder corresponds to a block of links. The sort order determines the order on the page. When using the Panel is page is a block of links. See the [Kirby docs](https://getkirby.com/docs) for more instructions.
+In the `/content` folder each folder corresponds to a block of links. The sort order determines the order of the blocks on the page. When using the Panel a page corresponds to a block. See the [Kirby docs](https://getkirby.com/docs) for more instructions on editing content.
 
 The first set of links is always displayed horizontally.
 
@@ -50,6 +52,7 @@ You can tweak the colour theme by editing `assets/scss/_color-scheme.scss` and c
 ## History
 
 0.1.0 - Initial release
+0.1.1 - Small tweaks and more demo content
 
 
 ## To do
@@ -73,6 +76,7 @@ Feedback and pull requests are welcome. Best ways to contribute:
 * Submit fixes and/or improvements with [Pull Requests](https://github.com/bcorporaal/Bentobox/pulls)
 
 ## Contact
+
 If you have any questions or comments you contact me via [email](mailto:dev@reefscape.net) or [Twitter](http://twitter.com/bcorporaal).
 
 
@@ -81,12 +85,12 @@ If you have any questions or comments you contact me via [email](mailto:dev@reef
 Bentobox includes the following:
 
 **Roboto Condensed web fonts**<br>
-Copyright 2011 Google Inc. All Rights Reserved.<br>Licensed under Apache v2.0 license.
+Copyright 2011 Google Inc. All Rights Reserved.<br>Licensed under Apache v2.0 license.<br>
 https://www.google.com/fonts/specimen/Roboto+Condensed
 
 **Include Media Sass library**<br>
 Licensed under the terms of the MIT license.<br>
-Authors: Eduardo Boucas (@eduardoboucas) and Hugo Giraudel (@hugogiraudel)
+Authors: Eduardo Boucas (@eduardoboucas) and Hugo Giraudel (@hugogiraudel)<br>
 http://include-media.com
 
 **Simurai Duotone themes**<br>
@@ -95,7 +99,6 @@ The included color schemes are based on the [Atom Duotone themes](http://simurai
 
 
 ## License
-
 
 Copyright (c) 2016 Bob Corporaal<br>
 Licensed under the MIT license.

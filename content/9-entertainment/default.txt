@@ -1,0 +1,26 @@
+Title: Entertainment
+
+----
+
+Highlighted: false
+
+----
+
+Links: 
+
+- 
+  linklabel: XKCD
+  linkurl: http://xkcd.com
+  visible: 'true'
+- 
+  linklabel: The Onion
+  linkurl: http://www.theonion.com/
+  visible: 'true'
+- 
+  linklabel: What if?
+  linkurl: https://what-if.xkcd.com/
+  visible: 'true'
+- 
+  linklabel: Wait but why?
+  linkurl: http://waitbutwhy.com/
+  visible: 'true'

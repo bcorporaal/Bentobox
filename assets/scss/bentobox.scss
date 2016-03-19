@@ -32,9 +32,6 @@ html {
 body {
   background-color: $background-color;
   //@include baseline-grid; // uncomment this to see the baseline grid
-}
-
-body {
   font-size: $font-size;
   font-weight: normal;
   font-style: normal;
