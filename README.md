@@ -52,7 +52,8 @@ You can tweak the colour theme by editing `assets/scss/_color-scheme.scss` and c
 ## History
 
 0.1.0 - Initial release<br>
-0.1.1 - Small tweaks and more demo content
+0.1.1 - Small tweaks and more demo content<br>
+0.1.2 - More small textual changes
 
 
 ## To do
