@@ -44,14 +44,14 @@ To make the page load faster and work without an internet connection you can hos
 
 When hosting locally you can edit your `/etc/hosts` file to get a nicer url. If you don't want to edit that file by hand you can use something like [Gas mask](https://github.com/2ndalpha/gasmask) or [VirtualHostX](https://clickontyler.com/virtualhostx/).
 
-Since Kirby is file based you can sync your page between computers by putting site folder in Dropbox or Google Drive.
+Since Kirby is file based you can sync your page between computers by putting the site folder in Dropbox or Google Drive.
 
 ### Customise colours
 You can tweak the colour theme by editing `assets/scss/_color-scheme.scss` and compiling to a new `bentobox.css` file. In the file different themes are included.
 
 ## History
 
-0.1.0 - Initial release
+0.1.0 - Initial release<br>
 0.1.1 - Small tweaks and more demo content
 
 
@@ -65,7 +65,7 @@ And perhaps in the future
 - Add daily schedule based on calendar
 - Make it possible to add notes or actions for the day
 - Add or connect to todays to do list
-- Option to require login to view page
+- Option to require login to view the page
 - Multiple pages of links
 
 ## Contributing
