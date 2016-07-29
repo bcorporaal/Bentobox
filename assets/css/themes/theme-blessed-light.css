@@ -1,0 +1,25 @@
+/*!
+  DuoTone - blessed light
+  Roughly based on the Atom color scheme with the same name
+  original by Jonathan Simcoe
+  https://github.com/jdsimcoe/blessed-light-syntax
+*/
+body {
+  background-color: #06232d; }
+
+#bentobox {
+  fill: #cb72bc; }
+
+a {
+  color: #629eb2; }
+
+a:hover {
+  color: #cb72bc; }
+
+.top-bar a {
+  color: #cb72bc; }
+
+.panel h2 {
+  color: #247089; }
+.panel h2.is-highlighted {
+  color: #cb72bc; }

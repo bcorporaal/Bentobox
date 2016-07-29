@@ -1,0 +1,25 @@
+/*!
+  DuoTone - dark sea
+  Roughly based on the Atom color scheme with the same name
+  original by Simurai
+  http://simurai.com/projects/2016/01/01/duotone-themes
+*/
+body {
+  background-color: #1d262f; }
+
+#bentobox {
+  fill: #22d398; }
+
+a {
+  color: #6e88a6; }
+
+a:hover {
+  color: #22d398; }
+
+.top-bar a {
+  color: #22d398; }
+
+.panel h2 {
+  color: #91c1f8; }
+.panel h2.is-highlighted {
+  color: #22d398; }

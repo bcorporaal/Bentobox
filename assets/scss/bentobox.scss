@@ -1,5 +1,4 @@
 @import '_include-media';
-@import '_color-scheme';
 @import '_baseline-grid';
 
 @font-face {
@@ -30,18 +29,12 @@ html {
 }
 
 body {
-  background-color: $background-color;
-  //@include baseline-grid; // uncomment this to see the baseline grid
   font-size: $font-size;
   font-weight: normal;
   font-style: normal;
   line-height: $baseline;
   margin:0;
   padding:0;
-}
-
-#bentobox {
-  fill: $top-label-color;
 }
 
 #logo {
@@ -54,12 +47,7 @@ body {
 
 a {
   text-decoration: none;
-  color: $link-color;
   transition: all 0.2s ease-in-out;
-}
-
-a:hover {
-  color: $link-hover-color;
 }
 
 .top-bar {
@@ -67,7 +55,6 @@ a:hover {
   height:$baseline;
 
   a {
-    color: $top-label-color;
     position: relative;
     display: inline-block;
   }
@@ -141,11 +128,6 @@ a:hover {
     font-weight: normal;
     font-style: normal;
     line-height: $baseline;
-    color: $heading-color;
-
-    &.is-highlighted {
-      color: $highlighted-color;
-    }
   }
 
   ul {

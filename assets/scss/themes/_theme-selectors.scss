@@ -1,0 +1,33 @@
+body {
+  background-color: $background-color;
+}
+
+#bentobox {
+  fill: $top-label-color;
+}
+
+a {
+  color: $link-color;
+}
+
+a:hover {
+  color: $link-hover-color;
+}
+
+.top-bar {
+  a {
+    color: $top-label-color;
+  }
+}
+
+.panel {
+
+  h2 {
+    color: $heading-color;
+  }
+
+  h2.is-highlighted {
+    color: $highlighted-color;
+  }
+
+}

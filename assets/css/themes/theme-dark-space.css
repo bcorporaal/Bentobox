@@ -1,0 +1,25 @@
+/*!
+  DuoTone - dark space
+  Roughly based on the Atom color scheme with the same name
+  original by Simurai
+  http://simurai.com/projects/2016/01/01/duotone-themes
+*/
+body {
+  background-color: #24242e; }
+
+#bentobox {
+  fill: #dd672c; }
+
+a {
+  color: #767693; }
+
+a:hover {
+  color: #dd672c; }
+
+.top-bar a {
+  color: #dd672c; }
+
+.panel h2 {
+  color: #9d9dc8; }
+.panel h2.is-highlighted {
+  color: #dd672c; }
