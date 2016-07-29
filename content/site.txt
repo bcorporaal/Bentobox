@@ -2,20 +2,4 @@ Title: Bentobox
 
 ----
 
-Version: 0.1.1
-
-----
-
-Author:
-
-----
-
-Description: This file is not used at this moment
-
-----
-
-Keywords:
-
-----
-
-Copyright:
+Theme: dark-space

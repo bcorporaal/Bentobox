@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" href="assets/favicons/favicon-128.png" sizes="128x128" />
     <style>
       <?php include 'assets/css/bentobox.css'; ?>
-      <?php include 'assets/css/themes/theme-dark-space.css'; ?>
+      <?php include 'assets/css/themes/theme-'.$site->theme().'.css'; ?>
     </style>
   </head>
   <body>
