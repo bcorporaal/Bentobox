@@ -46,14 +46,14 @@ When hosting locally you can edit your `/etc/hosts` file to get a nicer url. If 
 
 Since Kirby is file based you can sync your page between computers by putting the site folder in Dropbox or Google Drive.
 
-### Customise colours
-You can tweak the colour theme by editing `assets/scss/_color-scheme.scss` and compiling to a new `bentobox.css` file. In the file different themes are included.
+### Customise colors
+You can select a color theme from the site options in the Kirby Panel. If you want to create your own theme you can create and compile a new scss-based theme file in `assets/scss/themes`. Or directly add a css file in `assets/css/themes`. To be able to select the theme you must also add the name of the file to the list in `site/blueprints/site.php`.
 
 ## History
 
 0.1.0 - Initial release<br>
 0.1.1 - Small tweaks and more demo content<br>
-0.1.2 - More small textual changes
+0.1.2 - Added option to select the theme in the Panel. New themes included
 
 
 ## To do
@@ -61,7 +61,6 @@ You can tweak the colour theme by editing `assets/scss/_color-scheme.scss` and c
 
 And perhaps in the future
 - Make logo customisable
-- Make the colours more easily customisable
 - Add modules for other content through rss feeds
 - Add daily schedule based on calendar
 - Make it possible to add notes or actions for the day
