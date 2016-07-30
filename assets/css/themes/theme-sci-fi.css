@@ -2,7 +2,8 @@
   Bentobox sci-fi theme
 */
 body {
-  background-color: #050E1D; }
+  background-color: #050E1D;
+  background-repeat: no-repeat; }
 
 #bentobox {
   fill: #07DFFD; }
