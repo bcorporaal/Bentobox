@@ -1,0 +1,31 @@
+/*!
+  DuoTone - dark space
+  Roughly based on the Atom color scheme with the same name
+  original by Simurai
+  http://simurai.com/projects/2016/01/01/duotone-themes
+*/
+$syntax-uno: 240;
+$syntax-duo: 20;
+
+$duo-1: hsl($syntax-duo, 99%, 66%);
+$duo-2: hsl($syntax-duo, 72%, 52%);
+$duo-3: hsl($syntax-duo, 16%, 36%);
+
+$uno-1: hsl($syntax-uno, 99%, 96%);
+$uno-2: hsl($syntax-uno, 28%, 70%);
+$uno-3: hsl($syntax-uno, 12%, 52%);
+$uno-4: hsl($syntax-uno,  8%, 38%);
+
+$syntax-bg: hsl($syntax-uno, 12%, 16%);
+
+$background-color: $syntax-bg;
+$logo-color: $duo-2;
+$link-color: $uno-3;
+$link-hover-color: $duo-2;
+$heading-color: $uno-2;
+$heading-highlight-color: $duo-2;
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";

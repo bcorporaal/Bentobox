@@ -1,0 +1,33 @@
+/*!
+  DuoTone - blessed light
+  Roughly based on the Atom color scheme with the same name
+  original by Jonathan Simcoe
+  https://github.com/jdsimcoe/blessed-light-syntax
+*/
+$syntax-uno:    195;
+$syntax-duo:    310;
+
+// Uno hue
+$uno-1: hsl($syntax-uno, 76%, 10%);
+$uno-2: hsl($syntax-uno, 58%, 34%);
+$uno-3: hsl($syntax-uno, 34%, 54%);
+$uno-4: hsl($syntax-uno, 16%, 66%);
+
+// Duo hue
+$duo-1: hsl($syntax-duo, 92%, 28%);
+$duo-2: hsl($syntax-duo, 46%, 62%);
+$duo-3: hsl($syntax-duo,  6%, 70%);
+
+$syntax-bg:     hsl($syntax-uno, 33%, 97%);
+
+$background-color: $uno-1;
+$logo-color: $uno-2;
+$link-color: $uno-3;
+$link-hover-color: $duo-2;
+$heading-color: $uno-2;
+$heading-highlight-color: $duo-2;
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";
