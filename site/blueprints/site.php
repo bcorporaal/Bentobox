@@ -17,6 +17,8 @@ fields:
       dark-sea: Dark sea
       dark-space: Dark space
       glow-stick: Glow stick
+      jade: Jade
+      lakeshore: Lakeshore
       light-lunch: Light lunch
       purple-ease: Purple ease
       sci-fi: Sci-fi

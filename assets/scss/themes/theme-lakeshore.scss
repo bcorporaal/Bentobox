@@ -1,0 +1,19 @@
+/*!
+  Bentobox lakeshore theme
+*/
+
+$background-color: #77CDCF;
+$logo-color: #F0F8FE;
+$link-color: #3A3E4A;
+$link-hover-color: #F0F8FE;
+$heading-color: #1D8A8C;
+$heading-highlight-color: #F0F8FE;
+
+body {
+  border-top: solid 7px #F7DB08;
+}
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";

@@ -1,0 +1,19 @@
+/*!
+  Bentobox jade theme
+*/
+
+$background-color: #E1EBCB;
+$logo-color: #001415;
+$link-color: #224537;
+$link-hover-color: #FF5D56;
+$heading-color: #1E938B;
+$heading-highlight-color: #EE3940;
+
+body {
+  background-image: linear-gradient(-90deg, #E1EBCB 0%, #7CC7A9 100%);
+}
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";
