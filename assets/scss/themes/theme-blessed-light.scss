@@ -21,11 +21,11 @@ $duo-3: hsl($syntax-duo,  6%, 70%);
 $syntax-bg:     hsl($syntax-uno, 33%, 97%);
 
 $background-color: $uno-1;
+$logo-color: $uno-2;
 $link-color: $uno-3;
 $link-hover-color: $duo-2;
 $heading-color: $uno-2;
-$top-label-color: $link-hover-color;
-$highlighted-color: $link-hover-color;
+$heading-highlight-color: $duo-2;
 
 //
 //  import the scss to apply this

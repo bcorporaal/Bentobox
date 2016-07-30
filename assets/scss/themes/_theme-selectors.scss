@@ -3,7 +3,7 @@ body {
 }
 
 #bentobox {
-  fill: $top-label-color;
+  fill: $logo-color;
 }
 
 a {
@@ -16,7 +16,7 @@ a:hover {
 
 .top-bar {
   a {
-    color: $top-label-color;
+    color: $link-color;
   }
 }
 
@@ -27,7 +27,7 @@ a:hover {
   }
 
   h2.is-highlighted {
-    color: $highlighted-color;
+    color: $heading-highlight-color;
   }
 
 }

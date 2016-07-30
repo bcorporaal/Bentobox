@@ -11,6 +11,14 @@ fields:
     type: select
     default: dark-sea
     options:
+      blessed-light: Blessed-light
+      candy: Candy
+      chocolate: Chocolate
       dark-sea: Dark-sea
       dark-space: Dark-space
-      blessed-light: Blessed-light
+      glow-stick: Glow-stick
+      lunch: Lunch
+      purple-ease: Purple-ease
+      sci-fi: Sci-fi
+      spring: Spring
+      summer-night: Summer night

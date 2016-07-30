@@ -1,0 +1,22 @@
+/*!
+  Bentobox sci-fi theme
+*/
+body {
+  background-color: #050E1D; }
+
+#bentobox {
+  fill: #07DFFD; }
+
+a {
+  color: #035D75; }
+
+a:hover {
+  color: #23B9DE; }
+
+.top-bar a {
+  color: #035D75; }
+
+.panel h2 {
+  color: #07DFFD; }
+.panel h2.is-highlighted {
+  color: #FEBC09; }

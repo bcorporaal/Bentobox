@@ -1,0 +1,22 @@
+/*!
+  Bentobox candytheme
+*/
+body {
+  background-color: #33233D; }
+
+#bentobox {
+  fill: #F38B34; }
+
+a {
+  color: #EE602A; }
+
+a:hover {
+  color: #E81E26; }
+
+.top-bar a {
+  color: #EE602A; }
+
+.panel h2 {
+  color: #FFCF06; }
+.panel h2.is-highlighted {
+  color: #ED0B6F; }
