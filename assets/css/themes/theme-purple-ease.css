@@ -2,7 +2,8 @@
   Bentobox purple ease theme
 */
 body {
-  background-color: #843B62; }
+  background-color: #843B62;
+  background-repeat: no-repeat; }
 
 #bentobox {
   fill: #FFB997; }
@@ -18,5 +19,6 @@ a:hover {
 
 .panel h2 {
   color: #F67E7D; }
+
 .panel h2.is-highlighted {
   color: #FFB997; }

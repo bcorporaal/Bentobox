@@ -2,7 +2,8 @@
   Bentobox chocolate theme
 */
 body {
-  background-color: #534B52; }
+  background-color: #534B52;
+  background-repeat: no-repeat; }
 
 #bentobox {
   fill: #F1F0EA; }
@@ -18,5 +19,6 @@ a:hover {
 
 .panel h2 {
   color: #98958A; }
+
 .panel h2.is-highlighted {
   color: #FFD00C; }
