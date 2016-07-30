@@ -1,0 +1,22 @@
+/*!
+  Bentobox summer night theme
+*/
+body {
+  background-color: #333949; }
+
+#bentobox {
+  fill: #C8CF07; }
+
+a {
+  color: #C7C5DA; }
+
+a:hover {
+  color: #C8CF07; }
+
+.top-bar a {
+  color: #C7C5DA; }
+
+.panel h2 {
+  color: #73E9F4; }
+.panel h2.is-highlighted {
+  color: #E15A68; }

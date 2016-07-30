@@ -6,3 +6,19 @@ fields:
   title:
     label: Title
     type:  text
+  theme:
+    label: Theme
+    type: select
+    default: dark-sea
+    options:
+      blessed-light: Blessed-light
+      candy: Candy
+      chocolate: Chocolate
+      dark-sea: Dark-sea
+      dark-space: Dark-space
+      glow-stick: Glow-stick
+      lunch: Lunch
+      purple-ease: Purple-ease
+      sci-fi: Sci-fi
+      spring: Spring
+      summer-night: Summer night

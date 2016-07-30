@@ -12,3 +12,5 @@ site/snippets/
 license.md
 .htaccess
 site/config/config.php
+
+*.scssc

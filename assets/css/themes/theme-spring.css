@@ -1,0 +1,22 @@
+/*!
+  Bentobox spring theme
+*/
+body {
+  background-color: #F1F2F0; }
+
+#bentobox {
+  fill: #7FAD16; }
+
+a {
+  color: #4F4B35; }
+
+a:hover {
+  color: #C80418; }
+
+.top-bar a {
+  color: #4F4B35; }
+
+.panel h2 {
+  color: #059FA3; }
+.panel h2.is-highlighted {
+  color: #D05410; }

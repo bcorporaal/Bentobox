@@ -1,0 +1,22 @@
+/*!
+  Bentobox lunch theme
+*/
+body {
+  background-color: #EEEDE9; }
+
+#bentobox {
+  fill: #3B2F93; }
+
+a {
+  color: #3B2F93; }
+
+a:hover {
+  color: #FF4A6D; }
+
+.top-bar a {
+  color: #3B2F93; }
+
+.panel h2 {
+  color: #8983B1; }
+.panel h2.is-highlighted {
+  color: #FF4A6D; }

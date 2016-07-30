@@ -1,0 +1,22 @@
+/*!
+  Bentobox glow stick theme
+*/
+body {
+  background-color: #464749; }
+
+#bentobox {
+  fill: #B8D310; }
+
+a {
+  color: #989A9F; }
+
+a:hover {
+  color: #B8D310; }
+
+.top-bar a {
+  color: #989A9F; }
+
+.panel h2 {
+  color: #B1B1B1; }
+.panel h2.is-highlighted {
+  color: #FFFFFF; }
