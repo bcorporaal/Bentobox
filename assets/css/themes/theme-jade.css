@@ -5,7 +5,8 @@ body {
   background-image: linear-gradient(-90deg, #E1EBCB 0%, #7CC7A9 100%); }
 
 body {
-  background-color: #E1EBCB; }
+  background-color: #E1EBCB;
+  background-repeat: no-repeat; }
 
 #bentobox {
   fill: #001415; }

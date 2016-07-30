@@ -2,7 +2,8 @@
   Bentobox light lunch theme
 */
 body {
-  background-color: #EEEDE9; }
+  background-color: #EEEDE9;
+  background-repeat: no-repeat; }
 
 #bentobox {
   fill: #3B2F93; }

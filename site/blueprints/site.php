@@ -11,7 +11,7 @@ fields:
     type: select
     default: dark-sea
     options:
-      blessed-light: Blessed light
+      amethyst: Amethyst
       candy: Candy
       chocolate: Chocolate
       dark-sea: Dark sea
@@ -21,6 +21,7 @@ fields:
       lakeshore: Lakeshore
       light-lunch: Light lunch
       purple-ease: Purple ease
+      retro-neon: Retro neon
       sci-fi: Sci-fi
       spring: Spring
       summer-night: Summer night
