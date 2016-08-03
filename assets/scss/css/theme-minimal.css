@@ -1,0 +1,27 @@
+/*!
+  Bentobox minimal theme
+*/
+body {
+  background-image: linear-gradient(-180deg, #E1E1E1 0%, #F2F2F2 100%); }
+
+body {
+  background-color: #F2F2F2;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #565656; }
+
+a {
+  color: #ACACAC; }
+
+a:hover {
+  color: #1E1E1E; }
+
+.top-bar a {
+  color: #ACACAC; }
+
+.panel h2 {
+  color: #777777; }
+
+.panel h2.is-highlighted {
+  color: #565656; }

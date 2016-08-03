@@ -19,8 +19,10 @@ fields:
       jade: Jade
       lakeshore: Lakeshore
       light-lunch: Light lunch
-      purple-ease: Purple ease
+      minimal: Minimal
+      minty: Minty
       retro-neon: Retro neon
       sci-fi: Sci-fi
       spring: Spring
+      strawberry: Strawberry
       summer-night: Summer night

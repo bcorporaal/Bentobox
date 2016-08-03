@@ -1,0 +1,19 @@
+/*!
+  Bentobox minty theme
+*/
+
+$background-color: #393848;
+$logo-color: #55F9CB;
+$link-color: #9998A0;
+$link-hover-color: #55F9CB;
+$heading-color: #D2D2D5;
+$heading-highlight-color: #55F9CB;
+
+body {
+  border-top: solid 5px #55F9CB;
+}
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";

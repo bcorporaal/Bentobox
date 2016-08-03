@@ -1,0 +1,27 @@
+/*!
+  Bentobox minty theme
+*/
+body {
+  border-top: solid 5px #55F9CB; }
+
+body {
+  background-color: #393848;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #55F9CB; }
+
+a {
+  color: #9998A0; }
+
+a:hover {
+  color: #55F9CB; }
+
+.top-bar a {
+  color: #9998A0; }
+
+.panel h2 {
+  color: #D2D2D5; }
+
+.panel h2.is-highlighted {
+  color: #55F9CB; }
