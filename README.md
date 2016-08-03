@@ -1,5 +1,5 @@
 
-<p align="center"><img src="/assets/readme/logo.png" alt="Bentobox logo"></p>
+<p align="center"><img src="/assets/readme/logo.png" width=310 height=90 alt="Bentobox logo"></p>
 
 # Bentobox
 A simple theme to create a new tab link page using the Kirby CMS
