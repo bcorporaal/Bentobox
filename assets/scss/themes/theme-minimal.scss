@@ -1,0 +1,19 @@
+/*!
+  Bentobox minimal theme
+*/
+
+$background-color: #F2F2F2;
+$logo-color: #565656;
+$link-color: #ACACAC;
+$link-hover-color: #1E1E1E;
+$heading-color: #777777;
+$heading-highlight-color: #565656;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-image: linear-gradient(-180deg, #F2F2F2 0%, #F8F8F8 100%);
+}
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";

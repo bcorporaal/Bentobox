@@ -2,4 +2,4 @@ Title: Bentobox
 
 ----
 
-Theme: glow-stick
+Theme: minimal
