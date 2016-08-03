@@ -54,7 +54,7 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.1.0 - Initial release.<br>
 0.1.1 - Small tweaks and more demo content.<br>
 0.1.2 - More small textual changes.<br>
-0.2 - Added option to select the theme in the Panel. New themes included.
+0.2 - Added option to select the theme in the Panel. New themes included.<br>
 0.2.1 - Theme tweaks and a few more added.<br>
 
 
