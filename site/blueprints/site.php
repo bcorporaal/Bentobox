@@ -13,7 +13,6 @@ fields:
     options:
       amethyst: Amethyst
       candy: Candy
-      chocolate: Chocolate
       dark-sea: Dark sea
       dark-space: Dark space
       glow-stick: Glow stick
