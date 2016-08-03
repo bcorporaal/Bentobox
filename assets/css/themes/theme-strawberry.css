@@ -1,0 +1,24 @@
+/*!
+  Bentobox strawberry theme
+*/
+body {
+  background-color: #F04F4C;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #782726; }
+
+a {
+  color: #782726; }
+
+a:hover {
+  color: #F9F9F9; }
+
+.top-bar a {
+  color: #782726; }
+
+.panel h2 {
+  color: #A83635; }
+
+.panel h2.is-highlighted {
+  color: #FF9393; }

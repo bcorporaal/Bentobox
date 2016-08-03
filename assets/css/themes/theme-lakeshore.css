@@ -1,0 +1,27 @@
+/*!
+  Bentobox lakeshore theme
+*/
+body {
+  border-top: solid 7px #F7DB08; }
+
+body {
+  background-color: #77CDCF;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #F0F8FE; }
+
+a {
+  color: #3A3E4A; }
+
+a:hover {
+  color: #F0F8FE; }
+
+.top-bar a {
+  color: #3A3E4A; }
+
+.panel h2 {
+  color: #1D8A8C; }
+
+.panel h2.is-highlighted {
+  color: #F0F8FE; }

@@ -2,7 +2,12 @@
   Bentobox spring theme
 */
 body {
-  background-color: #F1F2F0; }
+  -webkit-font-smoothing: antialiased;
+  background-image: linear-gradient(-180deg, #F6FAFC 0%, #EBECEC 100%); }
+
+body {
+  background-color: #F0F1F2;
+  background-repeat: no-repeat; }
 
 #bentobox {
   fill: #7FAD16; }
@@ -18,5 +23,6 @@ a:hover {
 
 .panel h2 {
   color: #059FA3; }
+
 .panel h2.is-highlighted {
   color: #D05410; }

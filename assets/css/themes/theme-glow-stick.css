@@ -2,7 +2,12 @@
   Bentobox glow stick theme
 */
 body {
-  background-color: #464749; }
+  background: linear-gradient(to left, #485563, #29323c);
+  border-top: solid 5px #B8D310; }
+
+body {
+  background-color: #464749;
+  background-repeat: no-repeat; }
 
 #bentobox {
   fill: #B8D310; }
@@ -18,5 +23,6 @@ a:hover {
 
 .panel h2 {
   color: #B1B1B1; }
+
 .panel h2.is-highlighted {
   color: #FFFFFF; }

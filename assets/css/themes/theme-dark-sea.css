@@ -5,7 +5,8 @@
   http://simurai.com/projects/2016/01/01/duotone-themes
 */
 body {
-  background-color: #1d262f; }
+  background-color: #1d262f;
+  background-repeat: no-repeat; }
 
 #bentobox {
   fill: #91c1f8; }
@@ -21,5 +22,6 @@ a:hover {
 
 .panel h2 {
   color: #91c1f8; }
+
 .panel h2.is-highlighted {
   color: #22d398; }

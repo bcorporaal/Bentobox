@@ -9,6 +9,11 @@ $link-hover-color: #B8D310;
 $heading-color: #B1B1B1;
 $heading-highlight-color: #FFFFFF;
 
+body {
+  background: linear-gradient(to left, #485563 , #29323c);
+  border-top: solid 5px #B8D310;
+}
+
 //
 //  import the scss to apply this
 //

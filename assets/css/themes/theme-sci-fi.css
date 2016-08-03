@@ -2,7 +2,11 @@
   Bentobox sci-fi theme
 */
 body {
-  background-color: #050E1D; }
+  background-image: linear-gradient(0deg, #050E1D 0%, #07152E 100%); }
+
+body {
+  background-color: #050E1D;
+  background-repeat: no-repeat; }
 
 #bentobox {
   fill: #07DFFD; }
@@ -18,5 +22,6 @@ a:hover {
 
 .panel h2 {
   color: #07DFFD; }
+
 .panel h2.is-highlighted {
   color: #FEBC09; }

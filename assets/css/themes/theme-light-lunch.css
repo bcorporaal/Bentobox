@@ -1,11 +1,12 @@
 /*!
-  Bentobox lunch theme
+  Bentobox light lunch theme
 */
 body {
-  background-color: #EEEDE9; }
+  background-color: #EEEDE9;
+  background-repeat: no-repeat; }
 
 #bentobox {
-  fill: #3B2F93; }
+  fill: #FF4A6D; }
 
 a {
   color: #3B2F93; }
@@ -18,5 +19,6 @@ a:hover {
 
 .panel h2 {
   color: #8983B1; }
+
 .panel h2.is-highlighted {
   color: #FF4A6D; }
