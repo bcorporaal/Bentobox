@@ -2,12 +2,12 @@
 <p align="center"><img src="/assets/readme/logo.png" width=310 height=90 alt="Bentobox logo"></p>
 
 # Bentobox
-A simple theme to create a new tab link page using the Kirby CMS
+A simple theme to create a new tab link page using the Kirby CMS.
 
 ## About
 
 <p align="center"><img src="/assets/readme/example.png" width=616 height=383 alt="Bentobox example"></p>
-Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all your favourite links on one page.
+Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all your favourite links on one page. For an example see [the demo installation](http://reefscape.net/bentobox)
 
 I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
 
