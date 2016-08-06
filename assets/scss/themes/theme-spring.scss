@@ -2,16 +2,15 @@
   Bentobox spring theme
 */
 
-$background-color: #F6FAFC;
-$logo-color: #7FAD16;
-$link-color: #4F4B35;
-$link-hover-color: #C80418;
-$heading-color: #059FA3;
-$heading-highlight-color: #D05410;
+$background-color: #E7F1F5;
+$logo-color: #00AAE6;
+$link-color: #5799B1;
+$link-hover-color: #00AAE6;
+$heading-color: #50C202;
+$heading-highlight-color: #F87900;
 
 body {
-  -webkit-font-smoothing: antialiased;
-  background-image: linear-gradient(-180deg, #F6FAFC 0%, #EBECEC 100%);
+  border-top: solid 5px #50C202;
 }
 //
 //  import the scss to apply this

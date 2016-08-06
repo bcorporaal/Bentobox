@@ -2,27 +2,26 @@
   Bentobox spring theme
 */
 body {
-  -webkit-font-smoothing: antialiased;
-  background-image: linear-gradient(-180deg, #F6FAFC 0%, #EBECEC 100%); }
+  border-top: solid 5px #50C202; }
 
 body {
-  background-color: #F6FAFC;
+  background-color: #E7F1F5;
   background-repeat: no-repeat; }
 
 #bentobox {
-  fill: #7FAD16; }
+  fill: #00AAE6; }
 
 a {
-  color: #4F4B35; }
+  color: #5799B1; }
 
 a:hover {
-  color: #C80418; }
+  color: #00AAE6; }
 
 .top-bar a {
-  color: #4F4B35; }
+  color: #5799B1; }
 
 .panel h2 {
-  color: #059FA3; }
+  color: #50C202; }
 
 .panel h2.is-highlighted {
-  color: #D05410; }
+  color: #F87900; }
