@@ -2,7 +2,8 @@
   Bentobox jade theme
 */
 body {
-  background-image: linear-gradient(-90deg, #E1EBCB 0%, #7CC7A9 100%); }
+  background-image: linear-gradient(-90deg, #E1EBCB 0%, #7CC7A9 100%);
+  background-attachment: fixed; }
 
 body {
   background-color: #E1EBCB;

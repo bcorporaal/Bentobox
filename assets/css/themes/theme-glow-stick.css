@@ -3,6 +3,7 @@
 */
 body {
   background: linear-gradient(to left, #485563, #29323c);
+  background-attachment: fixed;
   border-top: solid 5px #B8D310; }
 
 body {
