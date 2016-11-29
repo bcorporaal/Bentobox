@@ -1,0 +1,19 @@
+/*!
+  Bentobox pink-party theme
+*/
+
+$background-color: darken(#483C6C,17%);
+$logo-color: #FF217C;
+$link-color: mix(#FFF,$background-color, 25%);
+$link-hover-color: #FD78D6;
+$heading-color: #FD78D6;
+$heading-highlight-color: #FF217C;
+
+body {
+  border-top: solid 5px #FF217C;
+}
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";
