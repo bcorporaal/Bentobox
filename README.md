@@ -60,17 +60,20 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo
 
 
-## To do
-- Improve rendering flow on Chrome (if possible)
-
-And perhaps in the future
-- Make logo customisable
+## Ideas for next steps
+- Make logo customizable
 - Add modules for other content through rss feeds
 - Add daily schedule based on calendar
 - Make it possible to add notes or actions for the day
 - Add or connect to todays to do list
 - Option to require login to view the page
 - Multiple pages of links
+- Refine themes
+- Make theme editable from the Panel
+- Select Google fonts
+- Improve layout
+- Add notepad for quick notes
+- Pick color per group
 
 ## Contributing
 
