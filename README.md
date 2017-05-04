@@ -99,7 +99,7 @@ http://include-media.com
 
 **Simurai Duotone themes**<br>
 Licensed under the MIT license.<br>
-The included color schemes are based on the [Atom Duotone themes](http://simurai.com/projects/2016/01/01/duotone-themes) created by [Simurai](http://simurai.com/).
+Some included color schemes are based on the [Atom Duotone themes](http://simurai.com/projects/2016/01/01/duotone-themes) created by [Simurai](http://simurai.com/).
 
 
 ## License
