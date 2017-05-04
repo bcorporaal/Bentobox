@@ -57,10 +57,11 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.1.2 - More small textual changes.<br>
 0.2 - Added option to select the theme in the Panel. New themes included.<br>
 0.2.1 - Theme tweaks and a few more added.<br>
-0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo
+0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo size
 
 
 ## Ideas for next steps
+
 - Make logo customizable
 - Add modules for other content through rss feeds
 - Add daily schedule based on calendar
@@ -71,7 +72,7 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 - Refine themes
 - Make theme editable from the Panel
 - Select Google fonts
-- Improve layout
+- Improve layout flow for different window sizes
 - Add notepad for quick notes
 - Pick color per group
 
