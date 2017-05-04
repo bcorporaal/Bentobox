@@ -102,5 +102,5 @@ The included color schemes are based on the [Atom Duotone themes](http://simurai
 
 ## License
 
-Copyright (c) 2016 Bob Corporaal<br>
+Copyright (c) 2017 Bob Corporaal<br>
 Licensed under the MIT license.
