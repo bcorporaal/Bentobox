@@ -1,0 +1,27 @@
+/*!
+  Bentobox sunset theme
+*/
+body {
+  box-shadow: 0  -15px 0 #FDBD13, 0 -20px 0 #EE772D, 0 -25px 0 #D53D2A, 0 -30px 0 #442F34; }
+
+body {
+  background-color: #FDBD13;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #207C6D; }
+
+a {
+  color: #442F34; }
+
+a:hover {
+  color: #D85F13; }
+
+.top-bar a {
+  color: #442F34; }
+
+.panel h2 {
+  color: #D53D2A; }
+
+.panel h2.is-highlighted {
+  color: #207C6D; }

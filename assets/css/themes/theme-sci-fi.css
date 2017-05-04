@@ -2,7 +2,8 @@
   Bentobox sci-fi theme
 */
 body {
-  background-image: linear-gradient(0deg, #050E1D 0%, #07152E 100%); }
+  background-image: linear-gradient(0deg, #050E1D 0%, #07152E 100%);
+  background-attachment: fixed; }
 
 body {
   background-color: #050E1D;

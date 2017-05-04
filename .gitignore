@@ -14,3 +14,5 @@ license.md
 site/config/config.php
 
 *.scssc
+
+*.codekit3

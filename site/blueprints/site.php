@@ -21,8 +21,10 @@ fields:
       light-lunch: Light lunch
       minimal: Minimal
       minty: Minty
+      pink-party: Pink party
       retro-neon: Retro neon
       sci-fi: Sci-fi
       spring: Spring
       strawberry: Strawberry
       summer-night: Summer night
+      sunset: Sunset
