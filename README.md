@@ -57,10 +57,11 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.1.2 - More small textual changes.<br>
 0.2.0 - Added option to select the theme in the Panel. New themes included.<br>
 0.2.1 - Theme tweaks and a few more added.<br>
-0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo size
+0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo size.<br>
+0.2.3 - Improved readme
 
 
-## Ideas for next steps
+## Ideas
 
 - Make logo customizable
 - Add modules for other content through rss feeds
@@ -98,7 +99,7 @@ https://www.google.com/fonts/specimen/Roboto+Condensed
 
 **Include Media Sass library**<br>
 Licensed under the terms of the MIT license.<br>
-Authors: Eduardo Boucas (@eduardoboucas) and Hugo Giraudel (@hugogiraudel)<br>
+Authors: Eduardo Boucas - [@eduardoboucas](http://twitter.com/eduardoboucas) and Hugo Giraudel - [@hugogiraudel](http://twitter.com/hugogiraudel)<br>
 http://include-media.com
 
 **Simurai Duotone themes**<br>
