@@ -7,7 +7,8 @@ A simple theme to create a new tab link page using the Kirby CMS.
 ## About
 
 <p align="center"><img src="/assets/readme/example.png" width=616 height=383 alt="Bentobox example"></p>
-Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all your favourite links on one page. For an example see [the demo installation](http://reefscape.net/bentobox)
+
+Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all your favourite links on one page. For an example see [the demo installation](http://reefscape.net/bentobox).
 
 I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
 
@@ -54,22 +55,27 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.1.0 - Initial release.<br>
 0.1.1 - Small tweaks and more demo content.<br>
 0.1.2 - More small textual changes.<br>
-0.2 - Added option to select the theme in the Panel. New themes included.<br>
+0.2.0 - Added option to select the theme in the Panel. New themes included.<br>
 0.2.1 - Theme tweaks and a few more added.<br>
-0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo
+0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo size.<br>
+0.2.3 - Improved readme
 
 
-## To do
-- Improve rendering flow on Chrome (if possible)
+## Ideas
 
-And perhaps in the future
-- Make logo customisable
+- Make logo customizable
 - Add modules for other content through rss feeds
 - Add daily schedule based on calendar
 - Make it possible to add notes or actions for the day
 - Add or connect to todays to do list
 - Option to require login to view the page
 - Multiple pages of links
+- Refine themes
+- Make theme editable from the Panel
+- Select Google fonts
+- Improve layout flow for different window sizes
+- Add notepad for quick notes
+- Pick color per group
 
 ## Contributing
 
@@ -80,7 +86,7 @@ Feedback and pull requests are welcome. Best ways to contribute:
 
 ## Contact
 
-If you have any questions or comments you contact me via [email](mailto:dev@reefscape.net) or [Twitter](http://twitter.com/bcorporaal).
+If you have any questions or comments you can contact me via [email](mailto:dev@reefscape.net) or [Twitter](http://twitter.com/bcorporaal).
 
 
 ## Credits
@@ -93,12 +99,12 @@ https://www.google.com/fonts/specimen/Roboto+Condensed
 
 **Include Media Sass library**<br>
 Licensed under the terms of the MIT license.<br>
-Authors: Eduardo Boucas (@eduardoboucas) and Hugo Giraudel (@hugogiraudel)<br>
+Authors: Eduardo Boucas - [@eduardoboucas](http://twitter.com/eduardoboucas) and Hugo Giraudel - [@hugogiraudel](http://twitter.com/hugogiraudel)<br>
 http://include-media.com
 
 **Simurai Duotone themes**<br>
 Licensed under the MIT license.<br>
-The included color schemes are based on the [Atom Duotone themes](http://simurai.com/projects/2016/01/01/duotone-themes) created by [Simurai](http://simurai.com/).
+Some included color schemes are based on the [Atom Duotone themes](http://simurai.com/projects/2016/01/01/duotone-themes) created by [Simurai](http://simurai.com/).
 
 
 ## License
