@@ -85,7 +85,7 @@ Feedback and pull requests are welcome. Best ways to contribute:
 
 ## Contact
 
-If you have any questions or comments you contact me via [email](mailto:dev@reefscape.net) or [Twitter](http://twitter.com/bcorporaal).
+If you have any questions or comments you can contact me via [email](mailto:dev@reefscape.net) or [Twitter](http://twitter.com/bcorporaal).
 
 
 ## Credits
