@@ -38,7 +38,7 @@ The first set of links is always displayed horizontally.
 
 
 ### Using as a new tab page
-Bentobox was created to be used as a home or new tab page in your browser. In most browsers you can set this directly in the browser settings. In Chrome this is not possible by default but you can redirect to your own page with the [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) extension.
+Bentobox was created to be used as a home or new tab page in your browser. In most browsers you can set this directly in the browser settings. In Chrome and newer versions of Firefox this is not possible by default. You can use [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) extension for Chrome or the [New Tab Override](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) extension for Firefox to get this functionality.
 
 ### Hosting locally
 To make the page load faster and work without an internet connection you can host it on your own computer. For example using [MAMP](https://www.mamp.info) or similar.
