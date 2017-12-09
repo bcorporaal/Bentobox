@@ -22,11 +22,12 @@ For optimal speed I host this page on a local server running on my computer. I s
 The installation is the same as with any other Kirby theme.
 
 1. First download and install Kirby. You can download the starter kit either from [GetKirby.com](https://getkirby.com/downloads) or [Github](https://github.com/getkirby/starterkit). Alternatively you can install Kirby using the [command line interface](https://getkirby.com/docs/installation/running-with-php).
-- Check if the installation is running properly. Don't forget the hidden `.htaccess` file!
-- Download this theme.
-- Remove the default `/assets`, `/content` folders from the installation and replace them with the downloaded ones. Finally inside the `/site` folder replace the `/blueprints` and `/templates` folders.
+1. Check if the installation is running properly. Don't forget the hidden `.htaccess` file!
+1. Download this theme.
+1. Remove the default `/assets`, `/content` folders from the installation and replace them with the downloaded ones. 
+1. Finally inside the `/site` folder replace the `/blueprints` and `/templates` folders.
 
-View your site in a browser and you should now see a page with demo content. Clicking on the logo brings you to the login and the CMS.
+View your site in a browser and you should now see a page with demo content. Clicking on the logo brings you to the login and the Kirby Panel.
 
 ## How to use
 Using Bentobox is simple. You can either add or edit links by editing the text files in the `/content` folder or through the Panel (click on the logo or the dots next to the title of a list). The first time you enter the Panel you will be asked to create an account.
