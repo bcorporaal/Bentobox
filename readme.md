@@ -22,11 +22,12 @@ For optimal speed I host this page on a local server running on my computer. I s
 The installation is the same as with any other Kirby theme.
 
 1. First download and install Kirby. You can download the starter kit either from [GetKirby.com](https://getkirby.com/downloads) or [Github](https://github.com/getkirby/starterkit). Alternatively you can install Kirby using the [command line interface](https://getkirby.com/docs/installation/running-with-php).
-- Check if the installation is running properly. Don't forget the hidden `.htaccess` file!
-- Download this theme.
-- Remove the default `/assets`, `/content` folders from the installation and replace them with the downloaded ones. Finally inside the `/site` folder replace the `/blueprints` and `/templates` folders.
+1. Check if the installation is running properly. Don't forget the hidden `.htaccess` file!
+1. Download this theme.
+1. Remove the default `/assets`, `/content` folders from the installation and replace them with the downloaded ones. 
+1. Finally inside the `/site` folder replace the `/blueprints` and `/templates` folders.
 
-View your site in a browser and you should now see a page with demo content. Clicking on the logo brings you to the login and the CMS.
+View your site in a browser and you should now see a page with demo content. Clicking on the logo brings you to the login and the Kirby Panel.
 
 ## How to use
 Using Bentobox is simple. You can either add or edit links by editing the text files in the `/content` folder or through the Panel (click on the logo or the dots next to the title of a list). The first time you enter the Panel you will be asked to create an account.
@@ -38,7 +39,7 @@ The first set of links is always displayed horizontally.
 
 
 ### Using as a new tab page
-Bentobox was created to be used as a home or new tab page in your browser. In most browsers you can set this directly in the browser settings. In Chrome this is not possible by default but you can redirect to your own page with the [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) extension.
+Bentobox was created to be used as a home or new tab page in your browser. In most browsers you can set this directly in the browser settings. In Chrome and newer versions of Firefox this is not possible by default. You can use [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) extension for Chrome or the [New Tab Override](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) extension for Firefox to get this functionality.
 
 ### Hosting locally
 To make the page load faster and work without an internet connection you can host it on your own computer. For example using [MAMP](https://www.mamp.info) or similar.
@@ -58,8 +59,9 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.2.0 - Added option to select the theme in the Panel. New themes included.<br>
 0.2.1 - Theme tweaks and a few more added.<br>
 0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo size.<br>
-0.2.3 - Improved readme
+0.2.3 - Improved readme<br>
 0.2.4 - Update demo link
+0.3.0 - Restructered HTML to use CSS Grid and small fixes<br>
 
 
 ## Ideas

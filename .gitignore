@@ -1,6 +1,5 @@
 
 assets/scss/.sass-cache/
-*.codekit
 assets/avatars/
 index.php
 kirby/
@@ -12,7 +11,7 @@ site/snippets/
 license.md
 .htaccess
 site/config/config.php
-
 *.scssc
-
 *.codekit3
+*.sublime-workspace
+*.sublime-project

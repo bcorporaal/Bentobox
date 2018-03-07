@@ -5,6 +5,11 @@
   font-weight: normal;
   font-style: normal; }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
 html {
   font-size: 100%;
   height: 100%;
@@ -15,8 +20,28 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: 1.875rem;
-  margin: 0;
+  margin: 2.8125rem;
   padding: 0; }
+
+h1,
+p {
+  margin: 0 0 1em 0; }
+
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-auto-rows: minmax(20px, auto); }
+
+.wrapper > * {
+  margin: 0; }
+
+.panel {
+  padding-bottom: 1.875rem; }
+
+.header,
+.footer {
+  grid-column: 1 / -1; }
 
 #logo {
   height: 100%; }
@@ -26,27 +51,16 @@ body {
 
 a {
   text-decoration: none;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1); }
 
 .top-bar {
-  margin: 1.875rem 0 0 2.8125rem;
-  height: 1.875rem; }
+  height: 3.75rem; }
   .top-bar a {
     position: relative;
     display: inline-block; }
 
-.panel-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  padding: 1.875rem 2.8125rem 0 2.8125rem; }
-
-.panel, .top-panel {
-  padding-bottom: 1.875rem; }
-
 .top-panel {
-  width: 100%; }
+  height: 3.75rem; }
   .top-panel ul {
     margin: 0;
     padding: 0; }
@@ -56,36 +70,11 @@ a {
     display: inline;
     transition: all 0.2s ease-in-out; }
     .top-panel ul > li:hover {
-      margin: 0 1.05rem 0 0.2rem; }
+      margin: 0 0.95rem 0 0.3rem; }
     .top-panel ul > li:nth-last-child(2) {
       margin: 0; }
     .top-panel ul > li:nth-last-child(2):hover {
-      margin: 0 -0.2rem 0 0.2rem; }
-
-@media (max-width: 320px) {
-  .panel {
-    min-width: 8rem;
-    width: 50%; } }
-
-@media (min-width: 321px) and (max-width: 768px) {
-  .panel {
-    min-width: 10rem;
-    width: 33.3333333333%; } }
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .panel {
-    min-width: 11rem;
-    width: 25%; } }
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .panel {
-    min-width: 12rem;
-    width: 20%; } }
-
-@media (min-width: 1201px) {
-  .panel {
-    min-width: 12rem;
-    width: 16.6666666667%; } }
+      margin: 0 -0.3rem 0 0.3rem; }
 
 .panel h2 {
   padding: 0;
@@ -105,7 +94,7 @@ a {
   padding: 0; }
 
 .panel ul > li > a:hover {
-  padding-left: 0.2rem; }
+  padding-left: 0.3rem; }
 
 .edit-link {
   visibility: hidden;
