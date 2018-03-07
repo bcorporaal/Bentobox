@@ -10,7 +10,7 @@ $heading-color: #50C202;
 $heading-highlight-color: #F87900;
 
 body {
-  border-top: solid 5px #50C202;
+  box-shadow:inset 0px 5px 0px 0px #50C202;
 }
 //
 //  import the scss to apply this

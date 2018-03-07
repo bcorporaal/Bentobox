@@ -2,7 +2,7 @@
   Bentobox spring theme
 */
 body {
-  border-top: solid 5px #50C202; }
+  box-shadow: inset 0px 5px 0px 0px #50C202; }
 
 body {
   background-color: #E7F1F5;

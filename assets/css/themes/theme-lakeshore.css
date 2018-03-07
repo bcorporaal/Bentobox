@@ -2,7 +2,7 @@
   Bentobox lakeshore theme
 */
 body {
-  border-top: solid 7px #F7DB08; }
+  box-shadow: inset 0px 10px 0px 0px #F7DB08; }
 
 body {
   background-color: #77CDCF;
