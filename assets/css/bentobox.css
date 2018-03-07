@@ -20,7 +20,7 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: 1.875rem;
-  margin: 2.8125rem;
+  margin: 0;
   padding: 0; }
 
 h1,
@@ -30,6 +30,7 @@ p {
 .wrapper {
   display: grid;
   margin: 0 auto;
+  padding: 2.8125rem;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   grid-auto-rows: minmax(20px, auto); }
 
