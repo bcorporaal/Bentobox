@@ -101,11 +101,6 @@ Bentobox includes the following:
 Copyright 2011 Google Inc. All Rights Reserved.<br>Licensed under Apache v2.0 license.<br>
 https://www.google.com/fonts/specimen/Roboto+Condensed
 
-**Include Media Sass library**<br>
-Licensed under the terms of the MIT license.<br>
-Authors: Eduardo Boucas - [@eduardoboucas](http://twitter.com/eduardoboucas) and Hugo Giraudel - [@hugogiraudel](http://twitter.com/hugogiraudel)<br>
-http://include-media.com
-
 **Simurai Duotone themes**<br>
 Licensed under the MIT license.<br>
 Some included color schemes are based on the [Atom Duotone themes](http://simurai.com/projects/2016/01/01/duotone-themes) created by [Simurai](http://simurai.com/).
