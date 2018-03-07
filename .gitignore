@@ -12,7 +12,7 @@ site/snippets/
 license.md
 .htaccess
 site/config/config.php
-
 *.scssc
-
 *.codekit3
+*.sublime-workspace
+*.sublime-project
