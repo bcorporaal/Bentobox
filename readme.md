@@ -60,8 +60,9 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.2.1 - Theme tweaks and a few more added.<br>
 0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo size.<br>
 0.2.3 - Improved readme<br>
-0.2.4 - Update demo link
+0.2.4 - Update demo link<br>
 0.3.0 - Restructered HTML to use CSS Grid and small fixes<br>
+0.3.1 - Quick fixes for a number of themes
 
 
 ## Ideas
