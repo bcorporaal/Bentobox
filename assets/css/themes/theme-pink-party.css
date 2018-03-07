@@ -2,7 +2,7 @@
   Bentobox pink-party theme
 */
 body {
-  border-top: solid 5px #FF217C; }
+  box-shadow: inset 0px 5px 0px 0px #FF217C; }
 
 body {
   background-color: #231d34;

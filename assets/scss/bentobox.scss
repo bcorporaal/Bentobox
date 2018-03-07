@@ -18,7 +18,7 @@ $baseline: 1.875rem;
 $vertical-margin: $baseline;
 $horizontal-margin: $baseline*1.5;
 $hover-shift: 0.3rem;
-$hover-time: 0.2s;
+$hover-time: 0.3s;
 $hover-easing: cubic-bezier(0.645, 0.045, 0.355, 1);
 
 *,
@@ -30,7 +30,7 @@ $hover-easing: cubic-bezier(0.645, 0.045, 0.355, 1);
 html {
   font-size: 100%;
   height: 100%;
-  font-family:$font-family-sans-serif;
+  font-family: $font-family-sans-serif;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: $baseline;
-  margin: 1.5*$baseline;
+  margin: 0;
   padding:0;
 }
 
@@ -50,6 +50,7 @@ p {
 .wrapper {
   display: grid;
   margin: 0 auto;
+  padding: 1.5*$baseline;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   grid-auto-rows: minmax(20px, auto);
 }

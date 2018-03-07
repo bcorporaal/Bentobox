@@ -2,7 +2,7 @@
   Bentobox minty theme
 */
 body {
-  border-top: solid 5px #55F9CB; }
+  box-shadow: inset 0px 5px 0px 0px #55F9CB; }
 
 body {
   background-color: #393848;

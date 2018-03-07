@@ -20,7 +20,7 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: 1.875rem;
-  margin: 2.8125rem;
+  margin: 0;
   padding: 0; }
 
 h1,
@@ -30,6 +30,7 @@ p {
 .wrapper {
   display: grid;
   margin: 0 auto;
+  padding: 2.8125rem;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   grid-auto-rows: minmax(20px, auto); }
 
@@ -51,7 +52,7 @@ p {
 
 a {
   text-decoration: none;
-  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1); }
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
 
 .top-bar {
   height: 3.75rem; }
