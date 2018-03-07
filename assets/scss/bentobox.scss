@@ -1,4 +1,3 @@
-@import '_include-media';
 @import '_baseline-grid';
 
 @font-face {
@@ -16,12 +15,17 @@
 //  basic settings
 //
 $font-family-sans-serif: "roboto_condensedregular", "Helvetica Neue", sans-serif;
-$breakpoints: (small: 320px, medium: 768px, large: 1024px, xlarge:1200px);
 $font-size: 1.125rem;
 $baseline: 1.875rem;
 $vertical-margin: $baseline;
 $horizontal-margin: $baseline*1.5;
 $hover-shift: 0.2rem;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
 html {
   font-size: 100%;
@@ -34,8 +38,33 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: $baseline;
-  margin:0;
+  margin: $baseline;
   padding:0;
+}
+
+h1,
+p {
+  margin: 0 0 1em 0;
+}
+
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-auto-rows: minmax(20px, auto);
+}
+
+.wrapper > * {
+    margin: 0;
+}
+
+.panel {
+  padding-bottom: $vertical-margin;
+}
+
+.header,
+.footer {
+  grid-column: 1 / -1;
 }
 
 #logo {
@@ -52,8 +81,7 @@ a {
 }
 
 .top-bar {
-  margin: $vertical-margin 0 0 $horizontal-margin;
-  height:$baseline;
+  height:$baseline*2;
 
   a {
     position: relative;
@@ -61,19 +89,9 @@ a {
   }
 }
 
-.panel-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:flex-start;
-  padding:$vertical-margin $horizontal-margin 0 $horizontal-margin;
-}
-
-.panel, .top-panel {
-  padding-bottom:$vertical-margin;
-}
 
 .top-panel {
+  height:$baseline*2;
   ul {
     margin:0;
     padding:0;
@@ -101,27 +119,6 @@ a {
 }
 
 .panel {
-  @include media("<=small") {
-    min-width:8rem;
-    width:percentage(1/2);
-  }
-  @include media(">small", "<=medium") {
-    min-width:10rem;
-    width:percentage(1/3);
-  }
-  @include media(">medium", "<=large") {
-    min-width:11rem;
-    width:percentage(1/4);
-  }
-  @include media(">large", "<=xlarge") {
-    min-width:12rem;
-    width:percentage(1/5);
-  }
-  @include media(">xlarge") {
-    min-width:12rem;
-    width:percentage(1/6);
-  }
-
   h2 {
     padding:0;
     margin:0;
@@ -155,3 +152,4 @@ a {
 h2:hover .edit-link, .top-panel>ul:hover .edit-link {
   visibility:visible;
 }
+
