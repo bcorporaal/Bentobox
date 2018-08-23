@@ -1,17 +1,50 @@
+# Official Kirby .gitignore
+# -------------------------
 
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/thumbs/*
+!/thumbs/index.html
+
+/site/cache/*
+!/site/cache/index.html
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Kirby accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Avatars
+# ---------------
+
+/assets/avatars/*
+!/assets/avatars/index.html
+
+# Own additions - so only the theme part is in the repository
+# -----------------------------------------------------------
+*.codekit3
+*.scssc
+*.sublime-project
+*.sublime-workspace
+.htaccess
 assets/scss/.sass-cache/
-assets/avatars/
 index.php
 kirby/
+license.md
 panel/
-site/accounts/
-site/cache/
+site/config/config.php
 site/plugins/
 site/snippets/
-license.md
-.htaccess
-site/config/config.php
-*.scssc
-*.codekit3
-*.sublime-workspace
-*.sublime-project
+thumbs/index.html
