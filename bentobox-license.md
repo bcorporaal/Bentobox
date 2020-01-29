@@ -1,7 +1,7 @@
 # Bentobox Theme End User License Agreement
 The Bentobox Kirby theme is shared under the MIT license as stated below. For the Kirby CMS see the separate Kirby End User License Agreement.
 
-revised: August 23, 2018
+revised: January 29, 2020
 
 # The MIT License (MIT)
 
