@@ -1,0 +1,14 @@
+title: Category
+icon: list-bullet
+
+fields:
+  highlighted:
+    label: Highlight this category?
+    type: toggle
+    text: 
+      - don't highlight
+      - highlight
+    default: no
+  links:
+    extends: fields/link
+    label: Links

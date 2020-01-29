@@ -1,0 +1,17 @@
+label: Link
+icon: url
+type: structure
+fields:
+  linklabel:
+    label: Label for this link
+    type: text
+  linkurl:
+    label: URL
+    type: url
+  visible:
+    label: Show this link?
+    type: toggle
+    text: 
+      - hide link
+      - show link
+    default: yes
