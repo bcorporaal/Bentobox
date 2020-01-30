@@ -1,17 +1,61 @@
+# System files
+# ------------
 
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/index.html
+
+# Lock files
+# ---------------
+.lock
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+# ---------------
+/site/config/.license
+
+# Own additions - so only the theme part is in the repository
+# -----------------------------------------------------------
+*.codekit3
+*.scssc
+*.sublime-project
+*.sublime-workspace
+.editorconfig
+.htaccess
 assets/scss/.sass-cache/
-assets/avatars/
 index.php
 kirby/
-panel/
-site/accounts/
-site/cache/
+license.md
+site/config/config.php
 site/plugins/
 site/snippets/
-license.md
-.htaccess
-site/config/config.php
-*.scssc
-*.codekit3
-*.sublime-workspace
-*.sublime-project
+site/cache/index.html
+site/accounts/index.html
+site/sessions/index.html
+media/index.html

@@ -6,7 +6,7 @@ Highlighted: true
 
 ----
 
-Links: 
+Links:
 
 - 
   linklabel: BBC News
