@@ -12,22 +12,22 @@ Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all
 
 I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
 
-For optimal speed I host this page on a local server running on my computer. I sync the contents between computers using Dropbox.
+For optimal speed I host this page on a local server running on my computer.
 
 
 ## What is Kirby?
-[Kirby](http://getkirby.com) is a lightweight, flexible and file-based CMS made by [Bastian Allgeier](http://bastianallgeier.com).
+[Kirby](http://getkirby.com) is a lightweight, flexible and file-based CMS.
 
 ## Installation
 The installation is the same as with any other Kirby theme.
 
-1. First download and install Kirby. You can download the starter kit either from [GetKirby.com](https://getkirby.com/downloads) or [Github](https://github.com/getkirby/starterkit). Alternatively you can install Kirby using the [command line interface](https://getkirby.com/docs/installation/running-with-php).
+1. First download and install Kirby. You can download the starter kit either from [GetKirby.com](https://getkirby.com/downloads) or [Github](https://github.com/getkirby/starterkit).
 1. Check if the installation is running properly. Don't forget the hidden `.htaccess` file!
 1. Download this theme.
 1. Remove the default `/assets`, `/content` folders from the installation and replace them with the downloaded ones. 
-1. Finally inside the `/site` folder replace the `/blueprints` and `/templates` folders.
+1. Finally inside the `/site` folder replace the `/blueprints`, `/config` and `/templates` folders.
 
-View your site in a browser and you should now see a page with demo content. Clicking on the logo brings you to the login and the Kirby Panel.
+View your site in a browser and you should now see a page with demo content. Clicking on the logo brings you to the login and the Kirby Panel. When do this for the first time, you will be asked to create an account.
 
 ## How to use
 Using Bentobox is simple. You can either add or edit links by editing the text files in the `/content` folder or through the Panel (click on the logo or the dots next to the title of a list). The first time you enter the Panel you will be asked to create an account.
@@ -49,7 +49,7 @@ When hosting locally you can edit your `/etc/hosts` file to get a nicer url. If 
 Since Kirby is file based you can sync your page between computers by putting the site folder in Dropbox or Google Drive.
 
 ### Customise colors
-You can select a color theme from the site options in the Kirby Panel. If you want to create your own theme you can create and compile a new scss-based theme file in `assets/scss/themes`. Or directly add a css file in `assets/css/themes`. To be able to select the theme you must also add the name of the file to the list in `site/blueprints/site.php`.
+You can select a color theme from the site options in the Kirby Panel. If you want to create your own theme you can create and compile a new scss-based theme file in `assets/scss/themes`. Or directly add a css file in `assets/css/themes`. To be able to select the theme you must also add the name of the file to the list in `site/blueprints/site.yml`.
 
 ## History
 
@@ -62,7 +62,8 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.2.3 - Improved readme<br>
 0.2.4 - Update demo link<br>
 0.3.0 - Restructered HTML to use CSS Grid and small fixes<br>
-0.3.1 - Quick fixes for a number of themes
+0.3.1 - Quick fixes for a number of themes<br>
+0.4.0 - Updated for Kirby 3
 
 
 ## Ideas
@@ -97,10 +98,6 @@ If you have any questions or comments you can contact me via [email](mailto:dev@
 
 Bentobox includes the following:
 
-**Roboto Condensed web fonts**<br>
-Copyright 2011 Google Inc. All Rights Reserved.<br>Licensed under Apache v2.0 license.<br>
-https://www.google.com/fonts/specimen/Roboto+Condensed
-
 **Simurai Duotone themes**<br>
 Licensed under the MIT license.<br>
 Some included color schemes are based on the [Atom Duotone themes](http://simurai.com/projects/2016/01/01/duotone-themes) created by [Simurai](http://simurai.com/).
@@ -108,5 +105,5 @@ Some included color schemes are based on the [Atom Duotone themes](http://simura
 
 ## License
 
-Copyright (c) 2017 Bob Corporaal<br>
+Copyright (c) 2020 Bob Corporaal<br>
 Licensed under the MIT license.
