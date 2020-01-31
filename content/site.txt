@@ -2,11 +2,11 @@ Title: Bentobox
 
 ----
 
-Theme: jade
+Theme: summer-night
 
 ----
 
-Fontfamily: space_mono
+Fontfamily: open_sans
 
 ----
 
