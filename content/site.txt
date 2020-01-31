@@ -2,8 +2,12 @@ Title: Bentobox
 
 ----
 
-Theme: lakeshore
+Theme: jade
 
 ----
 
-Fontsize: 0.92rem
+Fontfamily: space_mono
+
+----
+
+Fontsize: 0.95
