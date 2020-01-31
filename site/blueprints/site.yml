@@ -68,3 +68,19 @@ tabs:
           summer-night: Summer night
           sunset: Sunset
 
+      fontsize:
+        width: 1/4
+        label: Font size
+        type: select
+        default: Medium
+        options:
+          - value: '0.7'
+            text: Extra small
+          - value: '0.85'
+            text: Small
+          - value: '1.0'
+            text: Medium
+          - value: '1.15'
+            text: Large
+          - value: '1.30'
+            text: Extra large
