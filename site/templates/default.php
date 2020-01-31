@@ -20,6 +20,7 @@
     <style>
       <?php include 'assets/css/bentobox.css'; ?>
       <?php include 'assets/css/themes/theme-'.$site->theme().'.css'; ?>
+      <?php snippet('fontsettings', ['fontsize' => $site->fontsize()]) ?>
     </style>
   </head>
   <body>
