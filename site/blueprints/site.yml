@@ -74,13 +74,13 @@ tabs:
         type: select
         default: Medium
         options:
-          - value: '0.7'
+          - value: '0.84rem'
             text: Extra small
-          - value: '0.85'
+          - value: '0.92rem'
             text: Small
-          - value: '1.0'
+          - value: '1.0rem'
             text: Medium
-          - value: '1.15'
+          - value: '1.08rem'
             text: Large
-          - value: '1.30'
+          - value: '1.16rem'
             text: Extra large
