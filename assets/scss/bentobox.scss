@@ -24,15 +24,15 @@
 //
 //  alternative
 //
-@font-face {
-  font-family: system;
-  font-style: normal;
-  font-weight: 400;
-  src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma");
-}
-$font-family-sans-serif: 'system';
+// @font-face {
+//   font-family: system;
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma");
+// }
+$font-family-sans-serif: 'selectedfont';
 
-$font-size: 1.0rem;
+//$font-size: 1.0rem;
 $baseline: 1.875rem;
 $letter-spacing: 0.4px;
 
@@ -58,7 +58,7 @@ html {
 }
 
 body {
-  font-size: $font-size;
+  //font-size: $font-size;
   font-weight: normal;
   font-style: normal;
   letter-spacing: $letter-spacing;
@@ -146,7 +146,7 @@ a {
   h2 {
     padding:0;
     margin:0;
-    font-size: $font-size;
+    //font-size: $font-size;
     font-weight: normal;
     font-style: normal;
     line-height: $baseline;
