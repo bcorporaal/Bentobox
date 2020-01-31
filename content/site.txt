@@ -3,3 +3,7 @@ Title: Bentobox
 ----
 
 Theme: lakeshore
+
+----
+
+Fontsize: 0.92rem
