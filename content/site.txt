@@ -6,7 +6,7 @@ Theme: jade
 
 ----
 
-Fontfamily: space_mono
+Fontfamily: plex_mono
 
 ----
 
