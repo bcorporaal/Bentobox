@@ -50,23 +50,23 @@ tabs:
         type: select
         default: dark-sea
         options:
-          amethyst: Amethyst
-          candy: Candy
-          dark-sea: Dark sea
-          dark-space: Dark space
-          glow-stick: Glow stick
+          air: Air
+          amber: Amber
+          club: Club
+          dark-sea: Dark Sea
+          dark-space: Dark Space
+          glow-stick: Glow Stick
           jade: Jade
-          lakeshore: Lakeshore
-          light-lunch: Light lunch
-          minimal: Minimal
+          lakeshore: Lake Shore
+          light-lunch: Light Lunch
           minty: Minty
-          pink-party: Pink party
-          retro-neon: Retro neon
+          ocean-lights: Ocean Lights
+          red-sun: Red Sun
+          retro-neon: retro-neon
+          rs-green: RS Green
           sci-fi: Sci-fi
-          spring: Spring
-          strawberry: Strawberry
-          summer-night: Summer night
-          sunset: Sunset
+          shaped: Shaped
+          summer-night: Summer Night
 
       fontfamily:
         width: 1/3
@@ -75,20 +75,25 @@ tabs:
         default: system
         options:
           system: System default
-          space_mono: Space Mono
           fira_mono: Fira Mono
-          open_sans: Open Sans
+          fira_sans: Fira Sans
+          offside: Offside
           plex_mono: Plex Mono
           plex_sans: Plex Sans
           plex_serif: Plex Serif
+          roboto_condensed: Roboto Condensed
           roboto_slab: Roboto Slab
+          space_mono: Space Mono
+          turret_road: Turret Road
+          ubuntu: Ubuntu
+          work_sans: Work Sans
 
       fontsize:
         width: 1/3
         label: Font size
         type: range
         step: 0.05
-        min: 0.5
-        max: 1.5
+        min: 0.75
+        max: 1.25
         default: 1.0
         after: rem
