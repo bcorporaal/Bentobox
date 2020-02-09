@@ -18,13 +18,7 @@
     <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="assets/favicons/favicon-128.png" sizes="128x128" />
     <style>
-      <?php
-        if ($site->fontfamily() == "system") {
-          snippet('systemfont', ['fontsize' => $site->fontsize()]);
-        } else {
-          snippet('customfont', ['fontsize' => $site->fontsize(),'fontfamily' => $site->fontfamily()]);
-        }
-      ?>
+      <?php snippet('fontselection'); ?>
       <?php include 'assets/css/bentobox.css'; ?>
       <?php include 'assets/css/themes/theme-'.$site->theme().'.css'; ?>
     </style>
