@@ -6,8 +6,6 @@
 //  basic settings
 //
 $baseline: 1.875rem;
-//$letter-spacing: 0px;
-
 $vertical-margin: $baseline;
 $horizontal-margin: $baseline*1.5;
 $hover-shift: 0.25rem;
@@ -26,10 +24,8 @@ html {
 }
 
 body {
-  //font-size: $font-size;
   font-weight: normal;
   font-style: normal;
-  //letter-spacing: $letter-spacing;
   line-height: $baseline;
   margin: 0;
   padding:0;
