@@ -30,7 +30,7 @@
     </style>
   </head>
   <body>
-
+    <div class="top-stripe"></div>
     <div class="wrapper">
       <header class="header">
         <div class="top-bar">
