@@ -65,6 +65,7 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.3.1 - Quick fixes for a number of themes<br>
 0.4.0 - Updated for Kirby 3<br>
 0.5.0 - Custom font selection, refined selection of themes
+0.5.1 - Small fixes
 
 
 ## Ideas
