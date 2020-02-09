@@ -63,7 +63,8 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.2.4 - Update demo link<br>
 0.3.0 - Restructered HTML to use CSS Grid and small fixes<br>
 0.3.1 - Quick fixes for a number of themes<br>
-0.4.0 - Updated for Kirby 3
+0.4.0 - Updated for Kirby 3<br>
+0.5.0 - Custom font selection, refined selection of themes
 
 
 ## Ideas
@@ -77,7 +78,6 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 - Multiple pages of links
 - Refine themes
 - Make theme editable from the Panel
-- Select Google fonts
 - Improve layout flow for different window sizes
 - Add notepad for quick notes
 - Pick color per group
