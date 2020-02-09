@@ -1,9 +1,3 @@
-@font-face {
-  font-family: system;
-  font-style: normal;
-  font-weight: 400;
-  src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma"); }
-
 *,
 *:before,
 *:after {
@@ -11,14 +5,11 @@
 
 html {
   font-size: 100%;
-  height: 100%;
-  font-family: "system"; }
+  height: 100%; }
 
 body {
-  font-size: 1rem;
   font-weight: normal;
   font-style: normal;
-  letter-spacing: 0.4px;
   line-height: 1.875rem;
   margin: 0;
   padding: 0; }
@@ -80,7 +71,6 @@ a {
 .panel h2 {
   padding: 0;
   margin: 0;
-  font-size: 1rem;
   font-weight: normal;
   font-style: normal;
   line-height: 1.875rem; }

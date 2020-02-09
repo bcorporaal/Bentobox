@@ -2,4 +2,12 @@ Title: Bentobox
 
 ----
 
-Theme: lakeshore
+Theme: air
+
+----
+
+Fontfamily: plex_mono
+
+----
+
+Fontsize: 1

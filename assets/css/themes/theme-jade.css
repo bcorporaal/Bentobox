@@ -2,8 +2,11 @@
   Bentobox jade theme
 */
 body {
-  background-image: linear-gradient(-90deg, #E1EBCB 0%, #7CC7A9 100%);
-  background-attachment: fixed; }
+  background-color: #E1EBCB;
+  background-image: linear-gradient(to right bottom, #e1ebcb, #cce2be, #b4d9b4, #99d0ad, #7cc7a9); }
+
+.header {
+  z-index: 1000; }
 
 body {
   background-color: #E1EBCB;
@@ -22,7 +25,7 @@ a:hover {
   color: #224537; }
 
 .panel h2 {
-  color: #1E938B; }
+  color: #0B7770; }
 
 .panel h2.is-highlighted {
   color: #EE3940; }

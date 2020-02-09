@@ -1,0 +1,42 @@
+/*!
+  Bentobox club theme
+*/
+body {
+  background: #282537;
+  background-image: -webkit-radial-gradient(top, circle cover, #252233 0%, #12162D 80%);
+  background-image: -moz-radial-gradient(top, circle cover, #252233 0%, #12162D 80%);
+  background-image: -o-radial-gradient(top, circle cover, #252233 0%, #12162D 80%);
+  background-image: radial-gradient(top, circle cover, #252233 0%, #12162D 80%); }
+
+.top-stripe {
+  width: 100%;
+  height: 2px;
+  background: #8B733D;
+  float: left;
+  position: absolute;
+  margin-top: 20px; }
+
+.header {
+  z-index: 1000; }
+
+body {
+  background-color: #282537;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #8B733D; }
+
+a {
+  color: #787795; }
+
+a:hover {
+  color: #FFF; }
+
+.top-bar a {
+  color: #787795; }
+
+.panel h2 {
+  color: #AEADCB; }
+
+.panel h2.is-highlighted {
+  color: #8B733D; }

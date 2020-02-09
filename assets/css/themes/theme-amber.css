@@ -1,0 +1,42 @@
+/*!
+  Bentobox amber theme
+*/
+body {
+  background: #322D29;
+  background-image: -webkit-linear-gradient(180deg, #312B27 0%, #24201D 100%);
+  background-image: -moz-linear-gradient(180deg, #312B27 0%, #24201D 100%);
+  background-image: -o-linear-gradient(180deg, #312B27 0%, #24201D 100%);
+  background-image: linear-gradient(180deg, #312B27 0%, #24201D 100%); }
+
+.top-stripe {
+  width: 100%;
+  height: 2px;
+  background-color: #FECB52;
+  float: left;
+  position: absolute;
+  top: 0; }
+
+.header {
+  z-index: 1000; }
+
+body {
+  background-color: #322D29;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #FECB52; }
+
+a {
+  color: #89776C; }
+
+a:hover {
+  color: #FECB52; }
+
+.top-bar a {
+  color: #89776C; }
+
+.panel h2 {
+  color: #BFA059; }
+
+.panel h2.is-highlighted {
+  color: #FECB52; }

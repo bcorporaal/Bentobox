@@ -1,0 +1,39 @@
+/*!
+  Bentobox shaped theme
+*/
+.top-stripe {
+  width: 100%;
+  height: 90px;
+  background-color: #DD4963;
+  background: radial-gradient(circle farthest-corner at 120% 250%, #FED193 0, #FDA780 18%, #DA657A 30%, #732C95 60%, #271B78 100%);
+  float: left;
+  position: absolute;
+  top: 0; }
+
+.header {
+  z-index: 1000; }
+
+.wrapper {
+  padding-bottom: -100px; }
+
+body {
+  background-color: #EBF0F1;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #fff; }
+
+a {
+  color: #64717a; }
+
+a:hover {
+  color: #741E90; }
+
+.top-bar a {
+  color: #64717a; }
+
+.panel h2 {
+  color: #262c2f; }
+
+.panel h2.is-highlighted {
+  color: #E58F01; }

@@ -1,0 +1,37 @@
+/*!
+  Bentobox air theme
+*/
+
+$background-color: #dfe9f3;
+$logo-color: #000;
+$link-color: #495057;
+$link-hover-color: #339af0;
+$heading-color: #12b886;
+$heading-highlight-color: #228be6;
+
+body {
+  -webkit-font-smoothing: antialiased;
+
+ background-image: -webkit-linear-gradient(to top, #dfe9f3 0%, white 100%);;
+ background-image: -moz-linear-gradient(to top, #dfe9f3 0%, white 100%);;
+ background-image: -o-linear-gradient(to top, #dfe9f3 0%, white 100%);;
+ background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);;
+}
+
+.top-stripe {
+	width: 100%;
+	height: 15px;
+	background-color:#12b886;
+	background-image: -webkit-linear-gradient(to right, #12b886, #00b3ad, #00aacf, #009de4, #228be6);
+	background-image: -moz-linear-gradient(to right, #12b886, #00b3ad, #00aacf, #009de4, #228be6);
+	background-image: -o-linear-gradient(to right, #12b886, #00b3ad, #00aacf, #009de4, #228be6);
+	background-image: linear-gradient(to right, #12b886, #00b3ad, #00aacf, #009de4, #228be6);
+    float: left;
+	position: absolute;
+	top:0;
+}
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";

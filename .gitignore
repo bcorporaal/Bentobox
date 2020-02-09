@@ -54,7 +54,6 @@ kirby/
 license.md
 site/config/config.php
 site/plugins/
-site/snippets/
 site/cache/index.html
 site/accounts/index.html
 site/sessions/index.html
