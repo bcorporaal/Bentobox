@@ -1,0 +1,15 @@
+/*!
+  Bentobox rs green theme
+*/
+
+$background-color: mix(#FFF,#00C382,10%);
+$logo-color: #1B1E23;
+$link-color: #1B1E23; 
+$link-hover-color: #FFF;
+$heading-color: #88EFD5;
+$heading-highlight-color: #FFF;
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";

@@ -1,0 +1,15 @@
+/*!
+  Bentobox ocean lights theme
+*/
+
+$background-color: #00162A;
+$logo-color: mix(#000,#FFE06F, 10%);
+$link-color: mix(#000,#3EECD9, 30%); 
+$link-hover-color: #FF8300;
+$heading-color: #72BF3F;
+$heading-highlight-color: mix(#000,#FFE06F, 10%);
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";

@@ -3,15 +3,28 @@
 */
 
 $background-color: #E1EBCB;
+$logo-color: #487684;
+$link-color: #2E3E43;
+$link-hover-color: #EFEEEE;
+$heading-color: #325d79;
+$heading-highlight-color: #D44E12;
+
+$background-color: #E1EBCB;
 $logo-color: #001415;
 $link-color: #224537;
 $link-hover-color: #FF5D56;
-$heading-color: #1E938B;
+$heading-color: #0B7770;
 $heading-highlight-color: #EE3940;
 
+
+
 body {
-  background-image: linear-gradient(-90deg, #E1EBCB 0%, #7CC7A9 100%);
-  background-attachment: fixed;
+	background-color: #E1EBCB;
+	background-image: linear-gradient(to right bottom, #e1ebcb, #cce2be, #b4d9b4, #99d0ad, #7cc7a9);
+}
+
+.header {
+	z-index: 1000;
 }
 
 //

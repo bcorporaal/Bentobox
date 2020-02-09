@@ -1,0 +1,28 @@
+/*!
+  Bentobox sunset theme
+*/
+
+$background-color: #EBF0F1;
+$logo-color: #E5EDEB;
+$link-color: #97A2B8; 
+$link-hover-color: #FFF;
+$heading-color: #B8C2CA;
+$heading-highlight-color: #FFF;
+
+
+body {
+	background-color: #13354E;
+
+	background-image:
+    radial-gradient(
+      circle at 0% 0%,
+      #F03623 0%,
+      #13354E 35%
+    );
+
+}
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";

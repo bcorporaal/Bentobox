@@ -1,0 +1,24 @@
+/*!
+  Bentobox ocean lights theme
+*/
+body {
+  background-color: #00162A;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #e6ca64; }
+
+a {
+  color: #2ba598; }
+
+a:hover {
+  color: #FF8300; }
+
+.top-bar a {
+  color: #2ba598; }
+
+.panel h2 {
+  color: #72BF3F; }
+
+.panel h2.is-highlighted {
+  color: #e6ca64; }

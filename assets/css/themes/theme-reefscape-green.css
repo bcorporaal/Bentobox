@@ -1,0 +1,24 @@
+/*!
+  Bentobox rs green theme
+*/
+body {
+  background-color: #1ac98f;
+  background-repeat: no-repeat; }
+
+#bentobox {
+  fill: #1B1E23; }
+
+a {
+  color: #1B1E23; }
+
+a:hover {
+  color: #FFF; }
+
+.top-bar a {
+  color: #1B1E23; }
+
+.panel h2 {
+  color: #88EFD5; }
+
+.panel h2.is-highlighted {
+  color: #FFF; }

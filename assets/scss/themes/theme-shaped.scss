@@ -1,0 +1,35 @@
+/*!
+  Bentobox shaped theme
+*/
+
+$background-color: #EBF0F1;
+$logo-color: #fff;
+$link-color: mix(#000, #697780, 5%); 
+$link-hover-color: #741E90;
+$heading-color: mix(#000, #40494E, 40%);
+$heading-highlight-color: #E58F01;
+
+
+.top-stripe {
+	width: 100%;
+	height: 90px;
+	background-color:#DD4963;
+    background:radial-gradient(circle farthest-corner at 120% 250%, #FED193 0, #FDA780 18%, #DA657A 30%, #732C95 60%, #271B78 100%);
+    float: left;
+	position: absolute;
+	top:0;
+}
+
+.header {
+	z-index: 1000;
+}
+
+.wrapper {
+
+	 padding-bottom: -100px;
+}
+
+//
+//  import the scss to apply this
+//
+@import "theme-selectors";
