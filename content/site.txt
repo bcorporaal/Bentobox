@@ -6,7 +6,7 @@ Theme: air
 
 ----
 
-Fontfamily: plex_mono
+Fontfamily: offside
 
 ----
 
