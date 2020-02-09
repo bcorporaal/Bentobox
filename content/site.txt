@@ -2,12 +2,12 @@ Title: Bentobox
 
 ----
 
-Theme: summer-night
+Theme: air
 
 ----
 
-Fontfamily: open_sans
+Fontfamily: plex_mono
 
 ----
 
-Fontsize: 0.95
+Fontsize: 1
