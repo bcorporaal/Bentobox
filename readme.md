@@ -2,7 +2,7 @@
 <p align="center"><img src="/assets/readme/logo.png" width=310 height=90 alt="Bentobox logo"></p>
 
 # Bentobox
-A simple theme to create a new tab link page using the Kirby CMS.
+A simple theme to create a custom new tab link page using the Kirby CMS.
 
 ## About
 
@@ -10,9 +10,9 @@ A simple theme to create a new tab link page using the Kirby CMS.
 
 Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all your favourite links on one page. For an example see [the demo installation](http://reefscape.net/demo/bentobox).
 
-I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely.
+I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely. So I rolled my own version.
 
-For optimal speed I host this page on a local server running on my computer.
+The result is a very basic no-frills page that can display lists with your favorite links. Different themes and font options are available to tweak it your liking. For optimal speed you can run the page locally and sync the contents across computers.
 
 
 ## What is Kirby?
@@ -36,7 +36,6 @@ Using Bentobox is simple. You can either add or edit links by editing the text f
 In the `/content` folder each folder corresponds to a block of links. The sort order determines the order of the blocks on the page. When using the Panel a page corresponds to a block. See the [Kirby docs](https://getkirby.com/docs) for more instructions on editing content.
 
 The first set of links is always displayed horizontally.
-
 
 ### Using as a new tab page
 Bentobox was created to be used as a home or new tab page in your browser. In most browsers you can set this directly in the browser settings. In Chrome and newer versions of Firefox this is not possible by default. You can use [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) extension for Chrome or the [New Tab Override](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) extension for Firefox to get this functionality.
@@ -64,11 +63,11 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.3.0 - Restructered HTML to use CSS Grid and small fixes<br>
 0.3.1 - Quick fixes for a number of themes<br>
 0.4.0 - Updated for Kirby 3<br>
-0.5.0 - Custom font selection, refined selection of themes
+0.5.0 - Custom font selection, refined selection of themes<br>
 0.5.1 - Small fixes
 
 
-## Ideas
+## Ideas (that may or may not get implemented in the future)
 
 - Make logo customizable
 - Add modules for other content through rss feeds
@@ -77,7 +76,6 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 - Add or connect to todays to do list
 - Option to require login to view the page
 - Multiple pages of links
-- Refine themes
 - Make theme editable from the Panel
 - Improve layout flow for different window sizes
 - Add notepad for quick notes
@@ -92,7 +90,7 @@ Feedback and pull requests are welcome. Best ways to contribute:
 
 ## Contact
 
-If you have any questions or comments you can contact me via [email](mailto:dev@reefscape.net) or [Twitter](http://twitter.com/bcorporaal).
+If you have any questions or comments you can contact me via [email](mailto:dev@reefscape.net).
 
 
 ## Credits
