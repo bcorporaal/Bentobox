@@ -2,11 +2,11 @@ Title: Bentobox
 
 ----
 
-Theme: air
+Theme: retro-neon
 
 ----
 
-Logo: angular
+Logo: brush
 
 ----
 
