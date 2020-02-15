@@ -46,7 +46,7 @@ tabs:
 
       theme:
         width: 1/3
-        label: Site theme
+        label: Theme
         type: select
         default: dark-sea
         options:
@@ -67,6 +67,15 @@ tabs:
           sci-fi: Sci-fi
           shaped: Shaped
           summer-night: Summer Night
+
+      logo:
+        width: 1/3
+        label: Logo
+        type: select
+        default: script
+        options:
+          script: Script (default)
+          angular: Angular
 
       fontfamily:
         width: 1/3

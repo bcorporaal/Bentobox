@@ -30,7 +30,7 @@
         <div class="top-bar">
           <a href="<?= $site->panelUrl(); ?>">
             <div id="logo-container">
-              <?php include 'assets/images/bentobox_logo.svg'; ?>
+              <?php include 'assets/images/bentobox_logo-'.$site->logo().'.svg'; ?>
             </div>
           </a>
         </div>
