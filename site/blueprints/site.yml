@@ -45,7 +45,7 @@ tabs:
     fields:
 
       theme:
-        width: 1/3
+        width: 1/4
         label: Theme
         type: select
         default: dark-sea
@@ -69,16 +69,20 @@ tabs:
           summer-night: Summer Night
 
       logo:
-        width: 1/3
-        label: Logo
+        width: 1/4
+        label: Logo style
         type: select
         default: script
         options:
           script: Script (default)
           angular: Angular
+          brush: Brush
+          icon: Icon
+          inverse: Inverse
+          pixel: Pixel
 
       fontfamily:
-        width: 1/3
+        width: 1/4
         label: Font
         type: select
         default: system
@@ -98,7 +102,7 @@ tabs:
           work_sans: Work Sans
 
       fontsize:
-        width: 1/3
+        width: 1/4
         label: Font size
         type: range
         step: 0.05
