@@ -80,6 +80,7 @@ tabs:
           icon: Icon
           inverse: Inverse
           pixel: Pixel
+          rounded: Rounded
 
       fontfamily:
         width: 1/4

@@ -2,11 +2,11 @@ Title: Bentobox
 
 ----
 
-Theme: retro-neon
+Theme: sci-fi
 
 ----
 
-Logo: brush
+Logo: rounded
 
 ----
 
