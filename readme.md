@@ -70,7 +70,6 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 
 ## Ideas (that may or may not get implemented in the future)
 
-- Make logo customizable
 - Add modules for other content through rss feeds
 - Add daily schedule based on calendar
 - Make it possible to add notes or actions for the day
