@@ -2,15 +2,15 @@ Title: Bentobox
 
 ----
 
-Theme: red-sun
+Theme: air
 
 ----
 
-Logo: pixel
+Logo: script
 
 ----
 
-Fontfamily: offside
+Fontfamily: system
 
 ----
 
