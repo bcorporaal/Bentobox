@@ -2,7 +2,11 @@ Title: Bentobox
 
 ----
 
-Theme: air
+Theme: red-sun
+
+----
+
+Logo: pixel
 
 ----
 
