@@ -2,11 +2,11 @@ Title: Bentobox
 
 ----
 
-Theme: sci-fi
+Theme: red-sun
 
 ----
 
-Logo: rounded
+Logo: pixel
 
 ----
 
