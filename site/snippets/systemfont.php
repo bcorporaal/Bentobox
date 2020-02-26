@@ -8,4 +8,6 @@
 body, .panel h2 {
 	font-size: <?= $fontsize ?>rem;
 	font-family: system;
+	letter-spacing: <?= $letterspacing ?>px;
+	line-height: <?= $linespacing ?>rem !important;
 }
