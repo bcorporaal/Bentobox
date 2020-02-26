@@ -2,16 +2,24 @@ Title: Bentobox
 
 ----
 
-Theme: air
+Theme: dark-space
 
 ----
 
-Logo: script
+Logo: angular
 
 ----
 
-Fontfamily: system
+Fontfamily: space_mono
 
 ----
 
-Fontsize: 1
+Fontsize: 0.9
+
+----
+
+Linespacing: 1.7
+
+----
+
+Letterspacing: 0.1
