@@ -12,7 +12,7 @@ Bentobox is a very simple theme for [Kirby](http://getkirby.com) to organize all
 
 I was looking for a very clean customisable new tab page but none of the existing ones fitted my needs. They either had too much design, too much functionality or could not be customised completely. So I rolled my own version.
 
-The result is a very basic no-frills page that can display lists with your favorite links. Different themes and font options are available to tweak it your liking. For optimal speed you can run the page locally and sync the contents across computers.
+The result is a very basic no-frills page that can display lists with your favorite links. Different themes and font options are available to tweak it to your liking. For optimal speed and privacy you can run the page locally and sync the contents across computers.
 
 
 ## What is Kirby?
@@ -41,9 +41,9 @@ The first set of links is always displayed horizontally.
 Bentobox was created to be used as a home or new tab page in your browser. In most browsers you can set this directly in the browser settings. In Chrome and newer versions of Firefox this is not possible by default. You can use [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) extension for Chrome or the [New Tab Override](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) extension for Firefox to get this functionality.
 
 ### Hosting locally
-To make the page load faster and work without an internet connection you can host it on your own computer. For example using [MAMP](https://www.mamp.info) or similar.
+To make the page load faster and work without an internet connection you can host it on your own computer. For example using [VirtualHostX](https://clickontyler.com/virtualhostx/) or [MAMP](https://www.mamp.info).
 
-When hosting locally you can edit your `/etc/hosts` file to get a nicer url. If you don't want to edit that file by hand you can use something like [Gas mask](https://github.com/2ndalpha/gasmask) or [VirtualHostX](https://clickontyler.com/virtualhostx/).
+When hosting locally you can edit your `/etc/hosts` file to get a nicer url. If you don't want to edit that file by hand you can use something like [Gas mask](https://github.com/2ndalpha/gasmask).
 
 Since Kirby is file based you can sync your page between computers by putting the site folder in Dropbox or Google Drive.
 
@@ -52,12 +52,12 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 
 ## History
 
-0.1.0 - Initial release.<br>
-0.1.1 - Small tweaks and more demo content.<br>
-0.1.2 - More small textual changes.<br>
-0.2.0 - Added option to select the theme in the Panel. New themes included.<br>
-0.2.1 - Theme tweaks and a few more added.<br>
-0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo size.<br>
+0.1.0 - Initial release<br>
+0.1.1 - Small tweaks and more demo content<br>
+0.1.2 - More small textual changes<br>
+0.2.0 - Added option to select the theme in the Panel. New themes included<br>
+0.2.1 - Theme tweaks and a few more added<br>
+0.2.2 - Fixed gradient background, Sunset and Pink Party themes added, optimized logo size<br>
 0.2.3 - Improved readme<br>
 0.2.4 - Update demo link<br>
 0.3.0 - Restructered HTML to use CSS Grid and small fixes<br>
