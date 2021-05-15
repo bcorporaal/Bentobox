@@ -62,6 +62,31 @@
 			$fontfamilystring = "'Work Sans', sans-serif";
 			break;
 
+		case "newsreader":
+			$importurl = "https://fonts.googleapis.com/css?family=Newsreader:wght@500";
+			$fontfamilystring = "'Newsreader', serif";
+			break;
+
+		case "newsreader":
+			$importurl = "https://fonts.googleapis.com/css?family=Newsreader:wght@500";
+			$fontfamilystring = "'Newsreader', serif";
+			break;
+
+		case "lora":
+			$importurl = "https://fonts.googleapis.com/css?family=Lora";
+			$fontfamilystring = "'Lora', serif";
+			break;
+
+		case "bitter":
+			$importurl = "https://fonts.googleapis.com/css?family=Bitter";
+			$fontfamilystring = "'Bitter', serif";
+			break;
+
+		case "source_serif_pro":
+			$importurl = "https://fonts.googleapis.com/css?family=Source+Serif+Pro";
+			$fontfamilystring = "'Source Serif Pro', serif";
+			break;
+
 		default:
 			// Used here for debugging purposes
 			$importurl = "https://fonts.googleapis.com/css?family=Homemade+Apple";

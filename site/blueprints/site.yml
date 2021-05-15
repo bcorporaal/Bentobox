@@ -90,16 +90,20 @@ tabs:
         type: select
         default: system
         options:
-          system: System default
+          bitter: Bitter
           fira_mono: Fira Mono
           fira_sans: Fira Sans
+          lora: Lora
+          newsreader: Newsreader
           offside: Offside
           plex_mono: Plex Mono
           plex_sans: Plex Sans
           plex_serif: Plex Serif
           roboto_condensed: Roboto Condensed
           roboto_slab: Roboto Slab
+          source_serif_pro: Source Serif Pro
           space_mono: Space Mono
+          system: System default
           turret_road: Turret Road
           ubuntu: Ubuntu
           work_sans: Work Sans
