@@ -65,7 +65,8 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.4.0 - Updated for Kirby 3<br>
 0.5.0 - Custom font selection, refined selection of themes<br>
 0.5.1 - Small fixes<br>
-0.6.0 - New favicon style, custom logo options
+0.6.0 - New favicon style, custom logo options<br>
+0.6.1 - Extended font selection, font spacing and line height options
 
 
 ## Ideas (that may or may not get implemented in the future)
@@ -104,5 +105,5 @@ Some included color schemes are based on the [Atom Duotone themes](http://simura
 
 ## License
 
-Copyright (c) 2020 Bob Corporaal<br>
+Copyright (c) 2021 Bob Corporaal<br>
 Licensed under the MIT license.
