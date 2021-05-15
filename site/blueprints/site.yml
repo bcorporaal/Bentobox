@@ -23,6 +23,7 @@ tabs:
         status: listed
         templates: category
 
+  # other tab
   other:
     label: Other content
     icon: template
@@ -35,6 +36,7 @@ tabs:
         type: pages
         status: unlisted
 
+  # settings tab
   settings:
     label: Bentobox settings
     icon: settings
@@ -134,3 +136,16 @@ tabs:
         max: 1
         default: 0
         after: px
+
+  # static tab
+  static:
+    label: Static site test
+    icon: bolt
+
+    fields:
+      staticSiteGenerator:
+        label: Generate static site
+        help: Custom help text
+        progress: Custom please-wait message
+        success: Custom success message
+        error: Custom error message
