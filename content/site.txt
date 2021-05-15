@@ -2,16 +2,24 @@ Title: Bentobox
 
 ----
 
-Theme: red-sun
+Theme: air
 
 ----
 
-Logo: pixel
+Logo: script
 
 ----
 
-Fontfamily: offside
+Fontfamily: lora
 
 ----
 
 Fontsize: 1
+
+----
+
+Linespacing: 1.7
+
+----
+
+Letterspacing: 0.4

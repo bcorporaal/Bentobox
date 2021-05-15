@@ -58,3 +58,4 @@ site/cache/index.html
 site/accounts/index.html
 site/sessions/index.html
 media/index.html
+static/*
