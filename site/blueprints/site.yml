@@ -140,3 +140,10 @@ tabs:
         max: 1
         default: 0
         after: px
+
+      passwordprotected:
+        label: Protect with password
+        type: toggle
+        text: 
+          - "no"
+          - "yes"

@@ -23,3 +23,7 @@ Linespacing: 1.7
 ----
 
 Letterspacing: 0.4
+
+----
+
+Passwordprotected: true
