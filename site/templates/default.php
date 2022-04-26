@@ -1,3 +1,4 @@
+<?php if (!$kirby->user() && $site->passwordprotected()) go('/panel') ?>
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
