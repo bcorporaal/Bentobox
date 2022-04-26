@@ -1,3 +1,4 @@
+<?php if (!$kirby->user()) go('/panel') ?>
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
