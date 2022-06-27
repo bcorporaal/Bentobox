@@ -26,7 +26,7 @@
     <div class="wrapper">
       <header class="header">
         <div class="top-bar">
-          <a href="<?= $site->panelUrl(); ?>">
+          <a href="<?= $site->panel()->url(); ?>">
             <div id="logo-container">
               <?php include 'assets/images/logo-'.$site->logo().'.svg'; ?>
             </div>
