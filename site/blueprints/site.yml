@@ -147,3 +147,4 @@ tabs:
         text: 
           - "no"
           - "yes"
+        help: If set to yes, the page is only available to logged-in users. Logged-out users will be redirected to the panel log-in page.
