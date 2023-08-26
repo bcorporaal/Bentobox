@@ -1,4 +1,4 @@
-<?php if (!$kirby->user() && $site->passwordprotected()) go('/panel') ?>
+<?php if (!$kirby->user() && $site->passwordprotected()) go($site->panel()->url()) ?>
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -26,7 +26,7 @@
     <div class="wrapper">
       <header class="header">
         <div class="top-bar">
-          <a href="<?= $site->panelUrl(); ?>">
+          <a href="<?= $site->panel()->url(); ?>">
             <div id="logo-container">
               <?php include 'assets/images/logo-'.$site->logo().'.svg'; ?>
             </div>

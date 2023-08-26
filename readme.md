@@ -66,7 +66,9 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 0.5.0 - Custom font selection, refined selection of themes<br>
 0.5.1 - Small fixes<br>
 0.6.0 - New favicon style, custom logo options<br>
-0.6.1 - Extended font selection, font spacing and line height options
+0.6.1 - Extended font selection, font spacing and line height options<br>
+0.7.0 - Add option to password protect the page<br>
+0.7.1 - Small fix to password option
 
 
 ## Ideas (that may or may not get implemented in the future)
@@ -75,11 +77,9 @@ You can select a color theme from the site options in the Kirby Panel. If you wa
 - Add daily schedule based on calendar
 - Make it possible to add notes or actions for the day
 - Add or connect to todays to do list
-- Option to require login to view the page
 - Multiple pages of links
 - Make theme editable from the Panel
 - Improve layout flow for different window sizes
-- Add notepad for quick notes
 - Pick color per group
 
 ## Contributing
