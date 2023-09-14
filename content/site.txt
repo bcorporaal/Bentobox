@@ -10,19 +10,19 @@ Logo: angular
 
 ----
 
-Fontfamily: plex_sans
+Fontfamily: inter
 
 ----
 
-Fontsize: 0.85
+Fontsize: 0.8
 
 ----
 
-Linespacing: 1.7
+Linespacing: 1.5
 
 ----
 
-Letterspacing: 0.4
+Letterspacing: 0.1
 
 ----
 
