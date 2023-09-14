@@ -1,6 +1,11 @@
 	<?php 
 	switch ($fontfamily) {
 
+		case "inter":
+			$importurl = "https://fonts.googleapis.com/css?family=Inter";
+			$fontfamilystring = "'Inter', sans-serif";
+			break;
+
 		case "fira_mono":
 			$importurl = "https://fonts.googleapis.com/css?family=Fira+Mono";
 			$fontfamilystring = "'Fira Mono', monospace";

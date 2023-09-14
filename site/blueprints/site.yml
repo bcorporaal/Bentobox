@@ -90,6 +90,7 @@ tabs:
         type: select
         default: system
         options:
+          inter: Inter
           bitter: Bitter
           fira_mono: Fira Mono
           fira_sans: Fira Sans
