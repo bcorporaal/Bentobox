@@ -10,19 +10,19 @@ Logo: angular
 
 ----
 
-Fontfamily: inter
+Fontfamily: udon_mono
 
 ----
 
-Fontsize: 0.8
+Fontsize: 0.85
 
 ----
 
-Linespacing: 1.5
+Linespacing: 1.4
 
 ----
 
-Letterspacing: 0.1
+Letterspacing: 0
 
 ----
 

@@ -54,7 +54,6 @@
 		case "turret_road":
 			$importurl = "https://fonts.googleapis.com/css?family=Turret+Road:500";
 			$fontfamilystring = "'Turret Road', sans-serif";
-	
 			break;
 
 		case "ubuntu":
