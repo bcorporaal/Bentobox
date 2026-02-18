@@ -14,6 +14,30 @@ Icon
 # ---------------
 .lock
 
+# Dependencies
+# ---------------
+node_modules/
+vendor/
+
+# IDE / editor
+# ---------------
+.cursor/
+.idea/
+.vscode/
+
+# Environment
+# ---------------
+.env
+.env.local
+.env.*.local
+
+# Logs and OS/editor cruft
+# ---------------
+*.log
+Thumbs.db
+*.swp
+*.swo
+
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
 # -------------SECURITY-------------
