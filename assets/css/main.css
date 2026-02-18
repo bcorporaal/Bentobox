@@ -760,24 +760,12 @@ h1,
   padding-bottom: 0px;
 }
 
-.pb-7 {
-  padding-bottom: 1.75rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pb-9 {
-  padding-bottom: 2.25rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .font-sans {
@@ -805,15 +793,6 @@ h1,
   color: var(--color-link);
 }
 
-/* Avoid focus outline flash on load/hard refresh; keep outline for keyboard only */
-a:focus {
-  outline: none;
-}
-a:focus-visible {
-  outline: 2px solid var(--color-link-hover);
-  outline-offset: 2px;
-}
-
 .no-underline {
   text-decoration-line: none;
 }
@@ -834,16 +813,8 @@ a:focus-visible {
   transition-duration: 200ms;
 }
 
-.ease-\[cubic-bezier\(0\.645\2c 0\.045\2c 0\.355\2c 1\)\] {
-  transition-timing-function: cubic-bezier(0.645,0.045,0.355,1);
-}
-
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.ease-\[linear\(0\2c 0\.047\2c 0\.158\2c 0\.298\2c 0\.444\2c 0\.581\2c 0\.7\2c 0\.798\2c 0\.875\2c 0\.933\2c 0\.974\2c 1\.001\2c 1\.017\2c 1\.025\2c 1\.028\2c 1\.028\2c 1\.025\2c 1\.021\2c 1\.017\2c 1\.013\2c 1\.009\2c 1\.006\2c 1\.004\2c 1\.002\2c 1\.001\2c 1\2c 1\2c 0\.999\2c 0\.999\2c 0\.999\2c 0\.999\2c 0\.999\2c 0\.999\2c 1\)\] {
-  transition-timing-function: linear(0,0.047,0.158,0.298,0.444,0.581,0.7,0.798,0.875,0.933,0.974,1.001,1.017,1.025,1.028,1.028,1.025,1.021,1.017,1.013,1.009,1.006,1.004,1.002,1.001,1,1,0.999,0.999,0.999,0.999,0.999,0.999,1);
 }
 
 /* Bentobox themes – class on <html> selects theme. Keep in sync with themes.css. */

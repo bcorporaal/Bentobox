@@ -16,7 +16,7 @@
     <meta name="msapplication-TileColor" content="#333">
     <meta name="msapplication-config" content="<?= url('assets/favicons/browserconfig.xml') ?>">
     <meta name="theme-color" content="#333">
-    <link rel="stylesheet" href="<?= url('assets/css/main.css') ?>">
+    <link rel="stylesheet" href="<?= url('assets/css/main.min.css') ?>">
     <style><?php snippet('fontselection'); ?></style>
   </head>
   <body class="min-h-screen bg-bentobox-bg font-sans text-bentobox text-bentobox-link shadow-[inset_0_10px_0_0_var(--color-stripe)]">
