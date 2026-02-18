@@ -1,18 +1,18 @@
 # System files
 # ------------
-
 Icon
 .DS_Store
 
 # Temporary files
 # ---------------
-
 /media/*
 !/media/index.html
 
 # Lock files
 # ---------------
 .lock
+package-lock.json
+yarn.lock
 
 # Dependencies
 # ---------------
@@ -22,7 +22,6 @@ vendor/
 # IDE / editor
 # ---------------
 .cursor/
-.idea/
 .vscode/
 
 # Environment
@@ -44,19 +43,16 @@ Thumbs.db
 
 # Cache Files
 # ---------------
-
 /site/cache/*
 !/site/cache/index.html
 
 # Accounts
 # ---------------
-
 /site/accounts/*
 !/site/accounts/index.html
 
 # Sessions
 # ---------------
-
 /site/sessions/*
 !/site/sessions/index.html
 
