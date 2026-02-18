@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="<?= url('assets/css/main.min.css') ?>">
     <style><?php snippet('fontselection'); ?></style>
   </head>
-  <body class="min-h-screen bg-bentobox-bg font-sans text-bentobox text-bentobox-link shadow-[inset_0_10px_0_0_var(--color-stripe)]">
+  <body class="min-h-screen bg-bentobox-bg font-sans text-bentobox text-bentobox-link">
+    <div class="top-stripe" aria-hidden="true"></div>
     <div class="mx-auto grid max-w-[1600px] grid-cols-2 gap-x-6 gap-y-0 p-8 pt-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 [&>*]:m-0">
       <header class="col-span-full">
         <div class="top-bar flex h-15 items-center mt-4 mb-8">
