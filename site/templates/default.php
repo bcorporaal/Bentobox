@@ -23,7 +23,7 @@
     <div class="mx-auto grid max-w-[1600px] grid-cols-2 gap-x-6 gap-y-0 p-8 pt-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 [&>*]:m-0">
       <header class="col-span-full">
         <div class="top-bar flex h-15 items-center mt-4 mb-8">
-          <a href="<?= $site->panel()->url() ?>" class="relative inline-block text-bentobox-link transition-all duration-200 ease-[cubic-bezier(0.645,0.045,0.355,1)] hover:text-bentobox-link-hover">
+          <a href="<?= $site->panel()->url() ?>" class="relative inline-block text-bentobox-link transition-all duration-200 ease-in-out hover:text-bentobox-link-hover">
             <div class="h-7 logo-svg-wrap">
               <?php include 'assets/images/logo-'.$site->logo().'.svg'; ?>
             </div>
@@ -52,7 +52,7 @@
         $adminURL = url('/panel/pages/'.$category->uri());
         $isHighlighted = $category->highlighted()->value() === 'true';
       ?>
-      <div class="panel group pb-7">
+      <div class="panel group pb-10">
         <h2 class="<?= $isHighlighted ? 'panel-title-highlight' : 'panel-title' ?> m-0 p-0 font-normal not-italic leading-[1.875rem]">
           <?= $category->title() ?>
           <a class="edit-link" href="<?= $adminURL ?>">…</a>
@@ -60,7 +60,7 @@
         <ul class="m-0 list-none p-0">
           <?php foreach ($links as $link): ?>
           <?php if (($link['visible'] ?? '') === 'true'): ?>
-          <li class="m-0 p-0"><a href="<?= $link['linkurl'] ?>" class="no-underline transition-all duration-200 ease-[cubic-bezier(0.645,0.045,0.355,1)] hover:pl-1 hover:text-bentobox-link-hover"><?= $link['linklabel'] ?></a></li>
+          <li class="m-0 p-0"><a href="<?= $link['linkurl'] ?>" class="no-underline transition-all duration-200 ease-in-out hover:pl-1 hover:text-bentobox-link-hover"><?= $link['linklabel'] ?></a></li>
           <?php endif ?>
           <?php endforeach ?>
         </ul>
