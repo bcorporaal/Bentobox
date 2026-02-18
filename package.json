@@ -1,0 +1,8 @@
+{
+  "name": "bentobox-tailwind",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --prefix assets",
+    "watch": "npm run watch --prefix assets"
+  }
+}

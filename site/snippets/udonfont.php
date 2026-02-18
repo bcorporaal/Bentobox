@@ -1,13 +1,13 @@
-@font-face {
-	font-family: system;
-	font-style: normal;
-	font-weight: 400;
-	src: url('assets/fonts/UdonMono-Regular.woff2') format('woff2');
+:root {
+	--font-sans: "Udon Mono", system-ui, sans-serif;
 }
-
-body, .panel h2 {
+body,
+.text-bentobox,
+.panel,
+.panel *,
+.top-panel,
+.top-panel * {
 	font-size: <?= $fontsize ?>rem;
-	font-family: system;
 	letter-spacing: <?= $letterspacing ?>px;
 	line-height: <?= $linespacing ?>rem !important;
 }

@@ -2,11 +2,11 @@ Title: Bentobox
 
 ----
 
-Theme: dark-space
+Theme: lakeshore
 
 ----
 
-Logo: angular
+Logo: icon
 
 ----
 
@@ -14,11 +14,11 @@ Fontfamily: udon_mono
 
 ----
 
-Fontsize: 0.85
+Fontsize: 0.75
 
 ----
 
-Linespacing: 1.4
+Linespacing: 1.2
 
 ----
 
@@ -26,4 +26,4 @@ Letterspacing: 0
 
 ----
 
-Passwordprotected: true
+Passwordprotected: false

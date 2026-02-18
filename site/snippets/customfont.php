@@ -71,11 +71,6 @@
 			$fontfamilystring = "'Newsreader', serif";
 			break;
 
-		case "newsreader":
-			$importurl = "https://fonts.googleapis.com/css?family=Newsreader:wght@500";
-			$fontfamilystring = "'Newsreader', serif";
-			break;
-
 		case "lora":
 			$importurl = "https://fonts.googleapis.com/css?family=Lora";
 			$fontfamilystring = "'Lora', serif";
@@ -92,19 +87,22 @@
 			break;
 
 		default:
-			// Used here for debugging purposes
 			$importurl = "https://fonts.googleapis.com/css?family=Homemade+Apple";
 			$fontfamilystring = "'Homemade Apple', cursive";
 			break;
-		}
-
+	}
 	?>
-
-	@import url('<?= $importurl ?>&display=swap');
-
-	body, .panel h2 {
-  		font-size: <?= $fontsize ?>rem;
-  		font-family: <?= $fontfamilystring ?>;
-  		letter-spacing: <?= $letterspacing ?>px;
-  		line-height: <?= $linespacing ?>rem !important;
-  	}
+@import url('<?= $importurl ?>&display=swap');
+:root {
+	--font-sans: <?= $fontfamilystring ?>;
+}
+body,
+.text-bentobox,
+.panel,
+.panel *,
+.top-panel,
+.top-panel * {
+	font-size: <?= $fontsize ?>rem;
+	letter-spacing: <?= $letterspacing ?>px;
+	line-height: <?= $linespacing ?>rem !important;
+}
