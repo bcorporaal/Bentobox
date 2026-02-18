@@ -645,10 +645,6 @@ h1,
   visibility: hidden;
 }
 
-.static {
-  position: static;
-}
-
 .relative {
   position: relative;
 }
