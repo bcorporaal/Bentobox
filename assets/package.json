@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./css/main.css && tailwindcss -i ./src/input.css -o ./css/main.min.css --minify && cat ./src/themes.css >> ./css/main.css && cat ./src/themes.css >> ./css/main.min.css",
-    "watch": "tailwindcss -i ./src/input.css -o ./css/main.css --watch"
+    "watch": "tailwindcss -i ./src/input.css -o ./css/main.css && tailwindcss -i ./src/input.css -o ./css/main.min.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.0"
