@@ -52,9 +52,11 @@
         $links = $category->links()->yaml();
         $adminURL = url('/panel/pages/'.$category->uri());
         $isHighlighted = $category->highlighted()->value() === 'true';
+        $titleColorKey = $category->titlecolor()->value() ?: (theme_title_color_options() !== [] ? array_key_first(theme_title_color_options()) : null);
+        $titleColorHex = $titleColorKey ? theme_color($titleColorKey) : null;
       ?>
       <div class="panel group pb-10">
-        <h2 class="<?= $isHighlighted ? 'panel-title-highlight' : 'panel-title' ?> m-0 p-0 font-normal not-italic leading-[1.875rem]">
+        <h2 class="<?= $isHighlighted ? 'panel-title-highlight' : 'panel-title' ?> m-0 p-0 font-normal not-italic leading-[1.875rem]"<?= $titleColorHex ? ' style="color:' . esc($titleColorHex) . '"' : '' ?>>
           <?= $category->title() ?>
           <a class="edit-link" href="<?= $adminURL ?>">…</a>
         </h2>

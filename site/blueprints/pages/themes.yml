@@ -1,0 +1,15 @@
+title: Themes
+icon: brush
+
+# The themes container itself is unlisted — it's a structural page, not content
+num: false
+
+sections:
+  themes:
+    type: pages
+    label: Themes
+    headline: All themes
+    templates:
+      - theme
+    create: theme
+    empty: No themes yet. Click "Add theme" to create your first one.

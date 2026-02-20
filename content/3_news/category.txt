@@ -2,6 +2,14 @@ Title: Tech news
 
 ----
 
+Highlighted: true
+
+----
+
+Titlecolor: title-3
+
+----
+
 Links:
 
 - 
@@ -20,10 +28,6 @@ Links:
   linklabel: Ars Technica
   linkurl: http://arstechnica.com/
   visible: 'true'
-
-----
-
-Highlighted: true
 
 ----
 

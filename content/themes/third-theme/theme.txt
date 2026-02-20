@@ -1,0 +1,45 @@
+Title: Third theme
+
+----
+
+Background: #0012bc
+
+----
+
+Accent: #00c917
+
+----
+
+Logo: #ffd800
+
+----
+
+Link: #fc0a0a
+
+----
+
+Linkhover: #d80000
+
+----
+
+Title1: #009bbf
+
+----
+
+Title2: #0021c6
+
+----
+
+Title3: #00ffd0
+
+----
+
+Title4: #00ff43
+
+----
+
+Title5: #ffd400
+
+----
+
+Uuid: iqncjlduv0c8fye8

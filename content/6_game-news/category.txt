@@ -6,6 +6,10 @@ Highlighted: false
 
 ----
 
+Titlecolor: title-3
+
+----
+
 Links:
 
 - 

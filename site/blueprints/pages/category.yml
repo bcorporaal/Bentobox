@@ -5,10 +5,25 @@ fields:
   highlighted:
     label: Highlight this category?
     type: toggle
-    text: 
+    width: 1/4
+    text:
       - don't highlight
       - highlight
     default: no
+
+  titlecolor:
+    extends: fields/theme-titlecolor
+    label: Title color
+    width: 1/4
+    help: Pick which of the active theme's title colors to use for this category.
+
+  titlecolor_display:
+    label: Selected color
+    type: theme-color-display
+    width: 1/4
+    disabled: true
+    sourceField: titlecolor
+
   links:
     extends: fields/link
     label: Links

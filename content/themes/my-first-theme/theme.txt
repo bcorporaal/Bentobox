@@ -1,0 +1,45 @@
+Title: my first theme
+
+----
+
+Background: #2d1d1d
+
+----
+
+Accent: #8c1313
+
+----
+
+Logo: #ff0015
+
+----
+
+Link: #870101
+
+----
+
+Linkhover: #911414
+
+----
+
+Title1: #ea6969
+
+----
+
+Title2: #eda3a3
+
+----
+
+Title3: #ff0066
+
+----
+
+Title4: #7f0000
+
+----
+
+Title5: #820f0f
+
+----
+
+Uuid: jefry0i8ehlflx5g

@@ -7,14 +7,12 @@ tabs:
     icon: text
 
     sections:
-      # draft categories
       drafts:
         headline: Draft categories
         type: pages
         status: draft
         templates: category
 
-      # visible categories
       published:
         headline: Visible categories
         type: pages
@@ -27,7 +25,6 @@ tabs:
     icon: template
 
     sections:
-      # unlisted content
       unlisted:
         headline: Unlisted pages
         type: pages
@@ -38,13 +35,22 @@ tabs:
     label: Bentobox settings
     icon: settings
 
-    settings:
-    type: fields
-
     fields:
+      activetheme:
+        width: 1/3
+        label: Active theme
+        type: select
+        empty: — select a theme —
+        help: The selected theme's colors are used site-wide and in the category color picker.
+        options:
+          type: query
+          query: page('themes').children
+          text: '{{ page.title }}'
+          value: '{{ page.slug }}'
+
       theme:
         width: 1/3
-        label: Theme
+        label: UI theme
         type: select
         default: dark-sea
         options:
@@ -146,3 +152,19 @@ tabs:
           - 'no'
           - 'yes'
         help: If set to yes, the page is only available to logged-in users. Logged-out users will be redirected to the panel log-in page.
+
+  # themes tab
+  themes:
+    label: Themes
+    icon: brush
+
+    sections:
+      themepages:
+        type: pages
+        label: Themes
+        headline: All themes
+        parent: page('themes')
+        templates:
+          - theme
+        create: theme
+        empty: No themes yet. Create your first one here, then select it as the active theme in Settings.

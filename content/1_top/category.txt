@@ -2,6 +2,14 @@ Title: Top
 
 ----
 
+Highlighted: false
+
+----
+
+Titlecolor: title-5
+
+----
+
 Links:
 
 - 
@@ -16,10 +24,6 @@ Links:
   linklabel: reefscape.net
   linkurl: http://reefscape.net
   visible: 'true'
-
-----
-
-Highlighted: false
 
 ----
 
