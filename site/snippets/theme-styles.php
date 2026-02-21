@@ -21,12 +21,27 @@ foreach ($colorFields as $name) {
 if ($themeVars === []) {
     return;
 }
+$bg = $themeVars['background'] ?? '';
+$accent = $themeVars['accent'] ?? '';
+$logo = $themeVars['logo'] ?? 'currentColor';
+$link = $themeVars['link'] ?? 'inherit';
+$linkhover = $themeVars['linkhover'] ?? 'inherit';
 ?>
 <style>
 :root {
 <?php foreach ($themeVars as $name => $hex): ?>
   --theme-<?= $name ?>: <?= esc($hex) ?>;
 <?php endforeach ?>
+  /* Legacy vars for Tailwind/input.css (from active theme page) */
+  --color-bg: <?= esc($bg) ?>;
+  --color-stripe: <?= esc($accent) ?>;
+  --color-link: <?= esc($link) ?>;
+  --color-link-hover: <?= esc($linkhover) ?>;
+  --color-logo-fill: <?= esc($logo) ?>;
+  --color-panel-title: <?= esc($accent) ?>;
+  --color-panel-title-highlight: <?= esc($linkhover) ?>;
+  --stripe-height: 15px;
+  --stripe-background: <?= esc($accent) ?>;
 }
 body {
   background-color: var(--theme-background);

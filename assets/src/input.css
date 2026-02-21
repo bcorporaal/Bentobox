@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font: Udon Mono; CMS overrides via fontselection snippet. */
+@font-face {
+  font-family: 'Udon Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/UdonMono-Regular.woff2') format('woff2');
+}
+
+:root {
+  --font-sans: "Udon Mono", system-ui, sans-serif;
+}
+
+/* Body/stripe: theme vars set by theme-styles snippet from active theme page. */
+body {
+  background-image: var(--body-bg-image, none);
+  background-attachment: var(--body-bg-attachment, scroll);
+  box-shadow: var(--body-stripe-shadow, none);
+  background-repeat: no-repeat;
+}
+
+.top-stripe {
+  width: 100%;
+  height: var(--stripe-height, 15px);
+  flex-shrink: 0;
+  background: var(--stripe-background, var(--color-stripe));
+}
+
 @layer base {
   html {
     font-size: 100%;

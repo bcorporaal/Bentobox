@@ -1,4 +1,4 @@
-Title: my first theme
+Title: Default
 
 ----
 

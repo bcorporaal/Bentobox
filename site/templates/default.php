@@ -1,7 +1,7 @@
 <?php if (!$kirby->user() && $site->passwordprotected()) go($site->panel()->url()) ?>
 <?php $categories = $site->index()->listed()->filterBy('intendedTemplate', 'category'); ?>
 <!doctype html>
-<html class="theme-<?= $site->theme() ?>" lang="en">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

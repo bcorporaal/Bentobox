@@ -1,0 +1,11 @@
+title: Theme (Locked)
+icon: lock
+
+extends: pages/theme
+
+options:
+  update: false
+  delete: false
+  changeTemplate: false
+  changeTitle: false
+  changeStatus: false

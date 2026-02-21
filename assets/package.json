@@ -2,7 +2,7 @@
   "name": "bentobox-assets",
   "private": true,
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./css/main.css && tailwindcss -i ./src/input.css -o ./css/main.min.css --minify && cat ./src/themes.css >> ./css/main.css && cat ./src/themes.css >> ./css/main.min.css",
+    "build": "tailwindcss -i ./src/input.css -o ./css/main.css && tailwindcss -i ./src/input.css -o ./css/main.min.css --minify",
     "watch": "tailwindcss -i ./src/input.css -o ./css/main.css && tailwindcss -i ./src/input.css -o ./css/main.min.css --watch"
   },
   "devDependencies": {

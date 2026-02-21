@@ -2,11 +2,7 @@ Title: Bentobox
 
 ----
 
-Activetheme: my-first-theme
-
-----
-
-Theme: ocean-lights
+Activetheme: default
 
 ----
 
@@ -31,3 +27,7 @@ Letterspacing: 0
 ----
 
 Passwordprotected: false
+
+----
+
+Theme: ocean-lights
