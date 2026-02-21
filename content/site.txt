@@ -2,7 +2,7 @@ Title: Bentobox
 
 ----
 
-Activetheme: my-second-theme
+Activetheme: my-first-theme
 
 ----
 
