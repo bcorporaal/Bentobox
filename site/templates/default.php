@@ -18,53 +18,7 @@
     <meta name="theme-color" content="#333">
     <link rel="stylesheet" href="<?= url('assets/css/main.min.css') ?>">
     <style><?php snippet('fontselection'); ?></style>
-    <?php
-    $themePage = $site->activetheme()->isNotEmpty() ? page('themes')->children()->find($site->activetheme()->value()) : null;
-    if ($themePage):
-      $themeVars = [
-        'background' => $themePage->background()->value(),
-        'accent' => $themePage->accent()->value(),
-        'logo' => $themePage->logo()->value(),
-        'link' => $themePage->link()->value(),
-        'linkhover' => $themePage->linkhover()->value(),
-        'title1' => $themePage->title1()->value(),
-        'title2' => $themePage->title2()->value(),
-        'title3' => $themePage->title3()->value(),
-        'title4' => $themePage->title4()->value(),
-        'title5' => $themePage->title5()->value(),
-      ];
-      $themeVars = array_filter($themeVars);
-      if ($themeVars !== []):
-    ?><style>
-    :root {
-      <?php foreach ($themeVars as $name => $hex): ?>
-      --theme-<?= $name ?>: <?= esc($hex) ?>;
-      <?php endforeach ?>
-    }
-    </style><?php
-      endif;
-    endif;
-    ?>
-    <style>
-      body {
-        background-color:  var(--theme-background);
-      }
-      .theme-title1 {
-        color: var(--theme-title1);
-      }
-      .theme-title2 {
-        color: var(--theme-title2);
-      }
-      .theme-title3 {
-        color: var(--theme-title3);
-      }
-      .theme-title4 {
-        color: var(--theme-title4);
-      }
-      .theme-title5 {
-        color: var(--theme-title5);
-      }
-    </style>
+    <?php snippet('theme-styles') ?>
   </head>
   <body class="min-h-screen bg-bentobox-bg font-sans text-bentobox text-bentobox-link">
     <div class="top-stripe" aria-hidden="true"></div>
@@ -94,16 +48,17 @@
         </div>
       </header>
 
+      <?php
+      $titleColorOptions = function_exists('theme_title_color_options') ? theme_title_color_options() : [];
+      $defaultTitleColor = $titleColorOptions !== [] ? array_key_first($titleColorOptions) : null;
+      ?>
       <?php foreach ($categories->slice(1) as $category): ?>
       <?php
         $links = $category->links()->yaml();
         $adminURL = url('/panel/pages/'.$category->uri());
         $isHighlighted = $category->highlighted()->value() === 'true';
-        $titleColorKey = $category->titlecolor()->value() ?: (theme_title_color_options() !== [] ? array_key_first(theme_title_color_options()) : null);
-        $titleColorClass = '';
-        if (preg_match('/^title-([1-5])$/', (string) $titleColorKey, $m)) {
-          $titleColorClass = ' theme-title' . $m[1];
-        }
+        $titleColorValue = $category->titlecolor()->value() ?: $defaultTitleColor;
+        $titleColorClass = theme_title_color_class((string) $titleColorValue);
       ?>
       <div class="panel group pb-10">
         <h2 class="<?= $isHighlighted ? 'panel-title-highlight' : 'panel-title' ?><?= $titleColorClass ?> m-0 p-0 font-normal not-italic leading-[1.875rem]">
