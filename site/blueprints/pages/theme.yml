@@ -15,19 +15,19 @@ fields:
   background:
     label: Background
     type: color
-    width: 1/2
+    width: 1/6
     alpha: false
 
   accent:
     label: Accent
     type: color
-    width: 1/2
+    width: 1/6
     alpha: false
 
   logo:
     label: Logo
     type: color
-    width: 1/2
+    width: 1/6
     alpha: false
 
   linksheadline:
@@ -37,46 +37,59 @@ fields:
   link:
     label: Link
     type: color
-    width: 1/2
+    width: 1/6
     alpha: false
 
   linkhover:
     label: Link (hover)
     type: color
-    width: 1/2
+    width: 1/6
     alpha: false
 
   titlesheadline:
     type: headline
-    label: Title colors
-    help: These colors are used to color-code individual categories.
+    label: Category title color options
 
   title1:
     label: Title 1
     type: color
-    width: 1/5
+    width: 1/6
     alpha: false
 
   title2:
     label: Title 2
     type: color
-    width: 1/5
+    width: 1/6
     alpha: false
 
   title3:
     label: Title 3
     type: color
-    width: 1/5
+    width: 1/6
     alpha: false
 
   title4:
     label: Title 4
     type: color
-    width: 1/5
+    width: 1/6
     alpha: false
 
   title5:
     label: Title 5
     type: color
-    width: 1/5
+    width: 1/6
     alpha: false
+
+  otherheadline:
+    type: headline
+    label: Other options
+
+  stripeheight:
+    label: Top strip height
+    type: range
+    step: 1
+    min: 0
+    max: 20
+    default: 5
+    after: px
+    width: 1/3

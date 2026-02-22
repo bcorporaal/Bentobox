@@ -26,6 +26,14 @@ $accent = $themeVars['accent'] ?? '';
 $logo = $themeVars['logo'] ?? 'currentColor';
 $link = $themeVars['link'] ?? 'inherit';
 $linkhover = $themeVars['linkhover'] ?? 'inherit';
+$stripeheight = $themeVars['stripeheight'] ?? '';
+if ($stripeheight === '') {
+    $shField = $themePage->content()->get('stripeheight');
+    if ($shField) {
+        $v = $shField->value();
+        $stripeheight = $v !== null ? (string) $v : '';
+    }
+}
 ?>
 <style>
 :root {
@@ -40,12 +48,10 @@ $linkhover = $themeVars['linkhover'] ?? 'inherit';
   --color-logo-fill: <?= esc($logo) ?>;
   --color-panel-title: <?= esc($accent) ?>;
   --color-panel-title-highlight: <?= esc($linkhover) ?>;
-  --stripe-height: 15px;
+  --stripe-height: <?= esc($stripeheight) ?>px;
   --stripe-background: <?= esc($accent) ?>;
 }
-body {
-  background-color: var(--theme-background);
-}
+
 <?php foreach ($titleColorFields as $name): ?>
 .theme-<?= $name ?> {
   color: var(--theme-<?= $name ?>);

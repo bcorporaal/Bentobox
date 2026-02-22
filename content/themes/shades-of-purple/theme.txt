@@ -1,0 +1,49 @@
+Title: Shades of purple
+
+----
+
+Background: #2b2953
+
+----
+
+Accent: #a198e5
+
+----
+
+Logo: #a35cef
+
+----
+
+Link: #a198e5
+
+----
+
+Linkhover: #fbfbfc
+
+----
+
+Title1: #a35cef
+
+----
+
+Title2: #b1fbfd
+
+----
+
+Title3: #b2f496
+
+----
+
+Title4: #f5d447
+
+----
+
+Title5: #ec6a8b
+
+----
+
+Stripeheight: 3
+
+----
+
+Uuid: jefry0i8ehlflx5g

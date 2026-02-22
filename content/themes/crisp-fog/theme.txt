@@ -1,0 +1,49 @@
+Title: Crisp fog
+
+----
+
+Background: #fcfcfc
+
+----
+
+Accent: #55b5d4
+
+----
+
+Logo: #55b5d4
+
+----
+
+Link: #a0a8aa
+
+----
+
+Linkhover: #4b535b
+
+----
+
+Title1: #55b5d4
+
+----
+
+Title2: #f2ad49
+
+----
+
+Title3: #a37acb
+
+----
+
+Title4: #f09448
+
+----
+
+Title5: #46e272
+
+----
+
+Stripeheight: 
+
+----
+
+Uuid: i03n4crgqcpwhobz

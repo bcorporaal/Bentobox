@@ -574,6 +574,15 @@ h1,
   margin-bottom: 1rem;
 }
 
+a:focus {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
 /* Edit link: visible when parent group is hovered */
 
 .edit-link {
@@ -651,6 +660,10 @@ h1,
 
 .col-span-full {
   grid-column: 1 / -1;
+}
+
+.float-left {
+  float: left;
 }
 
 .m-0 {
@@ -801,6 +814,10 @@ h1,
   text-decoration-line: none;
 }
 
+.outline {
+  outline-style: solid;
+}
+
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -824,20 +841,27 @@ h1,
 
   font-weight: 400;
 
-  src: url('../fonts/UdonMono-Regular.woff2') format('woff2');
+  src: url('../fonts/UdonMonoWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Udon Mono';
+
+  font-style: bold;
+
+  font-weight: 700;
+
+  src: url('../fonts/UdonMonoWeb-Bold.woff2') format('woff2');
 }
 
 :root {
-  --font-sans: "Udon Mono", system-ui, sans-serif;
+  --font-sans: 'Udon Mono', system-ui, sans-serif;
 }
 
 /* Body/stripe: theme vars set by theme-styles snippet from active theme page. */
 
 body {
-  background-image: var(--body-bg-image, none);
-  background-attachment: var(--body-bg-attachment, scroll);
-  box-shadow: var(--body-stripe-shadow, none);
-  background-repeat: no-repeat;
+  background-color: var(--theme-background);
 }
 
 .top-stripe {
@@ -845,6 +869,14 @@ body {
   height: var(--stripe-height, 15px);
   flex-shrink: 0;
   background: var(--stripe-background, var(--color-stripe));
+}
+
+.panel-title-highlight {
+  font-weight: 700;
+}
+
+.panel-title {
+  font-weight: 400;
 }
 
 .hover\:pl-1:hover {
