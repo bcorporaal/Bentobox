@@ -2,11 +2,11 @@ Title: Bentobox
 
 ----
 
-Activetheme: dark-sky
+Activetheme: shades-of-purple
 
 ----
 
-Logo: icon
+Logo: brush
 
 ----
 

@@ -1,0 +1,16 @@
+title: Themes
+icon: brush
+
+# No files section
+files: false
+
+sections:
+  themepages:
+    type: pages
+    label: Themes
+    headline: All themes
+    status: all
+    templates:
+      - theme
+      - theme-locked
+    create: [theme]
