@@ -1,0 +1,49 @@
+Title: Dark space
+
+----
+
+Background: #24242d
+
+----
+
+Accent: #dd672c
+
+----
+
+Logo: #dd672c
+
+----
+
+Link: #767691
+
+----
+
+Linkhover: #ebebfe
+
+----
+
+Title1: #9d9dc8
+
+----
+
+Title2: #dd672c
+
+----
+
+Title3: #ef925f
+
+----
+
+Title4: #595967
+
+----
+
+Title5: #e4560c
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: pitdvlbqejc6ky3z

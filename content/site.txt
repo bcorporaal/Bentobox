@@ -2,7 +2,7 @@ Title: Bentobox
 
 ----
 
-Activetheme: shades-of-purple
+Activetheme: dark-sky
 
 ----
 

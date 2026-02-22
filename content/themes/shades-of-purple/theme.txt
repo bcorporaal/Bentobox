@@ -10,7 +10,7 @@ Accent: #a198e5
 
 ----
 
-Logo: #a35cef
+Logo: #a359f2
 
 ----
 
@@ -22,7 +22,7 @@ Linkhover: #fbfbfc
 
 ----
 
-Title1: #a35cef
+Title1: #a359f2
 
 ----
 

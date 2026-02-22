@@ -1,0 +1,49 @@
+Title: Dark sky
+
+----
+
+Background: #2b2733
+
+----
+
+Accent: #ae91e8
+
+----
+
+Logo: #ae91e8
+
+----
+
+Link: #715f95
+
+----
+
+Linkhover: #f1ebff
+
+----
+
+Title1: #cab2fa
+
+----
+
+Title2: #fec38f
+
+----
+
+Title3: #b07745
+
+----
+
+Title4: #595967
+
+----
+
+Title5: #544d60
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: saidwjgak3esyyuu
