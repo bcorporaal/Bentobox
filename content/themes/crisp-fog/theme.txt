@@ -42,7 +42,7 @@ Title5: #46e272
 
 ----
 
-Stripeheight: 
+Stripeheight: 0
 
 ----
 
