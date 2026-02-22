@@ -27,7 +27,3 @@ Letterspacing: 0
 ----
 
 Passwordprotected: false
-
-----
-
-Theme: ocean-lights
