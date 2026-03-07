@@ -23,14 +23,18 @@
 
 /* Body/stripe: theme vars set by theme-styles snippet from active theme page. */
 body {
+  position: relative;
   background-color: var(--theme-background);
   background-image: var(--theme-background-image, none);
 }
 
 .top-stripe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: var(--stripe-height, 15px);
-  flex-shrink: 0;
+  z-index: 0;
   background-color: var(--stripe-background, var(--color-stripe));
   background-image: var(--stripe-background-image, none);
 }
