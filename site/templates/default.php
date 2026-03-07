@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="<?= url('assets/css/main.min.css') ?>">
     <style><?php snippet('fontselection'); ?></style>
     <?php snippet('theme-styles') ?>
+    <?php snippet('theme-preview-styles') ?>
   </head>
   <body class="min-h-screen bg-bentobox-bg font-sans text-bentobox text-bentobox-link">
     <div class="top-stripe" aria-hidden="true"></div>

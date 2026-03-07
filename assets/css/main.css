@@ -578,9 +578,9 @@ a {
   outline: none;
 }
 
-a:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
+a:focus,
+  a:focus-visible {
+  outline: none;
 }
 
 .container {
@@ -814,8 +814,13 @@ a:focus-visible {
   width: 100%;
 }
 
-.min-w-\[10rem\] {
-  min-width: 10rem;
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.min-w-0 {
+  min-width: 0px;
 }
 
 .max-w-\[1600px\] {
@@ -865,6 +870,10 @@ a:focus-visible {
 
 .gap-y-0 {
   row-gap: 0px;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded-none {
@@ -1056,20 +1065,6 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.focus-visible\:ring-2:focus-visible {
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-
-.focus-visible\:ring-bentobox-link:focus-visible {
-  --tw-ring-color: var(--color-link);
-}
-
-.focus-visible\:ring-offset-1:focus-visible {
-  --tw-ring-offset-width: 1px;
 }
 
 @media (min-width: 640px) {
