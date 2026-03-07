@@ -1,0 +1,49 @@
+Title: Dusk
+
+----
+
+Background: #ffeada
+
+----
+
+Accent: #460932
+
+----
+
+Logo: #ff4052
+
+----
+
+Link: #571541
+
+----
+
+Linkhover: #571541
+
+----
+
+Title1: #571541
+
+----
+
+Title2: #ff4052
+
+----
+
+Title3: #429bd7
+
+----
+
+Title4: #91bc33
+
+----
+
+Title5: #ffbe21
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: ghkykzk1qsnbwmr2

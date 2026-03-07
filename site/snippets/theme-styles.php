@@ -21,6 +21,8 @@ foreach ($colorFields as $name) {
 if ($themeVars === []) {
     return;
 }
+$backgroundGradient = trim((string) ($themePage->content()->get('backgroundgradient')->value() ?? ''));
+$accentGradient = trim((string) ($themePage->content()->get('accentgradient')->value() ?? ''));
 $bg = $themeVars['background'] ?? '';
 $accent = $themeVars['accent'] ?? '';
 $logo = $themeVars['logo'] ?? 'currentColor';
@@ -50,6 +52,12 @@ if ($stripeheight === '') {
   --color-panel-title-highlight: <?= esc($linkhover) ?>;
   --stripe-height: <?= esc($stripeheight) ?>px;
   --stripe-background: <?= esc($accent) ?>;
+<?php if ($backgroundGradient !== ''): ?>
+  --theme-background-image: <?= esc($backgroundGradient) ?>;
+<?php endif; ?>
+<?php if ($accentGradient !== ''): ?>
+  --stripe-background-image: <?= esc($accentGradient) ?>;
+<?php endif; ?>
 }
 
 <?php foreach ($titleColorFields as $name): ?>

@@ -1,0 +1,49 @@
+Title: 2077
+
+----
+
+Background: #030d22
+
+----
+
+Accent: #0ef3ff
+
+----
+
+Logo: #0ef3ff
+
+----
+
+Link: #0098df
+
+----
+
+Linkhover: #ff2e97
+
+----
+
+Title1: #67b3ff
+
+----
+
+Title2: #ff2cf1
+
+----
+
+Title3: #ffd400
+
+----
+
+Title4: #3dd69c
+
+----
+
+Title5: #06ad00
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: mubkmhs1z758szvw

@@ -574,13 +574,47 @@ h1,
   margin-bottom: 1rem;
 }
 
-a:focus {
+a {
   outline: none;
 }
 
 a:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 2px;
+}
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
 }
 
 /* Edit link: visible when parent group is hovered */
@@ -862,13 +896,15 @@ a:focus-visible {
 
 body {
   background-color: var(--theme-background);
+  background-image: var(--theme-background-image, none);
 }
 
 .top-stripe {
   width: 100%;
   height: var(--stripe-height, 15px);
   flex-shrink: 0;
-  background: var(--stripe-background, var(--color-stripe));
+  background-color: var(--stripe-background, var(--color-stripe));
+  background-image: var(--stripe-background-image, none);
 }
 
 .panel-title-highlight {

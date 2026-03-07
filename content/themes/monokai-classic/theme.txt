@@ -1,0 +1,49 @@
+Title: Monokai Classic
+
+----
+
+Background: #272822
+
+----
+
+Accent: #e6db74
+
+----
+
+Logo: #e6db74
+
+----
+
+Link: #6e7066
+
+----
+
+Linkhover: #fdfff1
+
+----
+
+Title1: #a6e22e
+
+----
+
+Title2: #f92672
+
+----
+
+Title3: #66d9ef
+
+----
+
+Title4: #fd971f
+
+----
+
+Title5: #ae81ff
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: pfj8oz0bwbjpj3wh

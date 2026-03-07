@@ -1,0 +1,49 @@
+Title: Springtime
+
+----
+
+Background: #c6e5de
+
+----
+
+Accent: #ffffff
+
+----
+
+Logo: #bceb01
+
+----
+
+Link: #07404b
+
+----
+
+Linkhover: #07404b
+
+----
+
+Title1: #75b83b
+
+----
+
+Title2: #75b83b
+
+----
+
+Title3: #75b83b
+
+----
+
+Title4: #75b83b
+
+----
+
+Title5: #75b83b
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: f3rac7eyrauwexp6

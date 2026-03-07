@@ -24,13 +24,15 @@
 /* Body/stripe: theme vars set by theme-styles snippet from active theme page. */
 body {
   background-color: var(--theme-background);
+  background-image: var(--theme-background-image, none);
 }
 
 .top-stripe {
   width: 100%;
   height: var(--stripe-height, 15px);
   flex-shrink: 0;
-  background: var(--stripe-background, var(--color-stripe));
+  background-color: var(--stripe-background, var(--color-stripe));
+  background-image: var(--stripe-background-image, none);
 }
 
 @layer base {
@@ -46,7 +48,7 @@ body {
   p {
     @apply m-0 mb-4;
   }
-  a:focus {
+  a {
     outline: none;
   }
   a:focus-visible {

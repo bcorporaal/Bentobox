@@ -2,7 +2,7 @@ Title: Bentobox
 
 ----
 
-Activetheme: shades-of-purple
+Activetheme: crisp-fog
 
 ----
 
@@ -10,7 +10,7 @@ Logo: brush
 
 ----
 
-Fontfamily: udon_mono
+Fontfamily: plex_sans
 
 ----
 
@@ -26,4 +26,4 @@ Letterspacing: 0
 
 ----
 
-Passwordprotected: false
+Passwordprotected: true

@@ -13,6 +13,17 @@ tabs:
         width: 1/4
 
         sections:
+          categorystats:
+            type: fields
+            fields:
+              stats:
+                type: stats
+                reports:
+                  - label: Public categories
+                    value: "{{ site.children.listed.filterBy('intendedTemplate', 'category').count }}"
+                  - label: Visible links
+                    value: "{{ site.visibleLinksCount }}"
+
           published:
             headline: Link categories
             type: pages

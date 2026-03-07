@@ -8,21 +8,59 @@ num: 0
 titleColorFields: [title1, title2, title3, title4, title5]
 
 fields:
-  colorsheadline:
+  backgroundheadline:
     type: headline
-    label: Base colors
+    label: Background
 
   background:
-    label: Background
+    label: Solid color
     type: color
-    width: 1/6
+    width: 1/3
     alpha: false
 
+  backgroundgradient:
+    label: CSS gradient
+    type: textarea
+    buttons: false
+    font: monospace
+    size: small
+    width: 2/3
+    help: 'Leave empty for solid background. Example: linear-gradient(90deg, #282A36 0%, #44475a 100%)'
+    placeholder: 'linear-gradient(90deg, #fff 0%, #000 100%)'
+
+  accentheadline:
+    type: headline
+    label: Top bar
+
   accent:
-    label: Accent
+    label: Solid color
     type: color
-    width: 1/6
+    width: 1/3
     alpha: false
+
+  accentgradient:
+    label: CSS gradient
+    type: textarea
+    buttons: false
+    font: monospace
+    size: small
+    width: 2/3
+    help: 'Leave empty for solid. Example: linear-gradient(90deg, #F1FA8C 0%, #50FA7B 100%)'
+    placeholder: 'linear-gradient(90deg, #fff 0%, #000 100%)'
+
+  stripeheight:
+    label: Bar height
+    type: range
+    step: 1
+    min: 0
+    max: 20
+    default: 5
+    after: px
+    width: 1/3
+
+  colorheadline:
+    type: headline
+    label: Colors
 
   logo:
     label: Logo
@@ -83,13 +121,3 @@ fields:
   otherheadline:
     type: headline
     label: Other options
-
-  stripeheight:
-    label: Top strip height
-    type: range
-    step: 1
-    min: 0
-    max: 20
-    default: 5
-    after: px
-    width: 1/3

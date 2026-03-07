@@ -1,0 +1,49 @@
+Title: Outrun Contrast
+
+----
+
+Background: #0c0a20
+
+----
+
+Accent: #a875ff
+
+----
+
+Logo: #a875ff
+
+----
+
+Link: #546A90
+
+----
+
+Linkhover: #ffffff
+
+----
+
+Title1: #ff9b50
+
+----
+
+Title2: #ff2afc
+
+----
+
+Title3: #A875FF
+
+----
+
+Title4: #42c6ff
+
+----
+
+Title5: #E6DB74
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: 4sh37iq7m656dc56

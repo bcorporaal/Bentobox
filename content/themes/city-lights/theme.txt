@@ -1,0 +1,49 @@
+Title: City Lights
+
+----
+
+Background: #1D252C
+
+----
+
+Accent: #68A1F0
+
+----
+
+Logo: #68A1F0
+
+----
+
+Link: #41505E
+
+----
+
+Linkhover: #718CA1
+
+----
+
+Title1: #70e1e8
+
+----
+
+Title2: #d98e48
+
+----
+
+Title3: #e27e8d
+
+----
+
+Title4: #8bd49c
+
+----
+
+Title5: #3ad900
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: ddqvh0w5f4m8w0zt

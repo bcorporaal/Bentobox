@@ -1,0 +1,49 @@
+Title: Tokyo Night Storm
+
+----
+
+Background: #24283b
+
+----
+
+Accent: #f7768e
+
+----
+
+Logo: #f7768e
+
+----
+
+Link: #5f6996
+
+----
+
+Linkhover: #c0caf5
+
+----
+
+Title1: #7aa2f7
+
+----
+
+Title2: #bb9af7
+
+----
+
+Title3: #2ac3de
+
+----
+
+Title4: #e0af68
+
+----
+
+Title5: #f7768e
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: oa7vyvqhrcn3tawc

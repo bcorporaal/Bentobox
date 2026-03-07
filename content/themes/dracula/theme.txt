@@ -1,0 +1,49 @@
+Title: Dracula
+
+----
+
+Background: #282A36
+
+----
+
+Accent: #F1FA8C
+
+----
+
+Logo: #F1FA8C
+
+----
+
+Link: #6272A4
+
+----
+
+Linkhover: #F8F8F2
+
+----
+
+Title1: #50FA7B
+
+----
+
+Title2: #FF79C6
+
+----
+
+Title3: #8BE9FD
+
+----
+
+Title4: #FFB86C
+
+----
+
+Title5: #BD93F9
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: cjezquh5dvo89z2j

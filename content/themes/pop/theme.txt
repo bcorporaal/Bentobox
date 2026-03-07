@@ -1,0 +1,49 @@
+Title: Pop
+
+----
+
+Background: #f44601
+
+----
+
+Accent: #b9e800
+
+----
+
+Logo: #f1e6e4
+
+----
+
+Link: #520257
+
+----
+
+Linkhover: #f1e6e4
+
+----
+
+Title1: #08b695
+
+----
+
+Title2: #f1e6e4
+
+----
+
+Title3: #b9e800
+
+----
+
+Title4: 
+
+----
+
+Title5: 
+
+----
+
+Stripeheight: 5
+
+----
+
+Uuid: lqv54dgdsvxy7gdr

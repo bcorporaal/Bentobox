@@ -1,0 +1,49 @@
+Title: Deep down
+
+----
+
+Background: #01393a
+
+----
+
+Accent: #f5e315
+
+----
+
+Logo: #f5e315
+
+----
+
+Link: #0b726f
+
+----
+
+Linkhover: #bee8e6
+
+----
+
+Title1: #0d8989
+
+----
+
+Title2: #bee8e6
+
+----
+
+Title3: #f5e315
+
+----
+
+Title4: #f5e315
+
+----
+
+Title5: #f5e315
+
+----
+
+Stripeheight: 0
+
+----
+
+Uuid: u4vos4nwlpblkexo
