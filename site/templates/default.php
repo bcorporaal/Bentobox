@@ -77,5 +77,13 @@
       </div>
       <?php endforeach ?>
     </div>
+  <script>
+    // add a small fade when preview or selecting themes
+    window.addEventListener('load', function() {
+      requestAnimationFrame(function() {
+        document.body.style.transition = 'all 0.5s ease-in-out';
+      });
+    });
+  </script>
   </body>
 </html>
