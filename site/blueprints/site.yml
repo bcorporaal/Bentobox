@@ -6,7 +6,7 @@ options:
 tabs:
   content:
     label: Content
-    icon: page
+    icon: layout-horizontal-line
 
     columns:
       main:
@@ -162,7 +162,7 @@ tabs:
   # themes tab
   themes:
     label: Themes
-    icon: bars
+    icon: pantone-line
 
     sections:
       themepages:
