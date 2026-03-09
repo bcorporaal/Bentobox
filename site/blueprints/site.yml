@@ -59,6 +59,26 @@ tabs:
                   text: '{{ page.title }}'
                   value: '{{ page.slug }}'
 
+              shuffletheme:
+                width: 1/2
+                label: Shuffle theme
+                type: toggle
+                text:
+                  - 'no'
+                  - 'yes'
+                help: When enabled, the site will pick a deterministic random theme per interval (does not overwrite Activetheme).
+
+              shuffleinterval:
+                width: 1/2
+                label: Shuffle interval
+                type: select
+                default: hour
+                options:
+                  every-time: every time
+                  hour: every hour
+                  4hours: every 4 hours
+                  day: every day
+
               fontfamily:
                 width: 1/2
                 label: Font

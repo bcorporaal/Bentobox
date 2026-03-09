@@ -733,6 +733,11 @@ a:focus,
   margin-right: auto;
 }
 
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .-mr-1 {
   margin-right: -0.25rem;
 }
@@ -886,6 +891,10 @@ a:focus,
 
 .border-0 {
   border-width: 0px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-bentobox-link {

@@ -2,11 +2,15 @@ Title: Bentobox
 
 ----
 
-Activetheme: city-lights
+Activetheme: shades-of-purple
 
 ----
 
-Logo: brush
+Shuffletheme: false
+
+----
+
+Shuffleinterval: every-time
 
 ----
 
@@ -23,6 +27,10 @@ Linespacing: 1.2
 ----
 
 Letterspacing: 0
+
+----
+
+Logo: brush
 
 ----
 
