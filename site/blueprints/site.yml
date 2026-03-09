@@ -6,10 +6,24 @@ options:
 tabs:
   content:
     label: Content
-    icon: window
+    icon: page
 
     columns:
       main:
+        width: 3/4
+        sections:
+          published:
+            headline: Link categories
+            type: pages
+            status: listed
+            templates: category
+          drafts:
+            headline: Draft categories
+            type: pages
+            status: draft
+            templates: category
+
+      secondary:
         width: 1/4
 
         sections:
@@ -22,124 +36,133 @@ tabs:
                   - label: Public categories
                     value: "{{ site.children.listed.filterBy('intendedTemplate', 'category').count }}"
                   - label: Visible links
-                    value: "{{ site.visibleLinksCount }}"
+                    value: '{{ site.visibleLinksCount }}'
 
-          published:
-            headline: Link categories
-            type: pages
-            status: listed
-            templates: category
-          drafts:
-            headline: Draft categories
-            type: pages
-            status: draft
-            templates: category
+  themeoptions:
+    label: Theme options
+    icon: brush
 
-      theme:
-        width: 1/2
+    columns:
+      main:
+        width: 3/4
+        sections:
+          options:
+            type: fields
+            fields:
+              activetheme:
+                label: Color theme
+                help: Default is Dark space
+                type: select
+                options:
+                  type: query
+                  query: page('themes').children.filterBy('intendedTemplate', 'in', ['theme', 'theme-locked'])
+                  text: '{{ page.title }}'
+                  value: '{{ page.slug }}'
 
-        fields:
-          activetheme:
-            width: 1/2
-            label: Color theme
-            help: Default is Dark space
-            type: select
-            options:
-              type: query
-              query: page('themes').children.filterBy('intendedTemplate', 'in', ['theme', 'theme-locked'])
-              text: '{{ page.title }}'
-              value: '{{ page.slug }}'
+              fontfamily:
+                width: 1/2
+                label: Font
+                type: select
+                default: system
+                help: Default is System
+                options:
+                  udon_mono: Udon mono
+                  inter: Inter
+                  bitter: Bitter
+                  fira_mono: Fira Mono
+                  fira_sans: Fira Sans
+                  lora: Lora
+                  newsreader: Newsreader
+                  offside: Offside
+                  plex_mono: Plex Mono
+                  plex_sans: Plex Sans
+                  plex_serif: Plex Serif
+                  roboto_condensed: Roboto Condensed
+                  roboto_slab: Roboto Slab
+                  source_serif_pro: Source Serif Pro
+                  space_mono: Space Mono
+                  system: System default
+                  turret_road: Turret Road
+                  ubuntu: Ubuntu
+                  work_sans: Work Sans
 
-          logo:
-            width: 1/2
-            label: Logo style
-            type: select
-            default: script
-            help: Default is script
-            options:
-              script: Script (default)
-              angular: Angular
-              brush: Brush
-              icon: Icon
-              inverse: Inverse
-              pixel: Pixel
-              rounded: Rounded
+              fontsize:
+                width: 1/2
+                label: Font size
+                help: Default is 1.0 rem
+                type: range
+                step: 0.05
+                min: 0.5
+                max: 1.25
+                default: 1.0
+                after: rem
 
-          fontfamily:
-            width: 1/2
-            label: Font
-            type: select
-            default: system
-            help: Default is System
-            options:
-              udon_mono: Udon mono
-              inter: Inter
-              bitter: Bitter
-              fira_mono: Fira Mono
-              fira_sans: Fira Sans
-              lora: Lora
-              newsreader: Newsreader
-              offside: Offside
-              plex_mono: Plex Mono
-              plex_sans: Plex Sans
-              plex_serif: Plex Serif
-              roboto_condensed: Roboto Condensed
-              roboto_slab: Roboto Slab
-              source_serif_pro: Source Serif Pro
-              space_mono: Space Mono
-              system: System default
-              turret_road: Turret Road
-              ubuntu: Ubuntu
-              work_sans: Work Sans
+              linespacing:
+                width: 1/2
+                label: Line spacing
+                help: Default is 1.9 rem
+                type: range
+                step: 0.1
+                min: 1
+                max: 2.2
+                default: 1.9
+                after: rem
 
-          fontsize:
-            width: 1/2
-            label: Font size
-            help: Default is 1.0 rem
-            type: range
-            step: 0.05
-            min: 0.5
-            max: 1.25
-            default: 1.0
-            after: rem
+              letterspacing:
+                width: 1/2
+                label: Letter spacing
+                help: Default is 0 px
+                type: range
+                step: 0.1
+                min: -1
+                max: 1
+                default: 0
+                after: px
 
-          linespacing:
-            width: 1/2
-            label: Line spacing
-            help: Default is 1.9 rem
-            type: range
-            step: 0.1
-            min: 1
-            max: 2.2
-            default: 1.9
-            after: rem
-
-          letterspacing:
-            width: 1/2
-            label: Letter spacing
-            help: Default is 0 px
-            type: range
-            step: 0.1
-            min: -1
-            max: 1
-            default: 0
-            after: px
-
-      other:
+      secondary:
         width: 1/4
-        fields:
+        sections:
+          logo:
+            type: fields
+            fields:
+              logo:
+                width: 1/2
+                label: Logo style
+                type: select
+                default: script
+                help: Default is script
+                options:
+                  script: Script (default)
+                  angular: Angular
+                  brush: Brush
+                  icon: Icon
+                  inverse: Inverse
+                  pixel: Pixel
+                  rounded: Rounded
+
+  other:
+    label: Other options
+    icon: settings
+
+    columns:
+      main:
+        width: 1/1
+        sections:
           passwordprotected:
-            label: Protect with password
-            type: toggle
-            text:
-              - 'no'
-              - 'yes'
-            help: If set to yes, the page is only available to logged-in users. Logged-out users will be redirected to the panel log-in page.
+            type: fields
+            fields:
+              passwordprotected:
+                label: Protect with password
+                type: toggle
+                text:
+                  - 'no'
+                  - 'yes'
+                help: If set to yes, the page is only available to logged-in users. Logged-out users will be redirected to the panel log-in page.
 
   # themes tab
   themes:
     label: Themes
-    icon: brush
+    icon: bars
 
     sections:
       themepages:
