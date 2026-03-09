@@ -73,9 +73,9 @@ index.php
 kirby/
 license.md
 site/config/config.php
-site/plugins/
 site/cache/index.html
 site/accounts/index.html
 site/sessions/index.html
 media/index.html
 static/*
+/site/plugins/staticache
