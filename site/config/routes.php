@@ -93,4 +93,84 @@ return [
             return go($redirectUrl);
         }
     ]
+    ,
+    [
+        'pattern' => 'theme-debug',
+        'method'  => 'GET',
+        'action'  => function () {
+            $kirby = \Kirby\Cms\App::instance();
+            $site  = $kirby->site();
+            $themesPage = $kirby->page('themes');
+
+            $map = [
+                'every-time' => 2,
+                'hour'       => 3600,
+                '4hours'     => 14400,
+                'day'        => 86400,
+            ];
+
+            $intervalKey = $site->shuffleinterval()->value() ?? 'hour';
+            $interval = $map[$intervalKey] ?? 3600;
+            $bucket = (int) floor(time() / $interval);
+            $hash = crc32((string)$bucket);
+
+            $all = [];
+            $candidates = [];
+            if ($themesPage) {
+                $all = $themesPage->children()->filterBy('intendedTemplate', 'in', ['theme', 'theme-locked'])->pluck('slug');
+            }
+
+            // parse shufflethemes field
+            $raw = $site->shufflethemes()->value() ?? '';
+            $selected = null;
+            try {
+                if (is_string($raw) && trim($raw) !== '') {
+                    $sel = $site->shufflethemes()->yaml();
+                    if (is_array($sel) && count($sel) > 0) {
+                        $selected = $sel;
+                    } else {
+                        $parts = array_map('trim', array_filter(array_map('strval', explode(',', $raw)), fn($v) => $v !== ''));
+                        if (count($parts) > 0) $selected = $parts;
+                    }
+                }
+            } catch (Throwable $_) {
+                $selected = null;
+            }
+
+            // Normalize single-element arrays that contain comma-separated values
+            if (is_array($selected) && count($selected) === 1 && strpos((string)$selected[0], ',') !== false) {
+                $selected = array_map('trim', explode(',', (string)$selected[0]));
+            }
+            if (is_array($selected) && count($selected) > 0) {
+                $selected = array_values(array_filter(array_map('strval', array_map('trim', $selected)), fn($v) => $v !== ''));
+                $candidates = array_values(array_intersect($all, $selected));
+            } else {
+                $candidates = $all;
+            }
+
+            $count = count($candidates);
+            $index = $count > 0 ? ($hash % $count) : null;
+            $chosen = $index !== null ? ($candidates[$index] ?? null) : null;
+
+            $helper = function_exists('active_theme_page') ? active_theme_page() : null;
+            $helperSlug = $helper ? $helper->slug() : null;
+
+            return [
+                'activetheme' => $site->activetheme()->value(),
+                'shuffletheme' => $site->shuffletheme()->value(),
+                'shuffleinterval' => $site->shuffleinterval()->value(),
+                'shufflethemes_raw' => $raw,
+                'shufflethemes_parsed' => $selected,
+                'all_themes' => $all,
+                'candidates' => $candidates,
+                'interval_seconds' => $interval,
+                'bucket' => $bucket,
+                'hash' => (string)$hash,
+                'count' => $count,
+                'index' => $index,
+                'computed_chosen' => $chosen,
+                'helper_active_theme' => $helperSlug,
+            ];
+        }
+    ]
 ];

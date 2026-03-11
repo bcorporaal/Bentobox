@@ -2,7 +2,7 @@ Title: Bentobox
 
 ----
 
-Activetheme: shades-of-purple
+Activetheme: monokai-classic
 
 ----
 
@@ -11,6 +11,10 @@ Shuffletheme: false
 ----
 
 Shuffleinterval: every-time
+
+----
+
+Shufflethemes: dark-sky, dark-space
 
 ----
 

@@ -53,6 +53,8 @@ tabs:
                 label: Color theme
                 help: Default is Dark space
                 type: select
+                when:
+                  shuffletheme: false
                 options:
                   type: query
                   query: page('themes').children.filterBy('intendedTemplate', 'in', ['theme', 'theme-locked'])
@@ -71,6 +73,8 @@ tabs:
               shuffleinterval:
                 width: 1/2
                 label: Shuffle interval
+                when:
+                  shuffletheme: true
                 type: select
                 default: hour
                 options:
@@ -78,6 +82,18 @@ tabs:
                   hour: every hour
                   4hours: every 4 hours
                   day: every day
+
+              shufflethemes:
+                label: Themes to shuffle
+                when:
+                  shuffletheme: true
+                type: checkboxes
+                help: Choose which themes should be included when Shuffle theme is enabled. Leave empty to include all themes.
+                options:
+                  type: query
+                  query: page('themes').children.filterBy('intendedTemplate', 'in', ['theme', 'theme-locked'])
+                  text: '{{ page.title }}'
+                  value: '{{ page.slug }}'
 
               fontfamily:
                 width: 1/2

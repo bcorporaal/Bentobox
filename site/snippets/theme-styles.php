@@ -12,11 +12,18 @@ $colorFields = $blueprint['colorFields'];
 $titleColorFields = $blueprint['titleColorFields'];
 
 $themeVars = [];
+$contentArr = $themePage->content()->toArray();
+$lower = array_change_key_case($contentArr, CASE_LOWER);
 foreach ($colorFields as $name) {
-    $value = $themePage->content()->get($name)->value();
-    if ($value !== null && $value !== '') {
-        $themeVars[$name] = $value;
-    }
+  $key = strtolower($name);
+  $value = $lower[$key] ?? null;
+  if ($value === null) {
+    $field = $themePage->content()->get($name);
+    $value = $field ? $field->value() : null;
+  }
+  if ($value !== null && $value !== '') {
+    $themeVars[$name] = $value;
+  }
 }
 if ($themeVars === []) {
     return;
