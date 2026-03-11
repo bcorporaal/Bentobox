@@ -29,9 +29,9 @@ if ($themeVars === []) {
     return;
 }
 $backgroundGradient = trim((string) ($themePage->content()->get('backgroundgradient')->value() ?? ''));
-$accentGradient = trim((string) ($themePage->content()->get('accentgradient')->value() ?? ''));
+$stripeGradient = trim((string) ($themePage->content()->get('stripegradient')->value() ?? ''));
 $bg = $themeVars['background'] ?? '';
-$accent = $themeVars['accent'] ?? '';
+$stripe = $themeVars['stripe'] ?? '';
 $logo = $themeVars['logo'] ?? 'currentColor';
 $link = $themeVars['link'] ?? 'inherit';
 $linkhover = $themeVars['linkhover'] ?? 'inherit';
@@ -51,19 +51,19 @@ if ($stripeheight === '') {
 <?php endforeach ?>
   /* Legacy vars for Tailwind/input.css (from active theme page) */
   --color-bg: <?= esc($bg) ?>;
-  --color-stripe: <?= esc($accent) ?>;
+  --color-stripe: <?= esc($stripe) ?>;
   --color-link: <?= esc($link) ?>;
   --color-link-hover: <?= esc($linkhover) ?>;
   --color-logo-fill: <?= esc($logo) ?>;
-  --color-panel-title: <?= esc($accent) ?>;
+  --color-panel-title: <?= esc($stripe) ?>;
   --color-panel-title-highlight: <?= esc($linkhover) ?>;
   --stripe-height: <?= esc($stripeheight) ?>px;
-  --stripe-background: <?= esc($accent) ?>;
+  --stripe-background: <?= esc($stripe) ?>;
 <?php if ($backgroundGradient !== ''): ?>
   --theme-background-image: <?= esc($backgroundGradient) ?>;
 <?php endif; ?>
-<?php if ($accentGradient !== ''): ?>
-  --stripe-background-image: <?= esc($accentGradient) ?>;
+<?php if ($stripeGradient !== ''): ?>
+  --stripe-background-image: <?= esc($stripeGradient) ?>;
 <?php endif; ?>
 }
 

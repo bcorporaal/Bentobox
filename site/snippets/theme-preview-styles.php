@@ -13,7 +13,7 @@ if ($themes->count() === 0) {
 }
 
 $blueprint = function_exists('theme_blueprint') ? theme_blueprint() : [];
-$colorFields = $blueprint['colorFields'] ?? ['background', 'accent', 'stripeheight', 'logo', 'link', 'linkhover', 'title1', 'title2', 'title3', 'title4', 'title5'];
+$colorFields = $blueprint['colorFields'] ?? ['background', 'stripe', 'stripeheight', 'logo', 'link', 'linkhover', 'title1', 'title2', 'title3', 'title4', 'title5'];
 if ($colorFields === []) {
     return;
 }
@@ -32,9 +32,9 @@ if ($colorFields === []) {
         continue;
     }
     $backgroundGradient = trim((string) ($theme->content()->get('backgroundgradient')->value() ?? ''));
-    $accentGradient = trim((string) ($theme->content()->get('accentgradient')->value() ?? ''));
+    $stripeGradient = trim((string) ($theme->content()->get('stripegradient')->value() ?? ''));
     $bg = $themeVars['background'] ?? '';
-    $accent = $themeVars['accent'] ?? '';
+    $stripe = $themeVars['stripe'] ?? '';
     $logo = $themeVars['logo'] ?? 'currentColor';
     $link = $themeVars['link'] ?? 'inherit';
     $linkhover = $themeVars['linkhover'] ?? 'inherit';
@@ -52,19 +52,19 @@ body.theme-preview-<?= esc($slug) ?> {
   --theme-<?= $name ?>: <?= esc($hex) ?>;
 <?php endforeach ?>
   --color-bg: <?= esc($bg) ?>;
-  --color-stripe: <?= esc($accent) ?>;
+  --color-stripe: <?= esc($stripe) ?>;
   --color-link: <?= esc($link) ?>;
   --color-link-hover: <?= esc($linkhover) ?>;
   --color-logo-fill: <?= esc($logo) ?>;
-  --color-panel-title: <?= esc($accent) ?>;
+  --color-panel-title: <?= esc($stripe) ?>;
   --color-panel-title-highlight: <?= esc($linkhover) ?>;
   --stripe-height: <?= esc($stripeheight) ?>px;
-  --stripe-background: <?= esc($accent) ?>;
+  --stripe-background: <?= esc($stripe) ?>;
 <?php if ($backgroundGradient !== ''): ?>
   --theme-background-image: <?= esc($backgroundGradient) ?>;
 <?php endif; ?>
-<?php if ($accentGradient !== ''): ?>
-  --stripe-background-image: <?= esc($accentGradient) ?>;
+<?php if ($stripeGradient !== ''): ?>
+  --stripe-background-image: <?= esc($stripeGradient) ?>;
 <?php endif; ?>
 }
 <?php endforeach; ?>

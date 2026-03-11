@@ -630,7 +630,7 @@ a:focus,
 
 /* Logo SVG: theme fill and height for included logo SVGs */
 
-.top-bar .logo-svg-wrap svg {
+.logo-bar .logo-svg-wrap svg {
   fill: var(--color-logo-fill);
   height: 100%;
 }

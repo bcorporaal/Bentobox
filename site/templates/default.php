@@ -25,7 +25,7 @@
     <div class="top-stripe" aria-hidden="true"></div>
     <div class="relative z-10 mx-auto grid max-w-[1600px] grid-cols-2 gap-x-6 gap-y-0 p-8 pt-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 [&>*]:m-0">
       <header class="col-span-full">
-        <div class="top-bar flex w-full h-15 items-center justify-between mt-4 mb-8">
+        <div class="logo-bar flex w-full h-15 items-center justify-between mt-4 mb-8">
           <a href="<?= $site->panel()->url() ?>" class="relative inline-block text-bentobox-link transition-all duration-200 ease-in-out hover:text-bentobox-link-hover">
             <div class="h-7 logo-svg-wrap">
               <?php include 'assets/images/logo-'.$site->logo().'.svg'; ?>

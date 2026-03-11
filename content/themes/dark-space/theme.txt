@@ -6,7 +6,7 @@ Background: #24242d
 
 ----
 
-Accent: #dd672c
+Stripe: #dd672c
 
 ----
 

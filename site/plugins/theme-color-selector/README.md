@@ -57,7 +57,7 @@ $theme     = page('themes')?->find($themeslug);
 <style>
   :root {
     --color-background: <?= $theme->background()->escape('css') ?>;
-    --color-accent:     <?= $theme->accent()->escape('css') ?>;
+    --color-stripe:     <?= $theme->stripe()->escape('css') ?>;
     --color-link:       <?= $theme->link()->escape('css') ?>;
     --color-link-hover: <?= $theme->linkhover()->escape('css') ?>;
     --color-title-1:    <?= $theme->title1()->escape('css') ?>;

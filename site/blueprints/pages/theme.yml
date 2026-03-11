@@ -28,17 +28,17 @@ fields:
     help: 'Leave empty for solid background. Example: linear-gradient(90deg, #282A36 0%, #44475a 100%)'
     placeholder: 'linear-gradient(90deg, #fff 0%, #000 100%)'
 
-  accentheadline:
+  stripeheadline:
     type: headline
-    label: Top bar
+    label: Top stripe
 
-  accent:
+  stripe:
     label: Solid color
     type: color
     width: 1/3
     alpha: false
 
-  accentgradient:
+  stripegradient:
     label: CSS gradient
     type: textarea
     buttons: false
@@ -49,7 +49,7 @@ fields:
     placeholder: 'linear-gradient(90deg, #fff 0%, #000 100%)'
 
   stripeheight:
-    label: Bar height
+    label: Stripe height
     type: range
     step: 1
     min: 0

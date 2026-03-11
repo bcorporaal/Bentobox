@@ -10,11 +10,11 @@ Backgroundgradient: linear-gradient(180deg, #282A36 0%, #44475a 100%)
 
 ----
 
-Accent: #55b5d4
+Stripe: #55b5d4
 
 ----
 
-Accentgradient: linear-gradient(90deg, #50FA7B 0%, #F1FA8C 100%)
+Stripegradient: linear-gradient(90deg, #50FA7B 0%, #F1FA8C 100%)
 
 ----
 

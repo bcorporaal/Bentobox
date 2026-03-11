@@ -6,7 +6,7 @@ Background: #ffeada
 
 ----
 
-Accent: #460932
+Stripe: #460932
 
 ----
 
