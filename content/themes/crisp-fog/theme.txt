@@ -34,23 +34,21 @@ Linkhover: #4b535b
 
 ----
 
-Title1: #55b5d4
+Basetitle: #55b5d4
 
 ----
 
-Title2: #f2ad49
+Highlighttitle1: #f2ad49
 
 ----
 
-Title3: #a37acb
+Highlighttitle2: #a37acb
 
 ----
 
-Title4: #f09448
 
 ----
 
-Title5: #46e272
 
 ----
 

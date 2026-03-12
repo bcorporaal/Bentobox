@@ -6,7 +6,7 @@ Activetheme: monokai-classic
 
 ----
 
-Shuffletheme: true
+Shuffletheme: false
 
 ----
 

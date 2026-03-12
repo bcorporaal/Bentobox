@@ -22,23 +22,21 @@ Linkhover: #f1ebff
 
 ----
 
-Title1: #cab2fa
+Basetitle: #cab2fa
 
 ----
 
-Title2: #fec38f
+Highlighttitle1: #fec38f
 
 ----
 
-Title3: #b07745
+Highlighttitle2: #b07745
 
 ----
 
-Title4: #595967
 
 ----
 
-Title5: #544d60
 
 ----
 

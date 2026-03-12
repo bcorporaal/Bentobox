@@ -5,7 +5,7 @@ icon: brush
 num: 0
 
 # Which fields are "title colors" (used by categories). Single source of truth.
-titleColorFields: [title1, title2, title3, title4, title5]
+titleColorFields: [basetitle, highlighttitle1, highlighttitle2]
 
 fields:
   backgroundheadline:
@@ -60,17 +60,13 @@ fields:
 
   colorheadline:
     type: headline
-    label: Colors
+    label: Logo, link & title colors
 
   logo:
     label: Logo
     type: color
     width: 1/6
     alpha: false
-
-  linksheadline:
-    type: headline
-    label: Link colors
 
   link:
     label: Link
@@ -84,40 +80,20 @@ fields:
     width: 1/6
     alpha: false
 
-  titlesheadline:
-    type: headline
-    label: Category title color options
-
-  title1:
-    label: Title 1
+  basetitle:
+    label: Base title
     type: color
     width: 1/6
     alpha: false
 
-  title2:
-    label: Title 2
+  highlighttitle1:
+    label: Highlight title 1
     type: color
     width: 1/6
     alpha: false
 
-  title3:
-    label: Title 3
+  highlighttitle2:
+    label: Highlight title 2
     type: color
     width: 1/6
     alpha: false
-
-  title4:
-    label: Title 4
-    type: color
-    width: 1/6
-    alpha: false
-
-  title5:
-    label: Title 5
-    type: color
-    width: 1/6
-    alpha: false
-
-  otherheadline:
-    type: headline
-    label: Other options

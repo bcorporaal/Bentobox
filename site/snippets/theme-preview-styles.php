@@ -13,7 +13,7 @@ if ($themes->count() === 0) {
 }
 
 $blueprint = function_exists('theme_blueprint') ? theme_blueprint() : [];
-$colorFields = $blueprint['colorFields'] ?? ['background', 'stripe', 'stripeheight', 'logo', 'link', 'linkhover', 'title1', 'title2', 'title3', 'title4', 'title5'];
+$colorFields = $blueprint['colorFields'] ?? ['background', 'stripe', 'stripeheight', 'logo', 'link', 'linkhover', 'basetitle', 'highlighttitle1', 'highlighttitle2'];
 if ($colorFields === []) {
     return;
 }

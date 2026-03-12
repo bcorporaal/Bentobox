@@ -6,7 +6,7 @@ Highlighted: false
 
 ----
 
-Titlecolor: title-2
+Titlecolor: highlighttitle1
 
 ----
 
