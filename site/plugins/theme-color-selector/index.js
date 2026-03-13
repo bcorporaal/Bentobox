@@ -23,10 +23,16 @@ panel.plugin('bentobox/theme-color-selector', {
           let p = this.$parent
           while (p) {
             for (const key of ['content', 'form', 'data', 'model', 'values']) {
-              if (p[key] && typeof p[key][name] !== 'undefined') return p[key][name]
+              if (p[key] && typeof p[key][name] !== 'undefined')
+                return p[key][name]
             }
             if (p.$children && p.$children.length) {
-              const sibling = p.$children.find(c => (c.$options.propsData && c.$options.propsData.name === name) || (c.name === name))
+              const sibling = p.$children.find(
+                c =>
+                  (c.$options.propsData &&
+                    c.$options.propsData.name === name) ||
+                  c.name === name
+              )
               if (sibling && sibling.value !== undefined) return sibling.value
             }
             p = p.$parent
@@ -41,25 +47,44 @@ panel.plugin('bentobox/theme-color-selector', {
         }
       },
       mounted () {
-        this.$api.get('theme-colors')
-          .then((res) => {
+        this.$api
+          .get('theme-colors')
+          .then(res => {
             if (res && !res.error) this.colors = res
             this.loading = false
           })
-          .catch(() => { this.loading = false })
+          .catch(() => {
+            this.loading = false
+          })
       },
       render (h) {
         const hex = this.displayHex
         const body = hex
-          ? h('div', {
-              style: 'display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem;'
-            }, [
-              h('span', {
-                style: 'width: 1.5rem; height: 1.5rem; border-radius: 4px; background: ' + hex + '; border: 1px solid rgba(0,0,0,0.12);'
-              }),
-              h('span', { style: 'font-family: monospace; color: #666;' }, hex)
-            ])
-          : h('div', { style: 'font-size: 0.85rem; color: #999;' }, this.loading ? 'Loading…' : 'No active theme or color.')
+          ? h(
+              'div',
+              {
+                style:
+                  'display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem;'
+              },
+              [
+                h('span', {
+                  style:
+                    'width: 2.25rem; height: 2.25rem; border-radius: 4px; background: ' +
+                    hex +
+                    '; border: 1px solid rgba(0,0,0,0.12);'
+                }),
+                h(
+                  'span',
+                  { style: 'font-family: monospace; color: #666;' },
+                  hex
+                )
+              ]
+            )
+          : h(
+              'div',
+              { style: 'font-size: 0.85rem; color: #999;' },
+              this.loading ? 'Loading…' : 'No active theme or color.'
+            )
         return h('k-field', { props: { label: this.label } }, [body])
       }
     }

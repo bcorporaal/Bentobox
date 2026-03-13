@@ -14,11 +14,12 @@ fields:
   titlecolor:
     extends: fields/theme-titlecolor
     label: Title color
-    width: 1/4
-    help: Color used for the category title label.
+    width: 1/3
+    help: Color from the theme used for the category title label.
+    default: basetitle
 
   titlecolor_display:
-    label: Selected color
+    label: Selected title color
     type: theme-color-display
     width: 1/4
     disabled: true
