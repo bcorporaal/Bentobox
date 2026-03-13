@@ -2,45 +2,51 @@ Title: Dark space
 
 ----
 
+Logo: #fe7734
+
+----
+
+Link: #7272a1
+
+----
+
+Linkhover: #fe7734
+
+----
+
+Basetitle: #bebeef
+
+----
+
+Highlighttitle1: #fe7734
+
+----
+
+Highlighttitle2: #b06845
+
+----
+
 Background: #24242d
 
 ----
 
-Stripe: #dd672c
+Backgroundgradient: 
 
 ----
 
-Logo: #dd672c
+Stripe: #fe7734
 
 ----
 
-Link: #767691
+Stripeheight: 3
 
 ----
 
-Linkhover: #ebebfe
+Stripegradient: 
 
 ----
 
-Basetitle: #9d9dc8
-
-----
-
-Highlighttitle1: #dd672c
-
-----
-
-Highlighttitle2: #ef925f
-
-----
-
-
-----
-
-
-----
-
-Stripeheight: 5
+Customcss: 
 
 ----
 
