@@ -1,99 +1,145 @@
 title: Theme
 icon: brush
 
-# Themes don't need a public sort order
 num: 0
 
-# Which fields are "title colors" (used by categories). Single source of truth.
 titleColorFields: [basetitle, highlighttitle1, highlighttitle2]
 
-fields:
-  backgroundheadline:
-    type: headline
-    label: Background
+columns:
+  info:
+    width: 1/1
+    sections:
+      info:
+        type: fields
+        fields:
+          themeinfo:
+            width: 2/3
+            type: info
+            theme: passive
+            label: About
+            text: '{{ page.description }}'
 
-  background:
-    label: Solid color
-    type: color
+  sidebar:
     width: 1/3
-    alpha: false
+    sections:
+      colors:
+        type: fields
+        fields:
+          colorheadline:
+            type: headline
+            label: Logo & link colors
 
-  backgroundgradient:
-    label: CSS gradient
-    type: textarea
-    buttons: false
-    font: monospace
-    size: small
+          logo:
+            label: Logo
+            type: color
+            alpha: false
+
+          link:
+            label: Link
+            type: color
+            alpha: false
+
+          linkhover:
+            label: Link – hover
+            type: color
+            alpha: false
+
+          titleheadline:
+            type: headline
+            label: Category title colors
+
+          basetitle:
+            label: Base title
+            type: color
+            alpha: false
+
+          highlighttitle1:
+            label: Highlight title 1
+            type: color
+            alpha: false
+
+          highlighttitle2:
+            label: Highlight title 2
+            type: color
+            alpha: false
+
+  main:
     width: 2/3
-    help: 'Leave empty for solid background. Example: linear-gradient(90deg, #282A36 0%, #44475a 100%)'
-    placeholder: 'linear-gradient(90deg, #fff 0%, #000 100%)'
+    sections:
+      fields:
+        type: fields
+        fields:
+          backgroundheadline:
+            type: headline
+            label: Page background
 
-  stripeheadline:
-    type: headline
-    label: Top stripe
+          background:
+            label: Page background – solid color
+            help: Used for the page background if no gradient has been defined.
+            type: color
+            width: 2/3
+            alpha: false
 
-  stripe:
-    label: Solid color
-    type: color
-    width: 1/3
-    alpha: false
+          backgroundgradient:
+            label: Page background – CSS gradient
+            type: textarea
+            buttons: false
+            font: monospace
+            size: small
+            width: 1
+            help: 'Leave empty for a solid background color. Example: linear-gradient(90deg, #282A36 0%, #44475a 100%)'
+            placeholder: 'linear-gradient(90deg, #fff 0%, #000 100%)'
 
-  stripegradient:
-    label: CSS gradient
-    type: textarea
-    buttons: false
-    font: monospace
-    size: small
-    width: 2/3
-    help: 'Leave empty for solid. Example: linear-gradient(90deg, #F1FA8C 0%, #50FA7B 100%)'
-    placeholder: 'linear-gradient(90deg, #fff 0%, #000 100%)'
+          # stripeheadline:
+          #   type: headline
+          #   label: Top stripe
 
-  stripeheight:
-    label: Stripe height
-    type: range
-    step: 1
-    min: 0
-    max: 20
-    default: 5
-    after: px
-    width: 1/3
+          stripe:
+            label: Top stripe – solid color
+            type: color
+            width: 2/3
+            alpha: false
+            help: Used for the top stripe if no gradient has been defined.
 
-  colorheadline:
-    type: headline
-    label: Logo, link & title colors
+          stripeheight:
+            label: Top stripe – height
+            type: range
+            step: 1
+            min: 0
+            max: 50
+            default: 5
+            after: px
+            width: 1/3
+            help: Set to zero to hide.
 
-  logo:
-    label: Logo
-    type: color
-    width: 1/6
-    alpha: false
+          stripegradient:
+            label: Top stripe – CSS gradient
+            type: textarea
+            buttons: false
+            font: monospace
+            size: small
+            width: 1
+            help: 'Leave empty for a solid color. Example: linear-gradient(90deg, #F1FA8C 0%, #50FA7B 100%)'
+            placeholder: 'linear-gradient(90deg, #fff 0%, #000 100%)'
 
-  link:
-    label: Link
-    type: color
-    width: 1/6
-    alpha: false
+  fullwidth:
+    width: 1/1
+    sections:
+      css:
+        type: fields
+        fields:
+          linecss:
+            type: line
 
-  linkhover:
-    label: Link (hover)
-    type: color
-    width: 1/6
-    alpha: false
+          cssheadline:
+            type: headline
+            label: Additional CSS
 
-  basetitle:
-    label: Base title
-    type: color
-    width: 1/6
-    alpha: false
-
-  highlighttitle1:
-    label: Highlight title 1
-    type: color
-    width: 1/6
-    alpha: false
-
-  highlighttitle2:
-    label: Highlight title 2
-    type: color
-    width: 1/6
-    alpha: false
+          customcss:
+            label: Custom CSS
+            type: textarea
+            buttons: false
+            font: monospace
+            size: small
+            help: 'Additional CSS added to the page.'
+            placeholder: 'body { color: red; }'

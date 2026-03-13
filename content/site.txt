@@ -2,7 +2,7 @@ Title: Bentobox
 
 ----
 
-Activetheme: monokai-classic
+Activetheme: dark-sky
 
 ----
 

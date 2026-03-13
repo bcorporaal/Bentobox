@@ -2,15 +2,7 @@ Title: Calmness
 
 ----
 
-Background: #3a3c7f
-
-----
-
-Stripe: #ee8884
-
-----
-
-Logo: #ee8884
+Logo: #1bff02
 
 ----
 
@@ -34,13 +26,31 @@ Highlighttitle2: #2d2f65
 
 ----
 
+Background: #3a3c7f
 
 ----
 
+Backgroundgradient: 
+
+----
+
+Stripe: #ee8884
 
 ----
 
 Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Description: A calm theme to bring some tranquility in your working day.
 
 ----
 
