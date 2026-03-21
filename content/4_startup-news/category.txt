@@ -2,11 +2,7 @@ Title: Startup news
 
 ----
 
-Highlighted: false
-
-----
-
-Titlecolor: highlighttitle1
+Titlecolor: highlighttitle2
 
 ----
 
@@ -36,6 +32,10 @@ Links:
   linklabel: Growth hackers
   linkurl: http://growthhackers.com/
   visible: 'true'
+
+----
+
+Highlighted: false
 
 ----
 

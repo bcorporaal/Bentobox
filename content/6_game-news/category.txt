@@ -2,11 +2,7 @@ Title: Game news
 
 ----
 
-Highlighted: false
-
-----
-
-Titlecolor: highlighttitle2
+Titlecolor: basetitle
 
 ----
 
@@ -28,6 +24,10 @@ Links:
   linklabel: Kotaku
   linkurl: http://kotaku.com/
   visible: 'true'
+
+----
+
+Highlighted: false
 
 ----
 

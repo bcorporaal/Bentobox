@@ -1,0 +1,53 @@
+Title: Reefscape 2025
+
+----
+
+Logo: #1c1a20
+
+----
+
+Link: #1c1a20
+
+----
+
+Linkhover: #1b1a2096
+
+----
+
+Basetitle: #1b1a2096
+
+----
+
+Highlighttitle1: #fff
+
+----
+
+Highlighttitle2: #ffffffd9
+
+----
+
+Background: #74d0ca
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #1c1a20
+
+----
+
+Stripeheight: 0
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: c7upofilkuvt3fit

@@ -1,0 +1,53 @@
+Title: Dark candy
+
+----
+
+Logo: #e247eb
+
+----
+
+Link: #8a5fb4
+
+----
+
+Linkhover: #a165dc
+
+----
+
+Basetitle: #cfb0ed
+
+----
+
+Highlighttitle1: #e247eb
+
+----
+
+Highlighttitle2: #af14b8
+
+----
+
+Background: #171518
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #e247eb
+
+----
+
+Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: btnzamog1a6hdpnz

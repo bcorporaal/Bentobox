@@ -1,0 +1,53 @@
+Title: Dark amethyst
+
+----
+
+Logo: #aa71e3
+
+----
+
+Link: #955fb4
+
+----
+
+Linkhover: #c584eb
+
+----
+
+Basetitle: #eccffc
+
+----
+
+Highlighttitle1: #aa71e3
+
+----
+
+Highlighttitle2: #7f40bf
+
+----
+
+Background: #201e28
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #aa71e3
+
+----
+
+Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: ypc09xadxtgotbvx

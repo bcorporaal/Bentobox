@@ -2,15 +2,7 @@ Title: Dracula
 
 ----
 
-Background: #282A36
-
-----
-
-Stripe: #F1FA8C
-
-----
-
-Logo: #F1FA8C
+Logo: #50fa7b
 
 ----
 
@@ -22,7 +14,7 @@ Linkhover: #F8F8F2
 
 ----
 
-Basetitle: #50FA7B
+Basetitle: #8be9fd
 
 ----
 
@@ -30,17 +22,31 @@ Highlighttitle1: #FF79C6
 
 ----
 
-Highlighttitle2: #8BE9FD
+Highlighttitle2: #bd93f9
 
 ----
 
+Background: #282A36
 
 ----
 
+Backgroundgradient: 
+
+----
+
+Stripe: #50fa7b
 
 ----
 
 Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
 
 ----
 

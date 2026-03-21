@@ -2,11 +2,7 @@ Title: Sounds while working
 
 ----
 
-Highlighted: false
-
-----
-
-Titlecolor: highlighttitle1
+Titlecolor: basetitle
 
 ----
 
@@ -40,6 +36,10 @@ Links:
   linklabel: Coffitivity
   linkurl: https://coffitivity.com/
   visible: 'true'
+
+----
+
+Highlighted: false
 
 ----
 

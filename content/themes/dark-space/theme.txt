@@ -6,11 +6,11 @@ Logo: #fe7734
 
 ----
 
-Link: #7272a1
+Link: #5b5b7b
 
 ----
 
-Linkhover: #fe7734
+Linkhover: #8686cb
 
 ----
 
@@ -38,7 +38,7 @@ Stripe: #fe7734
 
 ----
 
-Stripeheight: 3
+Stripeheight: 5
 
 ----
 

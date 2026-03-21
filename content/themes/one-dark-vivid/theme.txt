@@ -1,0 +1,53 @@
+Title: One dark vivid
+
+----
+
+Logo: #a3eea0
+
+----
+
+Link: #939abd
+
+----
+
+Linkhover: #fdce68
+
+----
+
+Basetitle: #a3eea0
+
+----
+
+Highlighttitle1: #e19ef5
+
+----
+
+Highlighttitle2: #7be2f9
+
+----
+
+Background: #31343f
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #f9867b
+
+----
+
+Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: wii0zzl6u2cx3kt2

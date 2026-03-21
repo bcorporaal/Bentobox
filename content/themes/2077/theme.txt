@@ -2,19 +2,11 @@ Title: 2077
 
 ----
 
-Background: #030d22
-
-----
-
-Stripe: #0ef3ff
-
-----
-
 Logo: #0ef3ff
 
 ----
 
-Link: #0098df
+Link: #0098dfe0
 
 ----
 
@@ -34,13 +26,38 @@ Highlighttitle2: #ffd400
 
 ----
 
+Background: #030d22
 
 ----
 
+Backgroundgradient: 
 
 ----
 
-Stripeheight: 5
+Stripe: #0ef3ff
+
+----
+
+Stripeheight: 16
+
+----
+
+Stripegradient: linear-gradient(135deg, #0ef3ff 10%, #ff2e97 50%, #ffd400 90%)
+
+----
+
+Customcss:
+
+h2 {
+ text-transform: uppercase;
+}
+
+body {
+  background-color: #030d22;
+  opacity: 1;
+  background-image: radial-gradient(#0839a3 0.5px, #030d22 0.5px);
+  background-size: 10px 10px;
+}
 
 ----
 

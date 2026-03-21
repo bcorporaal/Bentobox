@@ -2,11 +2,7 @@ Title: Design news
 
 ----
 
-Highlighted: false
-
-----
-
-Titlecolor: highlighttitle1
+Titlecolor: highlighttitle2
 
 ----
 
@@ -32,6 +28,10 @@ Links:
   linklabel: Designboom
   linkurl: http://www.designboom.com/
   visible: 'true'
+
+----
+
+Highlighted: false
 
 ----
 

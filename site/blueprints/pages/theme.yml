@@ -32,17 +32,17 @@ columns:
           logo:
             label: Logo
             type: color
-            alpha: false
+            alpha: true
 
           link:
             label: Link
             type: color
-            alpha: false
+            alpha: true
 
           linkhover:
             label: Link – hover
             type: color
-            alpha: false
+            alpha: true
 
           titleheadline:
             type: headline
@@ -51,17 +51,17 @@ columns:
           basetitle:
             label: Base title
             type: color
-            alpha: false
+            alpha: true
 
           highlighttitle1:
             label: Highlight title 1
             type: color
-            alpha: false
+            alpha: true
 
           highlighttitle2:
             label: Highlight title 2
             type: color
-            alpha: false
+            alpha: true
 
   main:
     width: 2/3
@@ -140,6 +140,6 @@ columns:
             type: textarea
             buttons: false
             font: monospace
-            size: small
+            size: large
             help: 'Additional CSS added to the page.'
             placeholder: 'body { color: red; }'

@@ -1,0 +1,53 @@
+Title: Monokai octagon
+
+----
+
+Logo: #eaf2f1
+
+----
+
+Link: #696d77
+
+----
+
+Linkhover: #ffd76d
+
+----
+
+Basetitle: #eaf2f1
+
+----
+
+Highlighttitle1: #bad761
+
+----
+
+Highlighttitle2: #ff9b5e
+
+----
+
+Background: #262832
+
+----
+
+Backgroundgradient: linear-gradient(135deg, #282a3a 20%, #262832 80%)
+
+----
+
+Stripe: #eaf2f1
+
+----
+
+Stripeheight: 10
+
+----
+
+Stripegradient: linear-gradient(90deg, #ffd76d, #bad761, #ff657a, #9cd1bb, #ff9b5e, #c39ac9)
+
+----
+
+Customcss: 
+
+----
+
+Uuid: sz4fhbkriay4hpeu

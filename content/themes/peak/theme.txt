@@ -1,0 +1,53 @@
+Title: Peak
+
+----
+
+Logo: #f35a28
+
+----
+
+Link: #0472ffd4
+
+----
+
+Linkhover: #e0eaf8
+
+----
+
+Basetitle: #a3a9f6
+
+----
+
+Highlighttitle1: #e0eaf8
+
+----
+
+Highlighttitle2: #31d1ff
+
+----
+
+Background: #16215b
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #fff
+
+----
+
+Stripeheight: 0
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: ed9kuaebcw7ldbbu

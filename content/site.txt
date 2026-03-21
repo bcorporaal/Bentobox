@@ -2,7 +2,7 @@ Title: Bentobox
 
 ----
 
-Activetheme: dark-space
+Activetheme: 2077
 
 ----
 
@@ -34,7 +34,7 @@ Letterspacing: 0
 
 ----
 
-Logo: brush
+Logo: icon
 
 ----
 

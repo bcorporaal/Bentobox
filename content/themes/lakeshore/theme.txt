@@ -1,0 +1,53 @@
+Title: Lakeshore
+
+----
+
+Logo: #f2f8fe
+
+----
+
+Link: #3f4a56
+
+----
+
+Linkhover: #f2f8fe
+
+----
+
+Basetitle: #3f4956a3
+
+----
+
+Highlighttitle1: #f2f8fe
+
+----
+
+Highlighttitle2: #f2f8fec2
+
+----
+
+Background: #77cdcf
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #f7e438
+
+----
+
+Stripeheight: 12
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: pmiaih4k1rcxo16n

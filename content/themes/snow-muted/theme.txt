@@ -1,0 +1,53 @@
+Title: Snow - muted
+
+----
+
+Logo: #d37e7e
+
+----
+
+Link: #657c9e
+
+----
+
+Linkhover: #bec1c4
+
+----
+
+Basetitle: #979fa8
+
+----
+
+Highlighttitle1: #d37e7e
+
+----
+
+Highlighttitle2: #b55b5b
+
+----
+
+Background: #fff
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #d37e7e
+
+----
+
+Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: 0rquewkimpsk5upe

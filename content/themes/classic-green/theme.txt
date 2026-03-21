@@ -1,0 +1,53 @@
+Title: Classic green
+
+----
+
+Logo: #cbf345
+
+----
+
+Link: #cbf345
+
+----
+
+Linkhover: #caf344a8
+
+----
+
+Basetitle: #caf344a8
+
+----
+
+Highlighttitle1: #fbf4ec
+
+----
+
+Highlighttitle2: #ffd12e
+
+----
+
+Background: #0b5840
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #fff
+
+----
+
+Stripeheight: 0
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: pgsxvlld3jzpszib

@@ -2,15 +2,7 @@ Title: Dark sky
 
 ----
 
-Background: #2b2733
-
-----
-
-Stripe: #ae91e8
-
-----
-
-Logo: #ae91e8
+Logo: #fec38f
 
 ----
 
@@ -18,11 +10,11 @@ Link: #715f95
 
 ----
 
-Linkhover: #f1ebff
+Linkhover: #cab2fa
 
 ----
 
-Basetitle: #cab2fa
+Basetitle: #f1ebff
 
 ----
 
@@ -34,13 +26,27 @@ Highlighttitle2: #b07745
 
 ----
 
+Background: #2c2734
 
 ----
 
+Backgroundgradient: 
+
+----
+
+Stripe: #fec38f
 
 ----
 
 Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
 
 ----
 

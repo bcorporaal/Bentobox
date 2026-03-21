@@ -1,0 +1,53 @@
+Title: Dark sea
+
+----
+
+Logo: #34febb
+
+----
+
+Link: #586f89
+
+----
+
+Linkhover: #88b4e7
+
+----
+
+Basetitle: #d6e9ff
+
+----
+
+Highlighttitle1: #34febb
+
+----
+
+Highlighttitle2: #32ae85
+
+----
+
+Background: #1d262f
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #34febb
+
+----
+
+Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: durdbodf9s9lif5y

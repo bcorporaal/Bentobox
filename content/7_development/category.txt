@@ -2,11 +2,7 @@ Title: Development
 
 ----
 
-Highlighted: false
-
-----
-
-Titlecolor: highlighttitle2
+Titlecolor: basetitle
 
 ----
 
@@ -20,6 +16,10 @@ Links:
   linklabel: StackOverflow
   linkurl: http://stackoverflow.com
   visible: 'true'
+
+----
+
+Highlighted: false
 
 ----
 

@@ -1,0 +1,53 @@
+Title: Supo
+
+----
+
+Logo: #001247
+
+----
+
+Link: #001247cc
+
+----
+
+Linkhover: #000
+
+----
+
+Basetitle: #00993f
+
+----
+
+Highlighttitle1: #000a29
+
+----
+
+Highlighttitle2: #ffffff
+
+----
+
+Background: #00ff6a
+
+----
+
+Backgroundgradient: linear-gradient(135deg, #00ff6a 20%, #0EF3FC 80%)
+
+----
+
+Stripe: #00ff6a
+
+----
+
+Stripeheight: 0
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: tqkijff3vr8cogpn

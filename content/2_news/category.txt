@@ -2,7 +2,7 @@ Title: Tech news
 
 ----
 
-Titlecolor: basetitle
+Titlecolor: highlighttitle1
 
 ----
 
@@ -27,7 +27,7 @@ Links:
 
 ----
 
-Highlighted: true
+Highlighted: false
 
 ----
 

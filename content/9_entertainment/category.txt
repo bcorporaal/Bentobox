@@ -2,11 +2,7 @@ Title: Entertainment
 
 ----
 
-Highlighted: false
-
-----
-
-Titlecolor: highlighttitle2
+Titlecolor: basetitle
 
 ----
 
@@ -28,6 +24,10 @@ Links:
   linklabel: Wait but why?
   linkurl: http://waitbutwhy.com/
   visible: 'true'
+
+----
+
+Highlighted: false
 
 ----
 

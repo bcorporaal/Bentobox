@@ -43,6 +43,7 @@ if ($stripeheight === '') {
         $stripeheight = $v !== null ? (string) $v : '';
     }
 }
+$customCSS = trim((string) ($themePage->content()->get('customcss')->value() ?? ''))
 ?>
 <style>
 :root {
@@ -72,4 +73,7 @@ if ($stripeheight === '') {
   color: var(--theme-<?= $name ?>);
 }
 <?php endforeach ?>
+
+<?= $customCSS ?>
+
 </style>

@@ -1,0 +1,53 @@
+Title: Dark earth
+
+----
+
+Logo: #fecb52
+
+----
+
+Link: #705e51
+
+----
+
+Linkhover: #bd987f
+
+----
+
+Basetitle: #ffdac2
+
+----
+
+Highlighttitle1: #fecb52
+
+----
+
+Highlighttitle2: #b09045
+
+----
+
+Background: #2c2826
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #fecb52
+
+----
+
+Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: oboh0uilxggrfwvb

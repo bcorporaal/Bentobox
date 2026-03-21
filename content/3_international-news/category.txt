@@ -2,11 +2,7 @@ Title: International news
 
 ----
 
-Highlighted: true
-
-----
-
-Titlecolor: basetitle
+Titlecolor: highlighttitle1
 
 ----
 
@@ -28,6 +24,10 @@ Links:
   linklabel: CNN
   linkurl: http://cnn.com
   visible: 'true'
+
+----
+
+Highlighted: false
 
 ----
 

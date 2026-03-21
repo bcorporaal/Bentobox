@@ -1,0 +1,53 @@
+Title: Dark forest
+
+----
+
+Logo: #e7f98b
+
+----
+
+Link: #738273
+
+----
+
+Linkhover: #a9bca9
+
+----
+
+Basetitle: #ddf8dd
+
+----
+
+Highlighttitle1: #e7f98b
+
+----
+
+Highlighttitle2: #99a659
+
+----
+
+Background: #2b2d2a
+
+----
+
+Backgroundgradient: 
+
+----
+
+Stripe: #e7f98b
+
+----
+
+Stripeheight: 5
+
+----
+
+Stripegradient: 
+
+----
+
+Customcss: 
+
+----
+
+Uuid: vi6d7zvdolurwhln
