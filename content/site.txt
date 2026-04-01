@@ -6,7 +6,7 @@ Activetheme: 2077
 
 ----
 
-Shuffletheme: false
+Shuffletheme: true
 
 ----
 
@@ -14,7 +14,7 @@ Shuffleinterval: every-time
 
 ----
 
-Shufflethemes: dark-sky, dark-space
+Shufflethemes: dark-sky, dark-space, 2077, tokyo-night-storm
 
 ----
 
@@ -38,4 +38,4 @@ Logo: icon
 
 ----
 
-Passwordprotected: true
+Passwordprotected: false
