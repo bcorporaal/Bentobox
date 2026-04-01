@@ -1,4 +1,4 @@
-<?php if (!$kirby->user() && $site->passwordprotected()) go($site->panel()->url()) ?>
+<?php if (!$kirby->user() && $site->passwordprotected()->toBool()) go($site->panel()->url()) ?>
 <?php $categories = $site->index()->listed()->filterBy('intendedTemplate', 'category'); ?>
 <!doctype html>
 <html lang="en">

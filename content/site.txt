@@ -38,4 +38,4 @@ Logo: icon
 
 ----
 
-Passwordprotected: false
+Passwordprotected: true
