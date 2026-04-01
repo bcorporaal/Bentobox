@@ -2,11 +2,11 @@ Title: Bentobox
 
 ----
 
-Activetheme: lakeshore
+Activetheme: city-lights
 
 ----
 
-Shuffletheme: true
+Shuffletheme: false
 
 ----
 

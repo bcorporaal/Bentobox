@@ -68,20 +68,66 @@ $shuffleUrl = url('toggle-shuffle');
   var delay = 150;
   var timeout = null;
 
-  function clearPreview() {
-    if (timeout) { clearTimeout(timeout); timeout = null; }
-    var list = document.body.classList;
-    for (var i = list.length - 1; i >= 0; i--) {
-      if (list[i].indexOf('theme-preview-') === 0) list.remove(list[i]);
+  var previewData = {};
+  var dataEl = document.getElementById('bentobox-theme-preview-data');
+  if (dataEl && dataEl.textContent) {
+    try {
+      previewData = JSON.parse(dataEl.textContent);
+    } catch (e) {}
+  }
+
+  function removePreviewStyle() {
+    var node = document.getElementById('bentobox-theme-preview');
+    if (node && node.parentNode) {
+      node.parentNode.removeChild(node);
     }
+  }
+
+  /** While previewing, disable the active theme sheet so its customcss (e.g. body/h2) cannot leak into other themes. */
+  function setActiveThemeSheetEnabled(enabled) {
+    var active = document.getElementById('bentobox-theme-active');
+    if (active) {
+      active.disabled = !enabled;
+    }
+  }
+
+  function clearPreview() {
+    if (timeout) {
+      clearTimeout(timeout);
+      timeout = null;
+    }
+    removePreviewStyle();
+    setActiveThemeSheetEnabled(true);
   }
 
   function setPreview(slug) {
     if (timeout) clearTimeout(timeout);
     timeout = setTimeout(function () {
       timeout = null;
-      clearPreview();
-      if (slug) document.body.classList.add('theme-preview-' + slug);
+      if (!slug) {
+        removePreviewStyle();
+        setActiveThemeSheetEnabled(true);
+        return;
+      }
+      var css = previewData[slug];
+      if (!css) {
+        removePreviewStyle();
+        setActiveThemeSheetEnabled(true);
+        return;
+      }
+      var style = document.getElementById('bentobox-theme-preview');
+      if (!style) {
+        style = document.createElement('style');
+        style.id = 'bentobox-theme-preview';
+        var anchor = document.getElementById('bentobox-theme-active');
+        if (anchor && anchor.parentNode) {
+          anchor.parentNode.insertBefore(style, anchor.nextSibling);
+        } else {
+          document.head.appendChild(style);
+        }
+      }
+      style.textContent = css;
+      setActiveThemeSheetEnabled(false);
     }, slug ? delay : 0);
   }
 
