@@ -3,6 +3,8 @@
  * Outputs <style> blocks so each theme can be previewed by adding body.theme-preview-SLUG.
  * Used by theme-selector hover; same variables as theme-styles (DRY with theme blueprint).
  */
+require_once __DIR__ . '/../helpers/theme-preview-css-scope.php';
+
 $themesPage = $site->find('themes');
 if (!$themesPage) {
     return;
@@ -67,5 +69,14 @@ body.theme-preview-<?= esc($slug) ?> {
   --stripe-background-image: <?= esc($stripeGradient) ?>;
 <?php endif; ?>
 }
+<?php
+    $customCSS = trim((string) ($theme->content()->get('customcss')->value() ?? ''));
+    if ($customCSS !== '') {
+        $scoped = bentobox_scope_theme_preview_css($customCSS, $slug);
+        if ($scoped !== '') {
+            echo $scoped . "\n";
+        }
+    }
+?>
 <?php endforeach; ?>
 </style>
