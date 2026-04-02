@@ -11,7 +11,7 @@ fields:
   visible:
     label: Show this link?
     type: toggle
-    text: 
+    text:
       - hide link
       - show link
     default: yes
