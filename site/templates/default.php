@@ -1,5 +1,9 @@
 <?php if (!$kirby->user() && $site->passwordprotected()->toBool()) go($site->panel()->url()) ?>
-<?php $categories = $site->index()->listed()->filterBy('intendedTemplate', 'category'); ?>
+<?php
+$categories = $site->index()->listed()->filterBy('intendedTemplate', 'category');
+$hideThemeSelector = function_exists('hide_theme_selector_in_panel_theme_preview')
+    && hide_theme_selector_in_panel_theme_preview($page ?? null);
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -31,7 +35,9 @@
               <?php include 'assets/images/logo-'.$site->logo().'.svg'; ?>
             </div>
           </a>
-          <?php snippet('theme-selector') ?>
+          <?php if (!$hideThemeSelector) {
+              snippet('theme-selector');
+          } ?>
         </div>
         <div class="top-panel h-15 mb-8">
           <ul class="group">

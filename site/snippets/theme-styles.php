@@ -5,7 +5,9 @@
  */
 require_once __DIR__ . '/../helpers/theme-css.php';
 
-$themePage = active_theme_page();
+$themePage = function_exists('theme_page_for_styles')
+    ? theme_page_for_styles($page ?? null)
+    : active_theme_page();
 $css = theme_css_for_page($themePage);
 if ($css === null) {
     return;
